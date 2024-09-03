@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 凝气乾坤丹 -->
+     <!-- 超级大猛药，貌似不需要写太多内容，也就加个dll，搞个资源 -->
+    <ThingDef ParentName="RI_BestDrug_Base">
+		<defName>LRE_Drug_CondensingEnergyUniversePill</defName>
+		<label>【First-rate】Condensing Energy Universe Pill</label>
+		<description>First-rate Pill, After consumption, the spiritual energy stored within the elixir will be released and enter the dantian of the user, replenishing all spiritual energy, and altering the structure of the user's dantian. This allows for automatic storage of spiritual energy without the need for cultivation.</description>
+        <!-- 图片资源没有改 -->
+		<graphicData>
+			<texPath>Things/Item/Drugs/Elixir/RI_Drug_MedullaOblongataElixir</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0</Nutrition>
+			<WorkToMake>2000</WorkToMake>
+			<MarketValue>800</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+		<ingestible>
+			<foodType>Processed, Fluid</foodType>
+			<baseIngestTicks>80</baseIngestTicks>
+			<ingestSound>Ingest_Inject</ingestSound>
+			<preferability>NeverForNutrition</preferability>
+			<ingestCommandString>服用 {0}</ingestCommandString>
+			<ingestReportString>服用 {0} 中</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<chairSearchRadius>0</chairSearchRadius>
+			<drugCategory>Medical</drugCategory>
+            <!-- 需要修改添加的Buff -->
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>LRE_Drug_CondensingEnergyUniverseHediffPill</hediffDef>
+					<severity>1.00</severity>
+					<doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<costList>
+			<WoodLog>1</WoodLog>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>RI_Drug</chemical>
+				<addictiveness>0</addictiveness>
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>210</listOrder>
+				<overdoseSeverityOffset>0.18~0.35</overdoseSeverityOffset>
+				<largeOverdoseChance>0</largeOverdoseChance>
+			</li>
+		</comps>
+		<recipeMaker>
+			<soundWorking>Recipe_Drug</soundWorking>
+		</recipeMaker>
+	</ThingDef>
+</Defs>

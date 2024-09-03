@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 凝气乾坤丹hediff -->
+    <hediffDef>
+        <defName>LRE_Drug_CondensingEnergyUniverseHediffPill</defName>
+        <label>Condensing Energy Universe Pill</label>
+        <hediffClass>HediffWithComps</hediffClass>
+		<description>Condensing Energy Universe Pill Hediff.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+        <comps>
+            <!-- 一次性补充满灵气-->
+			<li Class = "RimLmmortals_LHXExtend.Properties.ComProperties_ChangeValueByComps">
+				<compClass>Rimlmmortals_LHXExtend.HediffComps.HediffComp_LRE_AddEnergyHediff</compClass>
+				<setFull>true</setFull>
+			</li>
+            <!-- 提供一个永久buff，持续回复灵气，单位是每天 -->
+            <li Class="RimLmmortals_LHXExtend.Properties.HediffComProperties_LREForeverHediff">
+                <compClass></compClass>
+                <fValue></fValue>
+            </li>
+		</comps>
+    </hediffDef>
+</Defs>
