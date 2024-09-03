@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>RI.RimImmortal.LRE</packageId>
+	<name>边缘仙路扩展-LRE</name>
+	<author>LHLX</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://github.com/pardeike/HarmonyRimWorld</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>RI.RimImmortal.Core</li>
+		<li>RI.RimImmortal.Forge</li>
+	</loadAfter>
+
+	<incompatibleWith>
+		<!-- <li>username.modname</li> -->
+	</incompatibleWith>
+
+	<description>
+&lt;color=#8af9cd&gt;&lt;b&gt;边缘仙路扩展-LRE&lt;/b&gt;&lt;/color&gt;
+感谢订阅LRE，这是边缘仙路的持续扩展模组，内容会比较零碎，会添加一些物品，事件，新机制等
+&lt;color=#03bf96&gt;&lt;b&gt;【当前拥有的内容】&lt;/b&gt;&lt;/color&gt;
+- 两种丹药：储灵草籽，青玉仙露丹
+- 一种草药：储灵草
+- 一种人材市场专用的身体部件
+&lt;color=#BF7303&gt;&lt;b&gt;【下次内容更新预告】&lt;/b&gt;&lt;/color&gt;
+- 一种神秘丹药
+- 一种回复大量灵气的一品丹药
+- 一个与神秘丹药有关的袭击事件
+	</description>
+</ModMetaData>

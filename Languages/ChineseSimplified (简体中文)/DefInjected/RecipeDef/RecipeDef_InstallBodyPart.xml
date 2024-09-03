@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Install LS Extract Device -->
+  <Install_LRE_LSExtractDevice.label>安装人脉灵矿</Install_LRE_LSExtractDevice.label>
+  <!-- EN: Install LS Extract Device. -->
+  <Install_LRE_LSExtractDevice.description>安装人脉灵矿</Install_LRE_LSExtractDevice.description>
+  <!-- EN: Installing LS Extract Device. -->
+  <Install_LRE_LSExtractDevice.jobString>安装人脉灵矿</Install_LRE_LSExtractDevice.jobString>
+  
+</LanguageData>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef ParentName="RI_Prostheses_Base">
+		<defName>Install_LRE_LSExtractDevice</defName>
+		<label>Install LS Extract Device</label>
+		<description>Install LS Extract Device.</description>
+		<descriptionHyperlinks>
+			<ThingDef>LRE_LSExtractDevice</ThingDef>
+		</descriptionHyperlinks>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing LS Extract Device.</jobString>
+		<workAmount>600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LRE_LSExtractDevice</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>LRE_LSExtractDevice</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>LRE_LSExtractDeviceHediff</addsHediff>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- LRE的天生药物基类 -->
+<ThingDef ParentName="DrugBase" Name = "LRE_NatureDrug_Base" Abstract="True">
+	<!-- 链接-->
+    <descriptionHyperlinks>
+    </descriptionHyperlinks>
+	<!-- 交易类型:只能售卖-->
+    <tradeability>Sellable</tradeability>
+	<!-- 不是社交成瘾品-->
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <tickerType>Rare</tickerType>
+	<!-- 美术资源渲染类型与路径-->
+    <graphicData>
+      <texPath></texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<!-- 基础属性：售价，重量，劣化速度，营养值-->
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <Mass>0.1</Mass>
+      <DeteriorationRate>4</DeteriorationRate>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+	<!-- 科技时代：石器-->
+    <techLevel>Neolithic</techLevel>
+	<!-- 可食用的属性-->
+    <ingestible>
+	<!-- 食用速度 -->
+      <baseIngestTicks>40</baseIngestTicks>
+	  <!-- 搜索椅子范围 -->
+      <!-- <chairSearchRadius>4</chairSearchRadius> -->
+	  <!-- 偏好食用程度：兵粮寸断时才会去吃 -->
+      <preferability>DesperateOnly</preferability>
+	  <!-- 食用感受： -->
+      <tasteThought></tasteThought>
+	  <!-- 作为食物类型：蔬菜或者水果 -->
+      <foodType>VegetableOrFruit</foodType>
+	  <!-- 愉悦感类型： -->
+      <!-- <joyKind>Chemical</joyKind> -->
+      <!-- <joy>0.5</joy> -->
+	  <!-- 是否可以当婴儿食品：不能 -->
+      <nurseable>false</nurseable>
+	  <!-- 药物类别：成瘾的（限定角色去自己吃） -->
+      <drugCategory>Hard</drugCategory>
+	  <!-- 是否在远征队自动选择的时候选择上：不选 -->
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+	  <!-- 执行的事件 -->
+      <outcomeDoers>
+      </outcomeDoers>
+    </ingestible>
+
+    <comps>
+	<!-- 这个组件是定义腐化的，比如食物多少天后腐化消失 -->
+      <li Class="CompProperties_Rottable">
+		<!-- 10天腐化 -->
+        <daysToRotStart>10</daysToRotStart>
+		<!-- 腐化后消失 -->
+        <rotDestroys>true</rotDestroys>
+      </li>
+	  <!-- 这个是定义的一些药物浓度和成瘾性相关的 -->
+      <li Class="CompProperties_Drug">
+		<!-- 这个是成分：比如目前是仙馐果 -->
+        <chemical>Ambrosia</chemical>
+		<!-- 成瘾度:0 -->
+        <addictiveness>0</addictiveness>
+		<!-- 最小耐受度 -->
+        <minToleranceToAddict>0.1</minToleranceToAddict>
+        <!-- <needLevelOffset>0.9</needLevelOffset> -->
+        <listOrder>99</listOrder>
+      </li>
+    </comps>
+	<!-- 什么够吧属性，暂时没看懂 -->
+    <!-- <allowedArchonexusCount>20</allowedArchonexusCount> -->
+  </ThingDef>
+    <!-- 天生储灵丹-->
+	<ThingDef ParentName="LRE_NatureDrug_Base">
+		<defName>Save_Energy_Grass_Seed</defName>
+		<label>【Nature】Save Energy Grass Seed</label>
+		<description>This is the grass seed of the Gathering Spirit Grass, which gathers enough natural aura. After consumption, it can enhance a certain level of cultivation. At the same time, the Gathering Spirit Grass seed can also provide practitioners with a certain degree of enhancement, accelerating cultivation..</description>
+        <graphicData>
+            <texPath>LREDrugs/SaveEnergyGrassSeed</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Mass>0.3</Mass>
+			<DeteriorationRate>4</DeteriorationRate>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<ingestible>
+			<baseIngestTicks>100</baseIngestTicks>
+			<preferability>DesperateOnly</preferability>
+			<foodType>VegetableOrFruit</foodType>
+			<nurseable>false</nurseable>
+			<drugCategory>Hard</drugCategory>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>LRE_SaveEnergyGrassSeedHediff</hediffDef>
+				</li>
+			</outcomeDoers>
+        </ingestible>
+		<comps>
+		  <li Class="CompProperties_Rottable">
+			<daysToRotStart>10</daysToRotStart>
+			<rotDestroys>true</rotDestroys>
+		  </li>
+		</comps>
+	  </ThingDef>
+</Defs>

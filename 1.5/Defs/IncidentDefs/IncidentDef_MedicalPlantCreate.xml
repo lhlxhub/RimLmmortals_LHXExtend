@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <!-- <IncidentDef>
+    <defName>LRE_Incident_RaceHerbsSprout</defName>
+    <label>Race Herbs sprout</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>WhoXiuXian.Incidents.RI_IncidentWorker_RandPlant</workerClass>
+    <baseChance>2.0</baseChance>
+    <letterLabel>Herbs sprout</letterLabel>
+    <letterText>Feel the nourishment of Crystal Vein Soil as several rare herbs awaken from dormancy and begin to grow.</letterText>
+    <letterDef>PositiveEvent</letterDef>
+    <allowedBiomes>
+      <li>TropicalRainforest</li>
+      <li>TropicalSwamp</li>
+      <li>TemperateForest</li>
+      <li>TemperateSwamp</li>
+      <li>BorealForest</li>
+      <li>AridShrubland</li>
+    </allowedBiomes>
+  </IncidentDef> -->
+  </Defs>

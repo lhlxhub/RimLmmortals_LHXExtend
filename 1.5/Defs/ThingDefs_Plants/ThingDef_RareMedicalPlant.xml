@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    	<!-- <ThingDef Name="LRE_PlantBase" Abstract="True">
+		<category>Plant</category>
+		<thingClass>Plant</thingClass>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<Nutrition>0.25</Nutrition>
+			<BeautyOutdoors>10</BeautyOutdoors>
+		</statBases>
+		<tickerType>Long</tickerType>
+		<selectable>true</selectable>
+		<neverMultiSelect>False</neverMultiSelect>
+		<drawerType>MapMeshOnly</drawerType>
+		<pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+		<pathCost>15</pathCost>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>CutoutPlant</shaderType>
+		</graphicData>
+		<plant>
+        	<sowResearchPrerequisites Inherit="False">
+				<li>RI_FertileSoil</li>
+			</sowResearchPrerequisites>
+			<wildOrder>2</wildOrder>
+			<sowTags>
+				<li>SoilSpiritual</li>
+			</sowTags>
+			<purpose>Drug</purpose>
+			<fertilityMin>1.3</fertilityMin>
+			<harvestTag>Standard</harvestTag>
+			<soundHarvesting>Harvest_Standard</soundHarvesting>
+			<soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
+			<sowWork>200</sowWork>
+            <sowMinSkill>16</sowMinSkill>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestYield>1</harvestYield>
+			<harvestWork>200</harvestWork>
+			<visualSizeRange>0.3~1.00</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+            
+		</plant>
+		<thingCategories>
+			<li>Plants</li>
+		</thingCategories>
+	</ThingDef> -->
+</Defs>

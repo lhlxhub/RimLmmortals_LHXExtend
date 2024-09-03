@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef ParentName="RI_MakeBionicBase">
+		<defName>Make_LRE_LSExtractDevice</defName>
+		<label>make LS Extract Device</label>
+		<description>Make LS Extract Device.</description>
+		<jobString>Making LS Extract Device.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RI_Resource_SpiritualCrystal</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RI_Resource_SpiritualCrystal</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LRE_LSExtractDevice>1</LRE_LSExtractDevice>
+		</products>
+	</RecipeDef>
+
+</Defs>

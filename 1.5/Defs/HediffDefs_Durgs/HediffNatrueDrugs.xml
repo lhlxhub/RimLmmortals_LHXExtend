@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 天生储灵丹的buff-->
+    <HediffDef>
+		<defName>LRE_SaveEnergyGrassSeedHediff</defName>
+		<label>Save Energy Grass Seed Hediff</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>Save Energy Grass Seed Hediff.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+            <!-- 修炼进度-->
+			<li Class = "RimLmmortals_LHXExtend.Properties.ComProperties_ChangeValueByComps">
+				<compClass>Rimlmmortals_LHXExtend.HediffComps.HediffComp_LRE_AddExpHediff</compClass>
+				<fValue>100</fValue>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>36000</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<GI_EnergyGainEff>1.1</GI_EnergyGainEff>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RI_PlantBase">
+		<defName>LRE_Plant_SaveEnergyGrass</defName>
+		<label>Save Energy Grass</label>
+		<description>This type of grass can absorb and store the spiritual energy of heaven and earth within its grass seeds. When mature, it can be harvested to obtain naturally stored spiritual pills.</description>
+		<graphicData>
+			<texPath>LREPlant/SaveEnergyGrass</texPath>
+		</graphicData>
+		<plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<sowMinSkill>12</sowMinSkill>
+			<harvestedThingDef>Save_Energy_Grass_Seed</harvestedThingDef>
+			<immatureGraphicPath>LREPlant/SaveEnergyGrass_Immature</immatureGraphicPath>
+			<growDays>12</growDays>
+			<visualSizeRange>0.3~1.05</visualSizeRange>
+		</plant>
+	</ThingDef>
+</Defs>

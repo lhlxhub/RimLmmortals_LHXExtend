@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RI_JadeBodypartBase">
+		<defName>LRE_LSExtractDevice</defName>
+		<label>LS Extract Device</label>
+		<description>LS Extract Device description.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>Install_LRE_LSExtractDevice</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+</Defs>
