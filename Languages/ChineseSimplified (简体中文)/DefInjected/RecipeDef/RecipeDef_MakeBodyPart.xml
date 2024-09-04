@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN: make LS Extract Device -->
-  <Make_LS_Extract_Device.label>制作人脉灵矿</Make_LS_Extract_Device.label>
+  <Make_LRE_LSExtractDevice.label>制作人脉灵矿</Make_LRE_LSExtractDevice.label>
   <!-- EN: Make LS Extract Device. -->
-  <Make_LS_Extract_Device.description>制作人脉灵矿</Make_LS_Extract_Device.description>
+  <Make_LRE_LSExtractDevice.description>制作人脉灵矿</Make_LRE_LSExtractDevice.description>
   <!-- EN: Making LS Extract Device. -->
-  <Make_LS_Extract_Device.jobString>制作人脉灵矿</Make_LS_Extract_Device.jobString>
+  <Make_LRE_LSExtractDevice.jobString>制作人脉灵矿</Make_LRE_LSExtractDevice.jobString>
   
 </LanguageData>

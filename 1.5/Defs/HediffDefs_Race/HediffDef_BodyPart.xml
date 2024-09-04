@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <!-- 灵矿 -->
     <HediffDef>
 		<defName>LRE_LSExtractDeviceHediff</defName>
 		<hediffClass>Rimlmmortals_LHXExtend.HediffComp_LSExtractDevice</hediffClass>
@@ -125,5 +126,31 @@
 			</li>
 		</stages>
 		
+	</HediffDef>
+    <!-- 灵矿丢失 -->
+    <HediffDef>
+		<defName>LRE_LSExtractDeviceLoseHediff</defName>
+		<label>LS Extract Device Lose Hediff</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>LS Extract Device has Lose.</description>
+		<defaultLabelColor>(107,45,38)</defaultLabelColor>
+		<stages>
+            <li>
+				<minSeverity>1</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.5</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+        <comps>			
+            <li Class="HediffCompProperties_Disappears">
+                <showRemainingTime>true</showRemainingTime>
+                <disappearsAfterTicks>180000</disappearsAfterTicks>
+            </li>
+        </comps>
+		<isBad>true</isBad>
 	</HediffDef>
 </Defs>
