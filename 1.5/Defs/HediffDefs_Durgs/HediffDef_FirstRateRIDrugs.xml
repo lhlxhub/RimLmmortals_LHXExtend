@@ -2,7 +2,7 @@
 <Defs>
     <!-- 凝气乾坤丹hediff -->
     <hediffDef>
-        <defName>LRE_Drug_CondensingEnergyUniverseHediffPill</defName>
+        <defName>LRE_Drug_CondensingEnergyUniversePillHediff</defName>
         <label>Condensing Energy Universe Pill</label>
         <hediffClass>HediffWithComps</hediffClass>
 		<description>Condensing Energy Universe Pill Hediff.</description>
@@ -16,8 +16,8 @@
 			</li>
             <!-- 提供一个永久buff，持续回复灵气，单位是每天 -->
             <li Class="RimLmmortals_LHXExtend.Properties.HediffComProperties_LREForeverHediff">
-                <compClass></compClass>
-                <fValue></fValue>
+                <compClass>HediffComp_LRE_ForeverAddEnergyHediff</compClass>
+                <fValue>50</fValue>
             </li>
 		</comps>
     </hediffDef>

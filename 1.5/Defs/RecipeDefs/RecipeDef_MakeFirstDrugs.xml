@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 凝气乾坤丹制作 -->
+    <RecipeDef ParentName="RI_RecipeBase_withDanStove">
+		<defName>LRE_Make_CondensingEnergyUniversePill</defName>
+		<label>Make Condensing Energy Universe Pill</label>
+		<description>Make Condensing Energy Universe Pill</description>
+		<jobString>Make Condensing Energy Universe Pill</jobString>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+			<li>RI_Building_Cauldrons</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RI_Resource_SpiritualCrystal</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Save_Energy_Grass_Seed</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RI_Resource_LingZhi</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+		</ingredients>
+		<products>
+			<LRE_Drug_CondensingEnergyUniversePill>1</LRE_Drug_CondensingEnergyUniversePill>
+		</products>
+	</RecipeDef>
+</Defs>

@@ -6,9 +6,8 @@
 		<defName>LRE_Drug_CondensingEnergyUniversePill</defName>
 		<label>【First-rate】Condensing Energy Universe Pill</label>
 		<description>First-rate Pill, After consumption, the spiritual energy stored within the elixir will be released and enter the dantian of the user, replenishing all spiritual energy, and altering the structure of the user's dantian. This allows for automatic storage of spiritual energy without the need for cultivation.</description>
-        <!-- 图片资源没有改 -->
 		<graphicData>
-			<texPath>Things/Item/Drugs/Elixir/RI_Drug_MedullaOblongataElixir</texPath>
+			<texPath>LREDrugs/FirstPill/LRE_Drug_CondensingEnergyUniversePill</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -27,10 +26,9 @@
 			<useEatingSpeedStat>false</useEatingSpeedStat>
 			<chairSearchRadius>0</chairSearchRadius>
 			<drugCategory>Medical</drugCategory>
-            <!-- 需要修改添加的Buff -->
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>LRE_Drug_CondensingEnergyUniverseHediffPill</hediffDef>
+					<hediffDef>LRE_Drug_CondensingEnergyUniversePillHediff</hediffDef>
 					<severity>1.00</severity>
 					<doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
 				</li>
@@ -45,7 +43,7 @@
 				<addictiveness>0</addictiveness>
 				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
 				<needLevelOffset>0.9</needLevelOffset>
-				<listOrder>210</listOrder>
+				<listOrder>240</listOrder>
 				<overdoseSeverityOffset>0.18~0.35</overdoseSeverityOffset>
 				<largeOverdoseChance>0</largeOverdoseChance>
 			</li>
