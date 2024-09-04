@@ -4,7 +4,7 @@
   <!-- EN: Jade Liquid Pill -->
   <LRE_Drug_JadeLiquidPill.label>青玉仙露丹</LRE_Drug_JadeLiquidPill.label>
   <!-- EN: anananana. -->
-  <LRE_Drug_JadeLiquidPill.description>青玉髓结合储灵草籽炼制的丹药，不仅可以让普通人成为修行者，还能提高灵芽的品质，更能极大程度提高修炼速度。</LRE_Drug_JadeLiquidPill.description>
+  <LRE_Drug_JadeLiquidPill.description>青玉髓结合储灵草籽炼制的丹药，不仅可以让普通人成为修行者，能极大程度提高修炼速度，还能提高灵芽的品质，不过不同阶段需要的丹药量可能不一样。</LRE_Drug_JadeLiquidPill.description>
   <!-- EN: 服用 {0} -->
   <LRE_Drug_JadeLiquidPill.ingestible.ingestCommandString>青玉仙露丹</LRE_Drug_JadeLiquidPill.ingestible.ingestCommandString>
   <!-- EN: 服用 {0} 中 -->
