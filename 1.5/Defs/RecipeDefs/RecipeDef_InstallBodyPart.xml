@@ -7,7 +7,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>LRE_LSExtractDevice</ThingDef>
 		</descriptionHyperlinks>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<workerClass>Recipe_InstallImplant</workerClass>
 		<jobString>Installing LS Extract Device.</jobString>
 		<workAmount>600</workAmount>
 		<ingredients>
