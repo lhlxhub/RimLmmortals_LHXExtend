@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> 
 <Defs>
-    <!-- 凝气乾坤丹hediff -->
+    <!-- 一梦昙花丹hediff -->
     <hediffDef>
         <defName>LRE_Drug_CondensingEnergyUniversePillHediff</defName>
         <label>Condensing Energy Universe Pill</label>
         <hediffClass>HediffWithComps</hediffClass>
 		<description>Condensing Energy Universe Pill Hediff.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
-        <defaultLabelColor>(162,207,1)</defaultLabelColor>
+        <defaultLabelColor>(255,39,0)</defaultLabelColor>
 		<isBad>false</isBad>
         <comps>
-            <!-- 一次性补充满灵气-->
+            <!-- 死亡后会消散 -->
+            <li Class = "HediffCompProperties_DisappearsOnDeath"></li>
+            <!-- 这里补充个脚本， 直接根据严重程度计算stage-->
 			<li Class = "RimLmmortals_LHXExtend.Properties.ComProperties_ChangeValueByComps">
 				<compClass>Rimlmmortals_LHXExtend.HediffComps.HediffComp_LRE_AddEnergyHediff</compClass>
 				<setFull>true</setFull>
 			</li>
-            <!-- 提供一个永久buff，持续回复灵气，单位是每天 -->
-            <li Class="RimLmmortals_LHXExtend.Properties.HediffComProperties_LREForeverHediff">
-                <compClass>RimLmmortals_LHXExtend.HediffComps.HediffComp_LRE_ForeverAddEnergyHediff</compClass>
-                <fValue>50</fValue>
-            </li>
+            <!-- 这里新增一个如果消散就新增hediff的逻辑 -->
+            <li Class = ""></li>
 		</comps>
+        <stage></stage>
     </hediffDef>
 </Defs>

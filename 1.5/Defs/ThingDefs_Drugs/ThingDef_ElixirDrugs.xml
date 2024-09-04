@@ -1,5 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+    <!-- LRE特色仙丹前置 -->
+    <ThingDef  Name="LRE_ElixirDrug_Base" ParentName="MakeableDrugBase" Abstract="True">
+        <!-- 可翻转性 -->
+		<rotatable>false</rotatable>
+        <!-- 堆栈数量 -->
+		<stackLimit>1</stackLimit>
+        <!-- 科技时代 -->
+		<techLevel>Archotech</techLevel>
+        <!-- 配方生成器 -->
+		<!-- <recipeMaker>
+			<researchPrerequisite>RI_Cauldrons</researchPrerequisite>
+		</recipeMaker> -->
+        <!-- 分类 -->
+		<thingCategories>
+            <!-- 先放到修仙药品分类 -->
+			<li>RI_Category_Drugs</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+	</ThingDef>
     <!-- 一梦昙花丹 -->
-
+    <!-- 目前无配方-后续更新别的东西才能更新配方 -->
+    <ThingDef ParentName="LRE_ElixirDrug_Base">
+		<defName>LRE_Drug_OverLifeElixir</defName>
+		<label>【Elixir】Over Life elixir</label>
+        <!-- 就先这个破描述吧，以后中二病犯了再想 -->
+		<description>elixir, Burn yourself and save the world!</description>
+		<graphicData>
+			<texPath>LREDrugs/FirstPill/LRE_Drug_CondensingEnergyUniversePill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+        
+		<statBases>
+			<Nutrition>0</Nutrition>
+			<WorkToMake>2000</WorkToMake>
+			<MarketValue>2000</MarketValue>
+			<Mass>0.3</Mass>
+            <DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<ingestible>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>100</baseIngestTicks>
+			<ingestSound>Ingest_Inject</ingestSound>
+			<preferability>NeverForNutrition</preferability>
+			<ingestCommandString>服用 {0}</ingestCommandString>
+			<ingestReportString>服用 {0} 中</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<chairSearchRadius>0</chairSearchRadius>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RI_RepairAwayHediff</hediffDef>
+					<severity>1.00</severity>
+					<doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<costList>
+			<WoodLog>1</WoodLog>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>RI_Drug</chemical>
+				<addictiveness>0</addictiveness>
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>240</listOrder>
+				<overdoseSeverityOffset>0.18~0.35</overdoseSeverityOffset>
+				<largeOverdoseChance>0</largeOverdoseChance>
+			</li>
+		</comps>
+		<recipeMaker>
+			<soundWorking>Recipe_Drug</soundWorking>
+		</recipeMaker>
+	</ThingDef>
 </Defs>
