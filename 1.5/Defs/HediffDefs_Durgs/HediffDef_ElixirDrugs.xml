@@ -17,8 +17,14 @@
 				<compClass>Rimlmmortals_LHXExtend.HediffComps.HediffComp_LRE_AddEnergyHediff</compClass>
 				<setFull>true</setFull>
 			</li>
-            <!-- 这里新增一个如果消散就新增hediff的逻辑 -->
-            <li Class = ""></li>
+            <!-- 定时消失然后新增hediff -->
+            <li Class="RimLmmortals_LHXExtend.Properties.HediffCompProperties_DisappearsAndAddHediff">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>60000</disappearsAfterTicks>
+                <!-- 缺一个hediff -->
+                <hediffDef></hediffDef>
+                <diedCanAdd>false</diedCanAdd>
+			</li>
 		</comps>
         <stage></stage>
     </hediffDef>
