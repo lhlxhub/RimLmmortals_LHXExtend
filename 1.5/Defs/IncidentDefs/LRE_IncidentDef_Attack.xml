@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 绝命死丹袭击 -->
+    <IncidentDef>
+		<defName>LRE_CondensingEnergyUniversePillRaid</defName>
+		<label>Condensing energy universe pill raid</label>
+        <!-- 大型 -->
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>WhoXiuXian.Incidents.RI_IncidentWorker_RaidKiller</workerClass>
+		<letterDef>ThreatBig</letterDef>
+		<baseChance>0.8</baseChance>
+		<minRefireDays>30</minRefireDays>
+		<pointsScaleable>true</pointsScaleable>
+		<minThreatPoints>3000</minThreatPoints>
+		<letterLabel>Condensing energy universe pill raid</letterLabel>
+		<letterText>Condensing energy universe Pill raid text.</letterText>
+		<tale>Raid</tale>
+	</IncidentDef>
+</Defs>

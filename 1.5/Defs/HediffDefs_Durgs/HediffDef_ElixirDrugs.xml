@@ -31,8 +31,8 @@
                 <initialSeverity>0.6f</initialSeverity>
             </li> -->
             <!-- 时间流逝-->
-            <li Class = "">
-                
+            <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AgePasses">
+                <everyDayChangeAge>50</everyDayChangeAge>
             </li>
             <!-- LRE专属严重程度计算- -->
             <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_SetSeverityByLevel"></li>
