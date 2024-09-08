@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 绝命死丹袭击 -->
+	 <!-- 先放弃派系了，，准备给修仙核心的袭击的部分人打上这个丹药还有狂暴者-->
+
+	 <!-- 几名吃了绝命丹药的剑狂-->
+    <IncidentDef>
+		<defName>LRE_OverLifePillSwordManRaid</defName>
+		<label>Over Life pill raid</label>
+        <!-- 大型 -->
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>RimLmmortals_LHXExtend.Incidents.LRE_IncidentWorker_OverLifeSwordMan</workerClass>
+		<letterDef>ThreatBig</letterDef>
+		<earliestDay>40</earliestDay><!--最早天数-->
+		<baseChance>0.2</baseChance><!-- 发生概率-->
+		<minRefireDays>8</minRefireDays><!-- 最小间隔天数-->
+		<requireColonistsPresent>true</requireColonistsPresent><!--是否需要有殖民者-->
+		<pointsScaleable>true</pointsScaleable>
+		<minThreatPoints>2000</minThreatPoints>
+		<letterLabel>Over Life pill raid</letterLabel>
+		<letterText>Over Life pill raid.</letterText>
+		<tale>Raid</tale>
+	</IncidentDef>
+
+	 <!-- 几名吃了绝命丹药的山野散修-->
+	 <IncidentDef>
+		<defName>LRE_OverLifePillNormalRaid</defName>
+		<label>Over Life pill raid</label>
+        <!-- 大型 -->
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>RimLmmortals_LHXExtend.Incidents.LRE_IncidentWorker_OverLifeNormal</workerClass>
+		<letterDef>ThreatBig</letterDef>
+		<earliestDay>30</earliestDay><!--最早天数-->
+		<baseChance>0.3</baseChance><!-- 发生概率-->
+		<minRefireDays>8</minRefireDays><!-- 最小间隔天数-->
+		<requireColonistsPresent>true</requireColonistsPresent><!--是否需要有殖民者-->
+		<pointsScaleable>true</pointsScaleable>
+		<minThreatPoints>2000</minThreatPoints>
+		<letterLabel>Over Life pill raid</letterLabel>
+		<letterText>Over Life pill raid.</letterText>
+		<tale>Raid</tale>
+	</IncidentDef>
+
+	 <!-- 1名吃了绝命丹药的狂暴修行者-->
+	 <IncidentDef>
+		<defName>LRE_OverLifePillBerserkerRaid</defName>
+		<label>Over Life pill raid</label>
+        <!-- 大型 -->
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>RimLmmortals_LHXExtend.Incidents.LRE_IncidentWorker_OverLifeBerserker</workerClass>
+		<letterDef>ThreatBig</letterDef>
+		<earliestDay>30</earliestDay><!--最早天数-->
+		<baseChance>0.1</baseChance><!-- 发生概率-->
+		<minRefireDays>8</minRefireDays><!-- 最小间隔天数-->
+		<requireColonistsPresent>true</requireColonistsPresent><!--是否需要有殖民者-->
+		<pointsScaleable>false</pointsScaleable>
+		<minThreatPoints>400</minThreatPoints>
+		<letterLabel>Over Life pill raid</letterLabel>
+		<letterText>Over Life pill raid.</letterText>
+		<tale>Raid</tale>
+	</IncidentDef>
+</Defs>

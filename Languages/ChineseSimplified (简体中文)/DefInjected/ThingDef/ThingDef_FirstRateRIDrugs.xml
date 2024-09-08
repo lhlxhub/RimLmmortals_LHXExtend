@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 【First-rate】Condensing Energy Universe Pill -->
+  <LRE_Drug_CondensingEnergyUniversePill.label>【一品】凝气乾坤丹</LRE_Drug_CondensingEnergyUniversePill.label>
+  <!-- EN: First-rate Pill, After consumption, the spiritual energy stored within the elixir will be released and enter the dantian of the user, replenishing all spiritual energy, and altering the structure of the user's dantian. This allows for automatic storage of spiritual energy without the need for cultivation. -->
+  <LRE_Drug_CondensingEnergyUniversePill.description>使用大量资源炼制的一品丹药，无论什么境界，只需要一颗，直接可以回复所有灵气，还能在很长段时间内，持续获取回复灵气。由于它需要消耗的资源巨大，对炼丹师的要求较高，就算在大宗门里面也比较稀有。</LRE_Drug_CondensingEnergyUniversePill.description>
+  <!-- EN: 服用 {0} -->
+  <LRE_Drug_CondensingEnergyUniversePill.ingestible.ingestCommandString>服用【一品】凝气乾坤丹</LRE_Drug_CondensingEnergyUniversePill.ingestible.ingestCommandString>
+  <!-- EN: 服用 {0} 中 -->
+  <LRE_Drug_CondensingEnergyUniversePill.ingestible.ingestReportString>服用【一品】凝气乾坤丹中</LRE_Drug_CondensingEnergyUniversePill.ingestible.ingestReportString>
+  
+</LanguageData>

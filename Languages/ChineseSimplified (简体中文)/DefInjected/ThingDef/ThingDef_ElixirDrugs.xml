@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 【Elixir】Over Life elixir -->
+  <LRE_Drug_OverLifeElixir.label>【仙丹】一梦化神丹</LRE_Drug_OverLifeElixir.label>
+  <!-- EN: elixir, Burn yourself and save the world! -->
+  <LRE_Drug_OverLifeElixir.description>由炼丹真仙所炼制的绝命死丹，世界罕见的至宝，服用后，服用者会极速燃烧寿元，提高极强的战斗力。\n虽然在很多人看来服用这种丹药并不值得，但是如果在绝境的时候，在需要复仇而无法拥有更强的战斗力的时候，又能有多少人能经受住这种丹药带来的力量的诱惑？\n燃尽一切！！！</LRE_Drug_OverLifeElixir.description>
+  <!-- EN: 服用 {0} -->
+  <LRE_Drug_OverLifeElixir.ingestible.ingestCommandString>服用【仙丹】一梦化神丹</LRE_Drug_OverLifeElixir.ingestible.ingestCommandString>
+  <!-- EN: 服用 {0} 中 -->
+  <LRE_Drug_OverLifeElixir.ingestible.ingestReportString>服用【仙丹】一梦化神丹中</LRE_Drug_OverLifeElixir.ingestible.ingestReportString>
+  
+</LanguageData>

@@ -39,13 +39,8 @@
 		</costList>
 		<comps>
 			<li Class="CompProperties_Drug">
-				<chemical>RI_Drug</chemical>
-				<addictiveness>0</addictiveness>
-				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
-				<needLevelOffset>0.9</needLevelOffset>
-				<listOrder>240</listOrder>
-				<overdoseSeverityOffset>0.18~0.35</overdoseSeverityOffset>
-				<largeOverdoseChance>0</largeOverdoseChance>
+				<listOrder>210</listOrder>
+				<teetotalerCanConsume>true</teetotalerCanConsume>
 			</li>
 		</comps>
 		<recipeMaker>

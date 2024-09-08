@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 生命的枯竭 -->
+  <LRE_Thought_OverLifeExit.stages.0.label>生命枯竭</LRE_Thought_OverLifeExit.stages.0.label>
+  <!-- EN: 我的寿命减少了，都是一梦化神丹的错！！！ -->
+  <LRE_Thought_OverLifeExit.stages.0.description>我的寿命减少了，都是一梦化神丹的错！！！</LRE_Thought_OverLifeExit.stages.0.description>
+  
+  <!-- EN: 源源不断的力量 -->
+  <LRE_Thought_OverLifeRunning.stages.0.label>源源不断的力量</LRE_Thought_OverLifeRunning.stages.0.label>
+  <!-- EN: 我感觉到了我的力量在膨胀，多亏了一梦化神丹！！！ -->
+  <LRE_Thought_OverLifeRunning.stages.0.description>我感觉到了我的力量在膨胀，多亏了一梦化神丹！！！</LRE_Thought_OverLifeRunning.stages.0.description>
+  
+</LanguageData>

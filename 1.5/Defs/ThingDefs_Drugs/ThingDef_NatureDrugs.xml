@@ -58,6 +58,7 @@
 		<!-- 腐化后消失 -->
         <rotDestroys>true</rotDestroys>
       </li>
+	  
 	  <!-- 这个是定义的一些药物浓度和成瘾性相关的 -->
       <li Class="CompProperties_Drug">
 		<!-- 这个是成分：比如目前是仙馐果 -->

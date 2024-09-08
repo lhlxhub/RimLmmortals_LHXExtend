@@ -15,11 +15,15 @@
 				<compClass>Rimlmmortals_LHXExtend.HediffComps.HediffComp_LRE_AddEnergyHediff</compClass>
 				<setFull>true</setFull>
 			</li>
-            <!-- 提供一个永久buff，持续回复灵气，单位是每天 -->
+            <!-- 持续回复灵气，单位是每天 -->
             <li Class="RimLmmortals_LHXExtend.Properties.HediffComProperties_LREForeverHediff">
                 <compClass>RimLmmortals_LHXExtend.HediffComps.HediffComp_LRE_ForeverAddEnergyHediff</compClass>
                 <fValue>50</fValue>
             </li>
+            <li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>600000</disappearsAfterTicks>
+			</li>
 		</comps>
     </hediffDef>
 </Defs>

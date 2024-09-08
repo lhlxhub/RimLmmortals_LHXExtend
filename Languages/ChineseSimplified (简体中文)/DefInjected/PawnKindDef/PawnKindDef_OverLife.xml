@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Over Life Berserker man -->
+  <LRE_Pawn_OverLife_Berserker.label>发狂的修士</LRE_Pawn_OverLife_Berserker.label>
+  
+  <!-- EN: Over Life Normal man -->
+  <LRE_Pawn_OverLife_Normal.label>山野散修</LRE_Pawn_OverLife_Normal.label>
+  
+  <!-- EN: Over Life Sword mad man -->
+  <LRE_Pawn_OverLife_SwordMan.label>疯狂的剑客</LRE_Pawn_OverLife_SwordMan.label>
+  
+</LanguageData>

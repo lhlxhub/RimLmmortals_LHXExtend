@@ -2,16 +2,24 @@
 <Defs>
     <!-- 一梦昙花丹hediff -->
     <hediffDef>
-        <defName>LRE_Drug_CondensingEnergyUniversePillHediff</defName>
-        <label>Condensing Energy Universe Pill</label>
+        <defName>LRE_Drug_OverLifeElixirPillHediff</defName>
+        <label>Over life elixir pill</label>
         <hediffClass>HediffWithComps</hediffClass>
-		<description>Condensing Energy Universe Pill Hediff.</description>
+		<description>Over life elixir pill hediff.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
         <defaultLabelColor>(255,39,0)</defaultLabelColor>
 		<isBad>false</isBad>
+        <descriptionHyperlinks>
+			<ThingDef>LRE_Drug_OverLifeElixir</ThingDef>
+		</descriptionHyperlinks>
+        <initialSeverity>1</initialSeverity>
+		<minSeverity>1</minSeverity>
+		<maxSeverity>10</maxSeverity>
         <comps>
             <!-- 死亡后会消散 -->
             <li Class = "HediffCompProperties_DisappearsOnDeath"></li>
+            <!-- LRE专属严重程度计算- -->
+            <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_SetSeverityByLevel"></li>
             <!-- 定时消失然后新增hediff -->
             <li Class="RimLmmortals_LHXExtend.Properties.HediffCompProperties_DisappearsAndAddHediff">
 				<showRemainingTime>true</showRemainingTime>
@@ -20,31 +28,36 @@
                 <diedCanAdd>false</diedCanAdd>
 			</li>
             <!-- 中毒 -->
-            <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffComp_GiveHediffOnDisppears">
+            <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_GiveHediffOnDisppears">
                 <hediffDef>ToxicBuildup</hediffDef>
-                <initialSeverity>0.6f</initialSeverity>
+                <initialSeverity>0.6</initialSeverity>
             </li>
+            <!-- 时间流逝-->
+            <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AgePasses">
+                <everyDayChangeAge>60</everyDayChangeAge>
+            </li>
+
             <!-- 丹毒 -->
              <!-- 未实装，暂不写 -->
             <!-- <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffComp_GiveHediffOnDisppears">
                 <hediffDef>ToxicBuildup</hediffDef>
                 <initialSeverity>0.6f</initialSeverity>
             </li> -->
-            <!-- 时间流逝-->
-            <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AgePasses">
-                <everyDayChangeAge>50</everyDayChangeAge>
-            </li>
-            <!-- LRE专属严重程度计算- -->
-            <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_SetSeverityByLevel"></li>
 		</comps>
         <stages>
             <li>
                 <label>(Soft)</label>
                 <minSeverity>1</minSeverity>
+                <capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.5</offset>
+					</li>
+				</capMods>
                 <statOffsets>
                     <MoveSpeed>5</MoveSpeed><!-- 移动速度-->
                     <CrawlSpeed>2</CrawlSpeed><!-- 爬行速度-->
-                    <ComfyTemperatureMin>30</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMin>-30</ComfyTemperatureMin><!-- 最小温度适应-->
                     <ComfyTemperatureMax>30</ComfyTemperatureMax><!-- 最大舒适温度-->
                     <FilthRate>100</FilthRate><!-- 污染率-->
                     <Flammability>-0.9</Flammability><!--易燃性系数-->
@@ -56,83 +69,95 @@
                     <MeleeDodgeChance>80</MeleeDodgeChance><!--近战闪避，最大值50-->
                     <ShootingAccuracyPawn>80</ShootingAccuracyPawn><!--射击精度-->
                     <PsychicSensitivity>0.1</PsychicSensitivity><!-- 心灵敏感度-->
+                    <PainShockThreshold>1</PainShockThreshold>
                 </statOffsets>
+                <hungerRateFactor>0.1</hungerRateFactor><!-- 饥饿率-->
                 <statFactors>
                     <JoyFallRateFactor>2</JoyFallRateFactor><!-- 娱乐率-->
                     <RestFallRateFactor>0.1</RestFallRateFactor><!-- 疲劳率-->
-                    <hungerRateFactor>0.1</hungerRateFactor><!-- 饥饿率-->
                     <MeleeDamageFactor>2.0</MeleeDamageFactor><!--近战伤害系数-->
-                    <AimingDelayFactor>0.1</AimingDelayFactor><!--瞄准延迟系数-->		  
-                    <RangedCooldownFactor>0.2</RangedCooldownFactor><!--远程冷却系数-->
-                    <StaggerDurationFactor>0.1</StaggerDurationFactor><!--抑止时间系数-->
+                    <AimingDelayFactor>0.5</AimingDelayFactor><!--瞄准延迟系数-->		  
+                    <RangedCooldownFactor>0.5</RangedCooldownFactor><!--远程冷却系数-->
+                    <StaggerDurationFactor>0.3</StaggerDurationFactor><!--抑止时间系数-->
                     <IncomingDamageFactor>0.3</IncomingDamageFactor><!--受到伤害乘数-->	
                     <MeleeCooldownFactor>0.8</MeleeCooldownFactor><!-- 近战冷却-->
-                    <RestFallRateFactor>1.5</RestFallRateFactor><!-- 意识-->
+                    <PsychicSensitivity>0</PsychicSensitivity><!-- 心灵敏感度-->
                 </statFactors>
             </li>
             <li>
                 <label>(Highly)</label>
                 <minSeverity>6</minSeverity>
+                <capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.8</offset>
+					</li>
+				</capMods>
                 <statOffsets>
                     <MoveSpeed>10</MoveSpeed><!-- 移动速度-->
                     <CrawlSpeed>5</CrawlSpeed><!-- 爬行速度-->
-                    <ComfyTemperatureMin>50</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMin>-50</ComfyTemperatureMin><!-- 最小温度适应-->
                     <ComfyTemperatureMax>50</ComfyTemperatureMax><!-- 最大舒适温度-->
                     <FilthRate>100</FilthRate><!-- 污染率-->
                     <Flammability>-1.0</Flammability><!--易燃性系数-->
                     <MentalBreakThreshold>0.2</MentalBreakThreshold><!--崩溃临界值系数-->
-                    <ImmunityGainSpeed>2.0</ImmunityGainSpeed><!--免疫性获得速度系数-->
+                    <ImmunityGainSpeed>3.0</ImmunityGainSpeed><!--免疫性获得速度系数-->
                     <InjuryHealingFactor>3.0</InjuryHealingFactor><!--愈合速度系数-->
                     <ToxicResistance>0.8</ToxicResistance><!--毒性抵抗系数-->
                     <MeleeHitChance>130</MeleeHitChance><!--近战命中-->
                     <MeleeDodgeChance>130</MeleeDodgeChance><!--近战闪避，最大值50-->
                     <ShootingAccuracyPawn>100</ShootingAccuracyPawn><!--射击精度-->
-                    <PsychicSensitivity>-500</PsychicSensitivity><!-- 心灵敏感度-->
+                    <PainShockThreshold>2</PainShockThreshold>
                 </statOffsets>
+                <hungerRateFactor>0.1</hungerRateFactor><!-- 饥饿率-->
                 <statFactors>
                     <JoyFallRateFactor>2</JoyFallRateFactor><!-- 娱乐率-->
                     <RestFallRateFactor>0.05</RestFallRateFactor><!-- 疲劳率-->
-                    <hungerRateFactor>0.01</hungerRateFactor><!-- 饥饿率-->
                     <MeleeDamageFactor>3</MeleeDamageFactor><!--近战伤害系数-->
-                    <AimingDelayFactor>0.1</AimingDelayFactor><!--瞄准延迟系数-->		  
+                    <AimingDelayFactor>0.2</AimingDelayFactor><!--瞄准延迟系数-->		  
                     <RangedCooldownFactor>0.15</RangedCooldownFactor><!--远程冷却系数-->
                     <StaggerDurationFactor>0.1</StaggerDurationFactor><!--抑止时间系数-->
                     <IncomingDamageFactor>0.1</IncomingDamageFactor><!--受到伤害乘数-->	
-                    
                     <MeleeCooldownFactor>0.4</MeleeCooldownFactor><!-- 近战冷却-->
-                    <RestFallRateFactor>2</RestFallRateFactor><!-- 意识-->
+                    <PsychicSensitivity>0</PsychicSensitivity><!-- 心灵敏感度-->
                 </statFactors>
             </li>
             <li>
                 <label>(Berserker)</label>
-                <minSeverity>9</minSeverity>
+                <minSeverity>10</minSeverity>
+                <capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>1</offset>
+					</li>
+				</capMods>
                 <statOffsets>
                     <MoveSpeed>20</MoveSpeed><!-- 移动速度-->
                     <CrawlSpeed>10</CrawlSpeed><!-- 爬行速度-->
-                    <ComfyTemperatureMin>100</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMin>-100</ComfyTemperatureMin><!-- 最小温度适应-->
                     <ComfyTemperatureMax>100</ComfyTemperatureMax><!-- 最大舒适温度-->
                     <FilthRate>200</FilthRate><!-- 污染率-->
                     <Flammability>-1.0</Flammability><!--易燃性系数-->
                     <MentalBreakThreshold>-0.9</MentalBreakThreshold><!--崩溃临界值系数-->
                     <ImmunityGainSpeed>5.0</ImmunityGainSpeed><!--免疫性获得速度系数-->
-                    <InjuryHealingFactor>10.0</InjuryHealingFactor><!--愈合速度系数-->
+                    <InjuryHealingFactor>6.0</InjuryHealingFactor><!--愈合速度系数-->
                     <ToxicResistance>1</ToxicResistance><!--毒性抵抗系数-->
                     <MeleeHitChance>150</MeleeHitChance><!--近战命中-->
                     <MeleeDodgeChance>150</MeleeDodgeChance><!--近战闪避，最大值50-->
                     <ShootingAccuracyPawn>150</ShootingAccuracyPawn><!--射击精度-->
-                    <PsychicSensitivity>-1000</PsychicSensitivity><!-- 心灵敏感度-->
+                    <PainShockThreshold>3</PainShockThreshold>
                 </statOffsets>
+                <hungerRateFactor>0.1</hungerRateFactor><!-- 饥饿率-->
                 <statFactors>
                     <JoyFallRateFactor>0.6</JoyFallRateFactor><!-- 娱乐率-->
                     <RestFallRateFactor>0.1</RestFallRateFactor><!-- 疲劳率-->
-                    <hungerRateFactor>0.1</hungerRateFactor><!-- 饥饿率-->
-                    <MeleeDamageFactor>5.0</MeleeDamageFactor><!--近战伤害系数-->
+                    <MeleeDamageFactor>4.0</MeleeDamageFactor><!--近战伤害系数-->
                     <AimingDelayFactor>0.1</AimingDelayFactor><!--瞄准延迟系数-->		  
                     <RangedCooldownFactor>0.2</RangedCooldownFactor><!--远程冷却系数-->
                     <StaggerDurationFactor>0.1</StaggerDurationFactor><!--抑止时间系数-->
-                    <IncomingDamageFactor>0.05</IncomingDamageFactor><!--受到伤害乘数-->	  
+                    <IncomingDamageFactor>0.1</IncomingDamageFactor><!--受到伤害乘数-->	  
                     <MeleeCooldownFactor>0.2</MeleeCooldownFactor><!-- 近战冷却-->
-                    <RestFallRateFactor>3</RestFallRateFactor><!-- 意识-->
+                    <PsychicSensitivity>0</PsychicSensitivity><!-- 心灵敏感度-->
                 </statFactors>
             </li>
         </stages>
@@ -147,29 +172,62 @@
 		<description>Though the ephemeral flower fades, all returns to tranquility, yet no one can forget the splendid beauty of that moment.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
         <defaultLabelColor>(212,34,34)</defaultLabelColor>
+        <descriptionHyperlinks>
+			<ThingDef>LRE_Drug_OverLifeElixir</ThingDef>
+		</descriptionHyperlinks>
 		<isBad>false</isBad>
         <comps>
             <li Class="HediffCompProperties_Disappears">
 				<showRemainingTime>true</showRemainingTime>
-				<disappearsAfterTicks>180,000</disappearsAfterTicks>
+				<disappearsAfterTicks>300000</disappearsAfterTicks>
 			</li>
 		</comps>
         <stages>
             <li>
+                <capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.7</offset>
+					</li>
+				</capMods>
                 <statOffsets>
-                    <ComfyTemperatureMin>-10</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMin>10</ComfyTemperatureMin><!-- 最小温度适应-->
                     <FilthRate>500</FilthRate><!-- 污染率-->
                     <MentalBreakThreshold>2</MentalBreakThreshold><!--崩溃临界值系数-->
                     <ImmunityGainSpeed>-0.2</ImmunityGainSpeed><!--免疫性获得速度系数-->
                     <InjuryHealingFactor>-0.3</InjuryHealingFactor><!--愈合速度系数-->
                 </statOffsets>
+                <hungerRateFactor>3</hungerRateFactor><!-- 饥饿率-->
                 <statFactors>
                     <RestFallRateFactor>2</RestFallRateFactor><!-- 疲劳率-->
-                    <hungerRateFactor>3</hungerRateFactor><!-- 饥饿率-->
                     <IncomingDamageFactor>2</IncomingDamageFactor><!--受到伤害乘数-->	  
-                    <RestFallRateFactor>0.5</RestFallRateFactor><!-- 意识-->
                 </statFactors>
             </li>
         </stages>
     </hediffDef>
+    <!-- 隐形的掉落一梦化神丹hediff -->
+    <hediffDef>
+        <defName>LRE_Drug_DropOverLifeElixirHediff</defName>
+        <label>Drop Over Life Elixir</label>
+        <hediffClass>HediffWithComps</hediffClass>
+		<description>Drop Over Life Elixir.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+        <defaultLabelColor>(212,34,34)</defaultLabelColor>
+        <descriptionHyperlinks>
+			<ThingDef>LRE_Drug_OverLifeElixir</ThingDef>
+		</descriptionHyperlinks>
+		<isBad>false</isBad>
+        <comps>
+            <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_DeathAfterDropOverLifeElixir">
+				<count>1</count>
+				<msg>掉落了一颗一梦化神丹！</msg>
+			</li>
+		</comps>
+        <stages>
+            <li>
+              <becomeVisible>false</becomeVisible>
+            </li>
+          </stages>
+    </hediffDef>
+    
 </Defs>

@@ -6,4 +6,31 @@
             <li>Make_LRE_LSExtractDevice</li>
         </value>
     </Operation>
+    <!-- 死丹袭击补丁 -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[defName = "RI_Faction_WickedCultivators"]/pawnGroupMakers</xpath>
+        <value>
+			<li>
+				<kindDef>Combat_OverLife_InvisibleKiller</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<LRE_Pawn_OverLife_SwordMan>5</LRE_Pawn_OverLife_SwordMan>
+				</options>
+			</li>
+            <li>
+				<kindDef>Combat_OverLife_Normal</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<LRE_Pawn_OverLife_Normal>5</LRE_Pawn_OverLife_Normal>
+				</options>
+			</li>
+            <li>
+				<kindDef>Combat_OverLife_Berserker</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<LRE_Pawn_OverLife_Berserker>1</LRE_Pawn_OverLife_Berserker>
+				</options>
+			</li>
+        </value>
+    </Operation>
 </Patch>

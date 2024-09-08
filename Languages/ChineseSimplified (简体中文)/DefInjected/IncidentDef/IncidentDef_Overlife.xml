@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Over Life pill raid -->
+  <LRE_OverLifePillBerserkerRaid.label>狂暴修士</LRE_OverLifePillBerserkerRaid.label>
+  <!-- EN: Over Life pill raid -->
+  <LRE_OverLifePillBerserkerRaid.letterLabel>狂暴修士</LRE_OverLifePillBerserkerRaid.letterLabel>
+  <!-- EN: Over Life pill raid. -->
+  <LRE_OverLifePillBerserkerRaid.letterText>一名修士因为服用了狂暴的一梦化神丹疯狂了，可能他身上还有一些丹药！</LRE_OverLifePillBerserkerRaid.letterText>
+  
+  <!-- EN: Over Life pill raid -->
+  <LRE_OverLifePillNormalRaid.label>绝命散修</LRE_OverLifePillNormalRaid.label>
+  <!-- EN: Over Life pill raid -->
+  <LRE_OverLifePillNormalRaid.letterLabel>绝命散修</LRE_OverLifePillNormalRaid.letterLabel>
+  <!-- EN: Over Life pill raid. -->
+  <LRE_OverLifePillNormalRaid.letterText>一群服用了一梦化神丹的山野散修发现了这个殖民地，他们会立即发起进攻，击败他们可能会获取一梦化神丹！</LRE_OverLifePillNormalRaid.letterText>
+  
+  <!-- EN: Over Life pill raid -->
+  <LRE_OverLifePillSwordManRaid.label>疯狂剑客</LRE_OverLifePillSwordManRaid.label>
+  <!-- EN: Over Life pill raid -->
+  <LRE_OverLifePillSwordManRaid.letterLabel>疯狂剑客</LRE_OverLifePillSwordManRaid.letterLabel>
+  <!-- EN: Over Life pill raid. -->
+  <LRE_OverLifePillSwordManRaid.letterText>一群服用了一梦化神丹的剑客来到了殖民地附近，他们为了显摆自己的强大实力，将立即进攻殖民地，击败他们可能获取一梦化神丹！</LRE_OverLifePillSwordManRaid.letterText>
+  
+</LanguageData>

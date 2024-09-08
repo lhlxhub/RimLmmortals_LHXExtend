@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThoughtDef>
+		<defName>LRE_Thought_OverLifeRunning</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>LRE_Drug_OverLifeElixirPillHediff</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>源源不断的力量</label>
+				<description>我感觉到了我的力量在膨胀，多亏了一梦化神丹！！！</description>
+				<baseMoodEffect>30</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef>
+		<defName>LRE_Thought_OverLifeExit</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>LRE_Drug_EpiphanyWitheredHediff</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>生命的枯竭</label>
+				<description>我的寿命减少了，都是一梦化神丹的错！！！</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

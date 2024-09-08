@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Drop Over Life Elixir -->
+  <LRE_Drug_DropOverLifeElixirHediff.label>掉落【仙丹】一梦化神丹</LRE_Drug_DropOverLifeElixirHediff.label>
+  <!-- EN: Drop Over Life Elixir. -->
+  <LRE_Drug_DropOverLifeElixirHediff.description>掉落【仙丹】一梦化神丹</LRE_Drug_DropOverLifeElixirHediff.description>
+  
+  <!-- EN: Epiphany Withered -->
+  <LRE_Drug_EpiphanyWitheredHediff.label>幽昙凋零</LRE_Drug_EpiphanyWitheredHediff.label>
+  <!-- EN: Though the ephemeral flower fades, all returns to tranquility, yet no one can forget the splendid beauty of that moment. -->
+  <LRE_Drug_EpiphanyWitheredHediff.description>一梦登天。</LRE_Drug_EpiphanyWitheredHediff.description>
+  <LRE_Drug_EpiphanyWitheredHediff.descriptionCached>一梦登天。</LRE_Drug_EpiphanyWitheredHediff.descriptionCached>
+  
+  <!-- EN: Over life elixir pill -->
+  <LRE_Drug_OverLifeElixirPillHediff.label>幽昙绽放</LRE_Drug_OverLifeElixirPillHediff.label>
+  <!-- EN: Over life elixir pill hediff. -->
+  <LRE_Drug_OverLifeElixirPillHediff.description>一梦化神丹正在给这个人带来力量，燃尽一切！！！</LRE_Drug_OverLifeElixirPillHediff.description>
+  <LRE_Drug_OverLifeElixirPillHediff.descriptionCached>一梦化神丹正在给这个人带来力量，燃尽一切！！！</LRE_Drug_OverLifeElixirPillHediff.descriptionCached>
+  <!-- EN: (Soft) -->
+  <LRE_Drug_OverLifeElixirPillHediff.stages.Soft.label>柔和</LRE_Drug_OverLifeElixirPillHediff.stages.Soft.label>
+  <!-- EN: (Highly) -->
+  <LRE_Drug_OverLifeElixirPillHediff.stages.Highly.label>强烈</LRE_Drug_OverLifeElixirPillHediff.stages.Highly.label>
+  <!-- EN: (Berserker) -->
+  <LRE_Drug_OverLifeElixirPillHediff.stages.Berserker.label>狂暴</LRE_Drug_OverLifeElixirPillHediff.stages.Berserker.label>
+  
+</LanguageData>
