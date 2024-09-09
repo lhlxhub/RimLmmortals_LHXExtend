@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+        <!-- 凝气乾坤丹hediff
+        <hediffDef>
+            <defName>LRE_Drug_CondensingEnergyUniversePillHediff</defName>
+            <label>Condensing Energy Universe Pill</label>
+            <hediffClass>HediffWithComps</hediffClass>
+            <description>Condensing Energy Universe Pill Hediff.</description>
+            <scenarioCanAdd>false</scenarioCanAdd>
+            <defaultLabelColor>(162,207,1)</defaultLabelColor>
+            <isBad>false</isBad>
+            <comps>
+
+            </comps>
+        </hediffDef> -->
+</Defs>

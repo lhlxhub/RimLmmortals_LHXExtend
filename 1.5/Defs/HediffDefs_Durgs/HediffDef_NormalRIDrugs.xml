@@ -33,5 +33,20 @@
 			</li>
 		</stages>
 	</HediffDef>
-
+    <!-- 忘忧丹的hediff -->
+    <HediffDef>
+		<defName>LRE_WorryFreePillHediff</defName>
+		<label>Worry Free Pill Hediff</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>Worry Free Pill Hediff.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+            
+            <li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>42000</disappearsAfterTicks>
+			</li>
+		</comps>
+	</HediffDef>
 </Defs>
