@@ -23,4 +23,25 @@
         </outcomeDoers>
     </ingestible>
 </ThingDef>
+<!-- 忘忧丹 -->
+ <!-- 忘记死去的人，但是有概率忘掉其他人 -->
+<ThingDef ParentName="RI_BasicDrug_Base">
+    <defName>LRE_Drug_WorryFreePill</defName>
+    <label>【Second-rate】Worry Free Pill</label>
+    <description>【Second-rate】Pill，Forget the dead, but there is a chance to forget the others.</description>
+    <graphicData>
+        <texPath>LREDrugs/WorryFreePill</texPath>
+    </graphicData>
+    <statBases>
+        <WorkToMake>2100</WorkToMake>
+        <MarketValue>400</MarketValue>
+    </statBases>
+    <ingestible>
+        <outcomeDoers>
+            <li Class="IngestionOutcomeDoer_GiveHediff">
+                <hediffDef>LRE_JadeLiquidPillHediff</hediffDef>
+            </li>
+        </outcomeDoers>
+    </ingestible>
+</ThingDef>
 </Defs>

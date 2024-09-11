@@ -40,4 +40,45 @@
         <LRE_Drug_JadeLiquidPill>1</LRE_Drug_JadeLiquidPill>
     </products>
 </RecipeDef>
+<!-- 炼制忘忧丹 -->
+<RecipeDef ParentName="RI_RecipeBase_withDanStove">
+    <defName>LRE_MakeWorryFreePill</defName>
+    <label>Make Worry-Free Pill</label>
+    <description>Making Worry-Free Pill</description>
+    <jobString>Making Worry-Free Pill</jobString>
+    <workAmount>3400</workAmount>
+    <recipeUsers>
+        <li>RI_Building_LittleCauldrons</li>
+        <li>RI_Building_Cauldrons</li>
+    </recipeUsers>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>RI_Resource_LanternBerries</li>
+                </thingDefs>
+            </filter>
+            <count>3</count>
+        </li>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>RI_Resource_SnowLotus</li>
+                </thingDefs>
+            </filter>
+            <count>2</count>
+        </li>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>RI_Resource_DuskyMushroom</li>
+                </thingDefs>
+            </filter>
+            <count>2</count>
+        </li>
+    </ingredients>
+    <products>
+        <LRE_Drug_WorryFreePill>1</LRE_Drug_WorryFreePill>
+    </products>
+</RecipeDef>
 </Defs>

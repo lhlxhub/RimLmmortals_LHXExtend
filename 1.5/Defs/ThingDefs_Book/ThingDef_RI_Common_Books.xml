@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 打灰仙人 -->
+    <ThingDef ParentName="RI_BookBase_Common">
+		<defName>RI_BookAbility_WorkSpeed</defName>
+		<label>Skill book-Luminous WorkSpeed</label>
+		<description>The speed of work has been accelerated, but the resistance to hitting has deteriorated.</description>
+		<statBases>
+			<MarketValue>1200</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="WhoXiuXian.CompProperties_BookStudiable">
+				<cost>16</cost>
+				<abilities>
+					<li>RI_Ability_BombBullet</li>
+				</abilities>
+				<completedLetterTitle>{PARENT_label} becomes some sparks of Qi and disappears.</completedLetterTitle>
+				<completedLetterText>After reading {PARENT_label}, the cultivator {STUDIER_labelShort} learns the "Luminous bomb"!</completedLetterText>
+				<completedLetterDef>PositiveEvent</completedLetterDef>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

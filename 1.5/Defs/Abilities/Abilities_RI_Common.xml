@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 打灰仙人 -->
+    <AbilityDef ParentName="RI_PsycastBase">
+		<defName>RI_Ability_BombBullet</defName>
+		<label>Luminous bomb</label>
+		<description>Qi cost: 30.\n\nCondense the Qi into an unstable balloon, pop it out, and cause a small explosion.</description>
+		<iconPath>Ability/Common/RI_Ability_BombBullet</iconPath>
+		<canUseAoeToGetTargets>false</canUseAoeToGetTargets>
+		<hotKey>Misc12</hotKey>
+		<displayGizmoWhileUndrafted>False</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
+		<aiCanUse>true</aiCanUse>
+		<statBases>
+		</statBases>
+		<verbProperties>
+			<warmupTime>1</warmupTime>
+			<range>25</range>
+			<targetParams>
+				<canTargetPawns>True</canTargetPawns>
+				<canTargetLocations>True</canTargetLocations>
+				<canTargetAnimals>True</canTargetAnimals>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>BombBullet</projectileDef>
+			</li>
+			<li Class="WhoXiuXian.Abilities.CompProperties_SpawnMoteCasting">
+				<!--选中特效-->
+				<moteCastDef>RI_Ability_QiBullet_Mote</moteCastDef>
+			</li>
+			<li Class="WhoXiuXian.Abilities.CompProperties_SpawnMoteSinging">
+				<!--读条特效-->
+				<moteCastDef>RI_Ability_InternalPellet_Singing</moteCastDef>
+				<!--光圈-->
+			</li>
+			<li Class="WhoXiuXian.Abilities.CompProperties__ReduceEnergy">
+				<rEnergy>-30</rEnergy>
+				<isCommon>true</isCommon>
+			</li>
+		</comps>
+	</AbilityDef>
+</Defs>

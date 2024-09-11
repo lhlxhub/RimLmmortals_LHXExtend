@@ -42,11 +42,32 @@
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<isBad>false</isBad>
 		<comps>
-            
-            <li Class="HediffCompProperties_Disappears">
-				<showRemainingTime>true</showRemainingTime>
-				<disappearsAfterTicks>42000</disappearsAfterTicks>
+            <li Class="HediffComProperties_WorryFree">
+				<chance>0.1</chance>
+				<thoughts>
+                    <li>MySonDied</li>
+                    <li>MyDaughterDied</li>
+                    <li>MyHusbandDied</li>
+                    <li>MyWifeDied</li>
+                    <li>MyFianceDied</li>
+                    <li>MyFianceeDied</li>
+                    <li>MyLoverDied</li>
+                    <li>MyBrotherDied</li>
+                    <li>MySisterDied</li>
+                    <li>MyGrandchildDied</li>
+                    <li>MyFatherDied</li>
+                    <li>MyMotherDied</li>
+                    <li>MyNieceDied</li>
+                    <li>MyNephewDied</li>
+                    <li>MyHalfSiblingDied</li>
+                    <li>MyAuntDied</li>
+                    <li>MyUncleDied</li>
+                    <li>MyGrandparentDied</li>
+                    <li>MyCousinDied</li>
+                    <li>MyKinDied</li>
+                </thoughts>
 			</li>
+
 		</comps>
 	</HediffDef>
 </Defs>
