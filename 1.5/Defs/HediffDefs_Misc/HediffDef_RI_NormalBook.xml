@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 打灰仙人hediff -->
+    <HediffDef>
+		<defName>LRE_Ability_WorkSpeedHediff</defName>
+		<label>Work Speed</label>
+		<labelNoun>Work Speed</labelNoun>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>Increase the working speed and reduce the resistance to hitting.</description>
+		<defaultLabelColor>(255,127,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>300000</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+                    <ConstructSuccessChance>0.2</ConstructSuccessChance>
+				</statOffsets>
+				<statFactors>
+					<ConstructionSpeed>1.1</ConstructionSpeed>
+				</statFactors>
+                <capMods>
+                    <li>
+                        <!-- 操作 -->
+                        <capacity>Manipulation</capacity>
+						<offset>0.2</offset>
+                    </li>
+                    <li>
+                        <!-- 移动 -->
+                        <capacity>Moving</capacity>
+						<offset>-0.2</offset>
+                    </li>
+                </capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

@@ -2,41 +2,35 @@
 <Defs>
     <!-- 打灰仙人 -->
     <AbilityDef ParentName="RI_PsycastBase">
-		<defName>RI_Ability_BombBullet</defName>
-		<label>Luminous bomb</label>
-		<description>Qi cost: 30.\n\nCondense the Qi into an unstable balloon, pop it out, and cause a small explosion.</description>
+		<defName>RI_Ability_WorkSpeed</defName>
+		<label>Luminous WorkSpeed</label>
+		<description>Qi cost: 120.\n\nIncrease the working speed and reduce the resistance to hitting.</description>
 		<iconPath>Ability/Common/RI_Ability_BombBullet</iconPath>
-		<canUseAoeToGetTargets>false</canUseAoeToGetTargets>
-		<hotKey>Misc12</hotKey>
+		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+		<hotKey></hotKey>
 		<displayGizmoWhileUndrafted>False</displayGizmoWhileUndrafted>
 		<disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
-		<aiCanUse>true</aiCanUse>
+        <casterMustBeCapableOfViolence>False</casterMustBeCapableOfViolence>
+		<aiCanUse>false</aiCanUse>
 		<statBases>
 		</statBases>
 		<verbProperties>
-			<warmupTime>1</warmupTime>
-			<range>25</range>
+			<warmupTime>0.5</warmupTime>
+			<range>0</range>
 			<targetParams>
-				<canTargetPawns>True</canTargetPawns>
-				<canTargetLocations>True</canTargetLocations>
-				<canTargetAnimals>True</canTargetAnimals>
+				<canTargetSelf>True</canTargetSelf>
 			</targetParams>
 		</verbProperties>
 		<comps>
-			<li Class="CompProperties_AbilityLaunchProjectile">
-				<projectileDef>BombBullet</projectileDef>
-			</li>
-			<li Class="WhoXiuXian.Abilities.CompProperties_SpawnMoteCasting">
-				<!--选中特效-->
-				<moteCastDef>RI_Ability_QiBullet_Mote</moteCastDef>
-			</li>
-			<li Class="WhoXiuXian.Abilities.CompProperties_SpawnMoteSinging">
-				<!--读条特效-->
-				<moteCastDef>RI_Ability_InternalPellet_Singing</moteCastDef>
-				<!--光圈-->
+			<li Class="CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>LRE_Ability_WorkSpeedHediff</hediffDef>
+				<psychic>True</psychic>
+				<replaceExisting>True</replaceExisting>
+				<onlyApplyToSelf>True</onlyApplyToSelf>
 			</li>
 			<li Class="WhoXiuXian.Abilities.CompProperties__ReduceEnergy">
-				<rEnergy>-30</rEnergy>
+				<rEnergy>-120</rEnergy>
 				<isCommon>true</isCommon>
 			</li>
 		</comps>
