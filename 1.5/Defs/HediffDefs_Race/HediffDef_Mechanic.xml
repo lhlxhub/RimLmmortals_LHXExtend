@@ -3,12 +3,13 @@
 <Defs>
     <!-- 神机天枢 hediff -->
     <HediffDef>
-		<defName>LRE_SaveEnergyGrassSeedHediff</defName>
-		<label>Save Energy Grass Seed Hediff</label>
+		<defName>LRE_CelestialPivotofDivineMachinesHediff</defName>
+		<label>Celestial Pivot of Divine Machines Hediff</label>
 		<hediffClass>HediffWithComps</hediffClass>
-		<description>Save Energy Grass Seed Hediff.</description>
+		<description>Celestial Pivot of Divine Machines.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<isBad>false</isBad>
+        <initialSeverity>1</initialSeverity>
         <minSeverity>1</minSeverity>
         <maxSeverity>25</maxSeverity>
         <stages>
