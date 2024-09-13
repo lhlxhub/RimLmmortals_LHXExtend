@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 青玉仙丹 -->
- <!-- 安装灵芽 -->
- <!-- 提升灵芽等级 -->
+ <!-- 提供修炼进度 -->
  <!-- 提高修炼速度 -->
 <Defs>
 <ThingDef ParentName="RI_BasicDrug_Base">

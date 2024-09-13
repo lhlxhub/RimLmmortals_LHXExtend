@@ -14,14 +14,6 @@
         <li>
             <filter>
                 <thingDefs>
-                    <li>RI_Resource_QingMingMarrow</li>
-                </thingDefs>
-            </filter>
-            <count>1</count>
-        </li>
-        <li>
-            <filter>
-                <thingDefs>
                     <li>Save_Energy_Grass_Seed</li>
                 </thingDefs>
             </filter>

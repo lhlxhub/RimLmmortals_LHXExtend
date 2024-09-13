@@ -12,17 +12,11 @@
             <!-- 修炼进度-->
 			<li Class = "RimLmmortals_LHXExtend.Properties.ComProperties_ChangeValueByComps">
 				<compClass>Rimlmmortals_LHXExtend.HediffComps.HediffComp_LRE_AddExpHediff</compClass>
-				<fValue>150</fValue>
+				<fValue>400</fValue>
 			</li>
-            <li Class="RimLmmortals_LHXExtend.Properties.HediffComProperties_InstallRoot">
-                <onceAddSeverity>0.3</onceAddSeverity>
-                <canMaxSeverity>0.99</canMaxSeverity>
-                <bodyPart>Brain</bodyPart>
-                <canUpgrade>true</canUpgrade>
-            </li>
             <li Class="HediffCompProperties_Disappears">
 				<showRemainingTime>true</showRemainingTime>
-				<disappearsAfterTicks>42000</disappearsAfterTicks>
+				<disappearsAfterTicks>60000</disappearsAfterTicks>
 			</li>
 		</comps>
 		<stages>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 机械师 -->
+<Defs>
+    <ThingDef Abstract="True" Name="LRE_CelestialPivotofDivineMachinesBase">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<techLevel>Archotech</techLevel>
+		<useHitPoints>true</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<thingCategories>
+			<li>RI_Category_BlackSteelBodyPart</li>
+		</thingCategories>
+        <researchPrerequisites>
+			<li>RI_BlackSteelSyntheticTechnology</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_UseEffectDestroySelf" />
+		</comps>
+	</ThingDef>
+    <!-- 神机天枢-甲 -->
+    <ThingDef ParentName="LRE_CelestialPivotofDivineMachinesBase">
+		<defName>LRE_Things_CelestialPivotofDivineMachines</defName>
+		<label>Celestial Pivot of Divine Machines</label>
+		<description>Celestial Pivot of Divine Machines.</description>
+		<graphicData>
+			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>4000</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Usable">
+				<compClass>WhoXiuXian.CompUsableRoot</compClass>
+				<useJob>InstallEnergyRoot</useJob>
+				<useLabel>Drink {0_label} to please the Thran and become a cultivator</useLabel>
+			</li>
+			<li Class="WhoXiuXian.CompProperties_UseEffectInstallRoot">
+				<hediffDef>Hediff_RI_EnergyRoot</hediffDef>
+				<Severity>0.3</Severity>
+				<bodyPart>Brain</bodyPart>
+				<requiresPsychicallySensitive>false</requiresPsychicallySensitive>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

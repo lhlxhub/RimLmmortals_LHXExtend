@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 机械师 -->
+<Defs>
+    <!-- 神机天枢 hediff -->
+    <HediffDef>
+		<defName>LRE_SaveEnergyGrassSeedHediff</defName>
+		<label>Save Energy Grass Seed Hediff</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>Save Energy Grass Seed Hediff.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+        <minSeverity>1</minSeverity>
+        <maxSeverity>25</maxSeverity>
+        <stages>
+            <!-- 甲 -->
+            <li>
+                <label>(Ⅰ Ⅰ)</label>
+                <minSeverity>1</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>2</MechBandwidth>
+                    <MechRepairSpeed>0.33</MechRepairSpeed>
+                    <PsychicSensitivity>0.05</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <li>
+                <label>(Ⅰ Ⅱ)</label>
+                <minSeverity>2</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>5</MechBandwidth>
+                    <MechRepairSpeed>0.66</MechRepairSpeed>
+                    <PsychicSensitivity>0.1</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <li>
+                <label>(Ⅰ Ⅲ)</label>
+                <minSeverity>3</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>10</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <PsychicSensitivity>0.15</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <!-- 已 -->
+            <li>
+                <label>(Ⅱ Ⅰ)</label>
+                <minSeverity>4</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>12</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>0.33</MechFormingSpeed>
+                    <PsychicSensitivity>0.20</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <li>
+                <label>(Ⅱ Ⅱ)</label>
+                <minSeverity>5</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>16</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>0.66</MechFormingSpeed>
+                    <PsychicSensitivity>0.25</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <li>
+                <label>(Ⅱ Ⅲ)</label>
+                <minSeverity>6</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>20</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1</MechFormingSpeed>
+                    <PsychicSensitivity>0.3</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <li>
+                <label>(Ⅱ Ⅳ)</label>
+                <minSeverity>7</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>25</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1.33</MechFormingSpeed>
+                    <PsychicSensitivity>0.35</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <li>
+                <label>(Ⅱ Ⅳ)</label>
+                <minSeverity>8</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>30</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1.5</MechFormingSpeed>
+                    <PsychicSensitivity>0.4</PsychicSensitivity>
+                </statOffsets>
+            </li>
+            <!-- 丙 -->
+            <li>
+                <label>(Ⅲ Ⅰ)</label>
+                <minSeverity>9</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>32</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1.5</MechFormingSpeed>
+                    <PsychicSensitivity>0.45</PsychicSensitivity>
+                </statOffsets>
+                <capMods>
+                    <li>
+                      <capacity>Manipulation</capacity>
+                      <offset>0.1</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>(Ⅲ Ⅱ)</label>
+                <minSeverity>10</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>36</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1.5</MechFormingSpeed>
+                    <PsychicSensitivity>0.5</PsychicSensitivity>
+                </statOffsets>
+                <capMods>
+                    <li>
+                      <capacity>Manipulation</capacity>
+                      <offset>0.3</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>(Ⅲ Ⅲ)</label>
+                <minSeverity>11</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>40</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1.5</MechFormingSpeed>
+                    <PsychicSensitivity>0.55</PsychicSensitivity>
+                </statOffsets>
+                <capMods>
+                    <li>
+                      <capacity>Manipulation</capacity>
+                      <offset>0.5</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>(Ⅲ Ⅳ)</label>
+                <minSeverity>12</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>44</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1.5</MechFormingSpeed>
+                    <PsychicSensitivity>0.6</PsychicSensitivity>
+                </statOffsets>
+                <capMods>
+                    <li>
+                      <capacity>Manipulation</capacity>
+                      <offset>0.7</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>(Ⅲ Ⅴ)</label>
+                <minSeverity>13</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>48</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1.5</MechFormingSpeed>
+                    <PsychicSensitivity>0.65</PsychicSensitivity>
+                </statOffsets>
+                <capMods>
+                    <li>
+                      <capacity>Manipulation</capacity>
+                      <offset>0.9</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>(Ⅲ Ⅵ)</label>
+                <minSeverity>14</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>54</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1.5</MechFormingSpeed>
+                    <PsychicSensitivity>0.7</PsychicSensitivity>
+                </statOffsets>
+                <capMods>
+                    <li>
+                      <capacity>Manipulation</capacity>
+                      <offset>1.1</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>(Ⅲ Ⅶ)</label>
+                <minSeverity>15</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>60</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1.5</MechFormingSpeed>
+                    <PsychicSensitivity>0.75</PsychicSensitivity>
+                </statOffsets>
+                <capMods>
+                    <li>
+                      <capacity>Manipulation</capacity>
+                      <offset>1.5</offset>
+                    </li>
+                </capMods>
+            </li>
+            <!-- 丁 -->
+            <li>
+                <label>(Ⅳ Ⅰ)</label>
+                <minSeverity>16</minSeverity>
+                <statOffsets>
+                    <MechBandwidth>61</MechBandwidth>
+                    <MechRepairSpeed>1</MechRepairSpeed>
+                    <MechFormingSpeed>1.5</MechFormingSpeed>
+                    <PsychicSensitivity>0.8</PsychicSensitivity>
+                </statOffsets>
+                <capMods>
+                    <li>
+                      <capacity>Manipulation</capacity>
+                      <offset>1.5</offset>
+                    </li>
+                </capMods>
+            </li>
+            <!-- 终 -->
+        </stages>
+	</HediffDef>
+</Defs>
