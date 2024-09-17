@@ -6,6 +6,7 @@
 		<defName>LRE_Category_CelestialMechanism</defName>
 		<label>Celestial Mechanism</label>
 		<parent>RI_Category_Prostheses</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
 	</ThingCategoryDef>
 
 	<JobDef>

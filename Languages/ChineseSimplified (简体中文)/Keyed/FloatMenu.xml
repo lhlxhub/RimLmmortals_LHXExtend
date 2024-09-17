@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <NonEnergyRoot>没有灵芽</NonEnergyRoot>
+    <EnergyLevelNoEnough>境界不足</EnergyLevelNoEnough>
+    <needInstallCelestialPivotofDivineMachinesOne>需要同调神机天枢-甲</needInstallCelestialPivotofDivineMachinesOne>
+    <needInstallCelestialPivotofDivineMachinesTwo>需要同调神机天枢-已</needInstallCelestialPivotofDivineMachinesTwo>
+    <needInstallCelestialPivotofDivineMachinesThree>需要同调神机天枢-丙</needInstallCelestialPivotofDivineMachinesThree>
+    <needInstallCelestialPivotofDivineMachinesFour>需要同调神机天枢-丁</needInstallCelestialPivotofDivineMachinesFour>
+    <AlreadyInstallCelestialPivotofDivineMachines>已经同调{0}</AlreadyInstallCelestialPivotofDivineMachines>
+    <InstallCelestialPivotofDivineMachinesMinLevel>同调{0}的最小等级为：{1}</InstallCelestialPivotofDivineMachinesMinLevel>
+    <InstallCelestialPivotofDivineMachinesAlreadyMaxLevel>已经达到{0}所能支持的最大等级:{1}</InstallCelestialPivotofDivineMachinesAlreadyMaxLevel>
+    <InstallCelestialCondensingMachinesLiquidMinLevel></InstallCelestialCondensingMachinesLiquidMinLevel>
+</LanguageData>
