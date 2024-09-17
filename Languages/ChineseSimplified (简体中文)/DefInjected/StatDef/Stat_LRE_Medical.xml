@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Medical Aiming Delay Factor -->
+  <LRE_MedicalAimingDelayFactor.label>机械远程瞄准时间(LRE)</LRE_MedicalAimingDelayFactor.label>
+  <!-- EN: Medical Aiming Delay Factor. -->
+  <LRE_MedicalAimingDelayFactor.description>LRE增加的机械师下面控制的机械族远程瞄准时间乘积。</LRE_MedicalAimingDelayFactor.description>
+  
+  <!-- EN: Medical Incoming Damage Factor -->
+  <LRE_MedicalIncomingDamageFactor.label>机械承伤乘数(LRE)</LRE_MedicalIncomingDamageFactor.label>
+  <!-- EN: Medical Incoming Damage Factor. -->
+  <LRE_MedicalIncomingDamageFactor.description>LRE增加的机械师下面控制的机械族承受伤害乘积。</LRE_MedicalIncomingDamageFactor.description>
+  
+  <!-- EN: Medical Melee Damage Factor -->
+  <LRE_MedicalMeleeDamageFactor.label>机械近战伤害乘数(LRE)</LRE_MedicalMeleeDamageFactor.label>
+  <!-- EN: Medical Melee Damage Factor. -->
+  <LRE_MedicalMeleeDamageFactor.description>LRE增加的机械师下面控制的机械族近战伤害乘数。</LRE_MedicalMeleeDamageFactor.description>
+  
+  <!-- EN: Medical Move Speed Factor -->
+  <LRE_MedicalMoveSpeedFactor.label>机械移动速度乘数(LRE)</LRE_MedicalMoveSpeedFactor.label>
+  <!-- EN: Medical Move Speed Factor. -->
+  <LRE_MedicalMoveSpeedFactor.description>LRE增加的机械师下面控制的机械族移动速度乘数。</LRE_MedicalMoveSpeedFactor.description>
+  
+  <!-- EN: Medical Shooting Accuracy Pawn Factor -->
+  <LRE_MedicalShootingAccuracyPawnFactor.label>机械远程命中乘数(LRE)</LRE_MedicalShootingAccuracyPawnFactor.label>
+  <!-- EN: Medical Shooting Accuracy Pawn Factor. -->
+  <LRE_MedicalShootingAccuracyPawnFactor.description>LRE增加的机械师控制的机械族远程命中乘数。</LRE_MedicalShootingAccuracyPawnFactor.description>
+  
+  <!-- EN: Medical Shooting Accuracy Pawn Offset -->
+  <LRE_MedicalShootingAccuracyPawnOffset.label>机械远程命中偏移(LRE)</LRE_MedicalShootingAccuracyPawnOffset.label>
+  <!-- EN: Medical Shooting Accuracy Pawn Offset. -->
+  <LRE_MedicalShootingAccuracyPawnOffset.description>LRE增加的机械师控制的机械族远程命中偏移。</LRE_MedicalShootingAccuracyPawnOffset.description>
+  
+</LanguageData>

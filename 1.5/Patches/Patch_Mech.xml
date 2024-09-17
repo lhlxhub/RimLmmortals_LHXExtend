@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- 机械体相关的补丁 -->
+     <!-- 承伤 -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StatDef[defName = "IncomingDamageFactor"]</xpath>
+        <value>
+            <!-- <statFactors>
+                <li>LRE_MedicalIncomingDamageFactor</li>
+            </statFactors> -->
+            <parts>
+                <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_OverseerStatFactor" MayRequire="Ludeon.RimWorld.Biotech">
+                    <stat>LRE_MedicalIncomingDamageFactor</stat>
+                    <label>Offset from mechanitor</label>
+                  </li>
+            </parts>
+        </value>
+    </Operation>
+    <!-- 近战伤害 -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StatDef[defName = "MeleeDamageFactor"]/parts</xpath>
+        <value>
+            <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_OverseerStatFactor" MayRequire="Ludeon.RimWorld.Biotech">
+                <stat>LRE_MedicalMeleeDamageFactor</stat>
+                <label>Offset from mechanitor</label>
+            </li>
+        </value>
+    </Operation>
+    <!-- 移动速度 -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StatDef[defName = "MoveSpeed"]/parts</xpath>
+        <value>
+            <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_OverseerStatFactor" MayRequire="Ludeon.RimWorld.Biotech">
+                <stat>LRE_MedicalMoveSpeedFactor</stat>
+                <label>Offset from mechanitor</label>
+            </li>
+        </value>
+    </Operation>
+    <!-- 远程瞄准时间 -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StatDef[defName = "AimingDelayFactor"]/parts</xpath>
+        <value>
+            <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_OverseerStatFactor" MayRequire="Ludeon.RimWorld.Biotech">
+                <stat>LRE_MedicalAimingDelayFactor</stat>
+                <label>Offset from mechanitor</label>
+            </li>
+        </value>
+    </Operation>
+    <!-- 射击精度 -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StatDef[defName = "ShootingAccuracyPawn"]</xpath>
+        <value>
+            <parts>
+                <li Class="StatPart_OverseerStatOffset" MayRequire="Ludeon.RimWorld.Biotech">
+                    <stat>LRE_MedicalShootingAccuracyPawnOffset</stat>
+                    <label>Offset from mechanitor</label>
+                </li>
+                <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_OverseerStatFactor" MayRequire="Ludeon.RimWorld.Biotech">
+                    <stat>LRE_MedicalShootingAccuracyPawnFactor</stat>
+                    <label>Offset from mechanitor</label>
+                </li>
+            </parts>
+        </value>
+    </Operation>
+</Patch>

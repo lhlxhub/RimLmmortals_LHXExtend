@@ -21,20 +21,25 @@
                 <statOffsets>
                     <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
                     <ConstructSuccessChance>0.2</ConstructSuccessChance>
+					<ConstructionSpeed>0.5</ConstructionSpeed>
 				</statOffsets>
+				<hungerRateFactor>1.4</hungerRateFactor><!-- 饥饿率-->
 				<statFactors>
-					<ConstructionSpeed>1.1</ConstructionSpeed>
+					<JoyFallRateFactor>0.8</JoyFallRateFactor><!-- 娱乐率-->
+					<RestFallRateFactor>0.8</RestFallRateFactor><!-- 疲劳率-->
+					<IncomingDamageFactor>1.5</IncomingDamageFactor>
+					<GI_EnergyGainEff>0.9</GI_EnergyGainEff>
 				</statFactors>
                 <capMods>
                     <li>
                         <!-- 操作 -->
                         <capacity>Manipulation</capacity>
-						<offset>0.2</offset>
+						<offset>0.4</offset>
                     </li>
                     <li>
                         <!-- 移动 -->
                         <capacity>Moving</capacity>
-						<offset>-0.2</offset>
+						<offset>0.3</offset>
                     </li>
                 </capMods>
 			</li>

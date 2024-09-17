@@ -67,7 +67,7 @@
                     <li>MyKinDied</li>
                 </thoughts>
 			</li>
-
+			<li Class="HediffCompProperties_Disappears"/>
 		</comps>
 	</HediffDef>
 </Defs>

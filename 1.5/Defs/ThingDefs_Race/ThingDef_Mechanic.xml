@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 机械师 -->
 <Defs>
+
+	<ThingCategoryDef>
+		<defName>LRE_Category_CelestialMechanism</defName>
+		<label>Celestial Mechanism</label>
+		<parent>RI_Category_Prostheses</parent>
+	</ThingCategoryDef>
+
+	<JobDef>
+		<defName>InstallCelestialPivotofDivineMachines</defName>
+		<driverClass>JobDriver_UseItem</driverClass>
+		<reportString>installing TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
     <ThingDef Abstract="True" Name="LRE_CelestialPivotofDivineMachinesBase">
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
@@ -13,11 +27,13 @@
 		<tickerType>Never</tickerType>
 		<alwaysHaulable>true</alwaysHaulable>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<tradeability>Sellable</tradeability>
 		<thingCategories>
-			<li>RI_Category_BlackSteelBodyPart</li>
+			<li>LRE_Category_CelestialMechanism</li>
 		</thingCategories>
+		<!-- 科技需求 -->
         <researchPrerequisites>
-			<li>RI_BlackSteelSyntheticTechnology</li>
+			<li>LRE_CelestialPivotofDivineMachines</li>
 		</researchPrerequisites>
 		<comps>
 			<li Class="CompProperties_UseEffectDestroySelf" />
@@ -25,9 +41,71 @@
 	</ThingDef>
     <!-- 神机天枢-甲 -->
     <ThingDef ParentName="LRE_CelestialPivotofDivineMachinesBase">
-		<defName>LRE_Things_CelestialPivotofDivineMachines</defName>
-		<label>Celestial Pivot of Divine Machines</label>
-		<description>Celestial Pivot of Divine Machines.</description>
+		<defName>LRE_Things_CelestialPivotofDivineMachinesOne</defName>
+		<label>Celestial Pivot of Divine Machines One</label>
+		<description>Celestial Pivot of Divine Machines One.</description>
+		<graphicData>
+			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Usable">
+				<compClass>RimLmmortals_LHXExtend.LRE_CompUseEffects.CompUsableCPODM</compClass>
+				<useJob>InstallCelestialPivotofDivineMachines</useJob>
+				<useLabel>Install {0_label}</useLabel>
+			</li>
+			<li Class="RimLmmortals_LHXExtend.LRE_CompUseEffects.CompProperties_UseEffectInstallCPODM">
+				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
+				<otherHediffDef>MechlinkImplant</otherHediffDef>
+				<bodyPart>Brain</bodyPart>
+				<requiresExistingHediff>false</requiresExistingHediff>
+				<rootLevel>3</rootLevel>
+				<unlockLevel>1</unlockLevel>
+				<canUpgrade>false</canUpgrade>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- 神机天枢-已 -->
+	<ThingDef ParentName="LRE_CelestialPivotofDivineMachinesBase">
+		<defName>LRE_Things_CelestialPivotofDivineMachinesTwo</defName>
+		<label>Celestial Pivot of Divine Machines Two</label>
+		<description>Celestial Pivot of Divine Machines Two.</description>
+		<graphicData>
+			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Usable">
+				<compClass>RimLmmortals_LHXExtend.LRE_CompUseEffects.CompUsableCPODM</compClass>
+				<useJob>InstallCelestialPivotofDivineMachines</useJob>
+				<useLabel>Install {0_label}</useLabel>
+			</li>
+			<li Class="RimLmmortals_LHXExtend.LRE_CompUseEffects.CompProperties_UseEffectInstallCPODM">
+				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
+				<bodyPart>Brain</bodyPart>
+				<requiresExistingHediff>true</requiresExistingHediff>
+				<rootLevel>5</rootLevel>
+				<unlockLevel>2</unlockLevel>
+				<canUpgrade>false</canUpgrade>
+				<minSeverity>3</minSeverity>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- 神机天枢-丙 -->
+	<ThingDef ParentName="LRE_CelestialPivotofDivineMachinesBase">
+		<defName>LRE_Things_CelestialPivotofDivineMachinesThree</defName>
+		<label>Celestial Pivot of Divine Machines Three</label>
+		<description>Celestial Pivot of Divine Machines Three.</description>
 		<graphicData>
 			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -39,15 +117,111 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Usable">
-				<compClass>WhoXiuXian.CompUsableRoot</compClass>
-				<useJob>InstallEnergyRoot</useJob>
-				<useLabel>Drink {0_label} to please the Thran and become a cultivator</useLabel>
+				<compClass>RimLmmortals_LHXExtend.LRE_CompUseEffects.CompUsableCPODM</compClass>
+				<useJob>InstallCelestialPivotofDivineMachines</useJob>
+				<useLabel>Install {0_label}</useLabel>
 			</li>
-			<li Class="WhoXiuXian.CompProperties_UseEffectInstallRoot">
-				<hediffDef>Hediff_RI_EnergyRoot</hediffDef>
-				<Severity>0.3</Severity>
+			<li Class="RimLmmortals_LHXExtend.LRE_CompUseEffects.CompProperties_UseEffectInstallCPODM">
+				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
 				<bodyPart>Brain</bodyPart>
-				<requiresPsychicallySensitive>false</requiresPsychicallySensitive>
+				<requiresExistingHediff>true</requiresExistingHediff>
+				<rootLevel>7</rootLevel>
+				<unlockLevel>3</unlockLevel>
+				<canUpgrade>false</canUpgrade>
+				<minSeverity>8</minSeverity>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- 神机天枢-丁 -->
+	<ThingDef ParentName="LRE_CelestialPivotofDivineMachinesBase">
+		<defName>LRE_Things_CelestialPivotofDivineMachinesFour</defName>
+		<label>Celestial Pivot of Divine Machines Four</label>
+		<description>Celestial Pivot of Divine Machines Four.</description>
+		<graphicData>
+			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>5000</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Usable">
+				<compClass>RimLmmortals_LHXExtend.LRE_CompUseEffects.CompUsableCPODM</compClass>
+				<useJob>InstallCelestialPivotofDivineMachines</useJob>
+				<useLabel>Install {0_label}</useLabel>
+			</li>
+			<li Class="RimLmmortals_LHXExtend.LRE_CompUseEffects.CompProperties_UseEffectInstallCPODM">
+				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
+				<bodyPart>Brain</bodyPart>
+				<requiresExistingHediff>true</requiresExistingHediff>
+				<rootLevel>10</rootLevel>
+				<unlockLevel>4</unlockLevel>
+				<canUpgrade>false</canUpgrade>
+				<minSeverity>15</minSeverity>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- 天枢凝神机械液-初 -->
+	<ThingDef ParentName="LRE_CelestialPivotofDivineMachinesBase">
+		<defName>LRE_Things_CelestialCondensingMachinesLiquidLite</defName>
+		<label>Celestial Condensing Machines Liquid Lite</label>
+		<description>Celestial Condensing Machines Liquid Lite.</description>
+		<graphicData>
+			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>800</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Usable">
+				<compClass>RimLmmortals_LHXExtend.LRE_CompUseEffects.CompUsableCPODM</compClass>
+				<useJob>InstallCelestialPivotofDivineMachines</useJob>
+				<useLabel>update CelestialPivotofDivineMachines level by {0_label}</useLabel>
+			</li>
+			<li Class="RimLmmortals_LHXExtend.LRE_CompUseEffects.CompProperties_UseEffectInstallCPODM">
+				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
+				<bodyPart>Brain</bodyPart>
+				<requiresExistingHediff>true</requiresExistingHediff>
+				<rootLevel>5</rootLevel>
+				<canUpgrade>true</canUpgrade>
+				<maxSeverity>8</maxSeverity>
+				<minSeverity>1</minSeverity>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- 天枢凝神机械液-中 -->
+	<ThingDef ParentName="LRE_CelestialPivotofDivineMachinesBase">
+		<defName>LRE_Things_CelestialCondensingMachinesLiquidHigh</defName>
+		<label>Celestial Condensing Machines Liquid High</label>
+		<description>Celestial Condensing Machines Liquid High.</description>
+		<graphicData>
+			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1200</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Usable">
+				<compClass>RimLmmortals_LHXExtend.LRE_CompUseEffects.CompUsableCPODM</compClass>
+				<useJob>InstallCelestialPivotofDivineMachines</useJob>
+				<useLabel>update CelestialPivotofDivineMachines level by {0_label}</useLabel>
+			</li>
+			<li Class="RimLmmortals_LHXExtend.LRE_CompUseEffects.CompProperties_UseEffectInstallCPODM">
+				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
+				<bodyPart>Brain</bodyPart>
+				<requiresExistingHediff>true</requiresExistingHediff>
+				<rootLevel>5</rootLevel>
+				<canUpgrade>true</canUpgrade>
+				<maxSeverity>25</maxSeverity>
+				<minSeverity>9</minSeverity>
 			</li>
 		</comps>
 	</ThingDef>

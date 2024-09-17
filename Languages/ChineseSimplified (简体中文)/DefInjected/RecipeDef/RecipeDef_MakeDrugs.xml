@@ -8,4 +8,11 @@
   <!-- EN: Making Jade-Liquid pill -->
   <LRE_MakeJadeLiquidPill.jobString>炼制青玉仙露丹</LRE_MakeJadeLiquidPill.jobString>
   
+  <!-- EN: Make Worry-Free Pill -->
+  <LRE_MakeWorryFreePill.label>炼制【二品】忘情丹</LRE_MakeWorryFreePill.label>
+  <!-- EN: Making Worry-Free Pill -->
+  <LRE_MakeWorryFreePill.description>炼制【二品】忘情丹</LRE_MakeWorryFreePill.description>
+  <!-- EN: Making Worry-Free Pill -->
+  <LRE_MakeWorryFreePill.jobString>炼制【二品】忘情丹</LRE_MakeWorryFreePill.jobString>
+  
 </LanguageData>

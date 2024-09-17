@@ -5,18 +5,20 @@
 		<defName>RI_Ability_WorkSpeed</defName>
 		<label>Luminous WorkSpeed</label>
 		<description>Qi cost: 120.\n\nIncrease the working speed and reduce the resistance to hitting.</description>
-		<iconPath>Ability/Common/RI_Ability_BombBullet</iconPath>
-		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
-		<hotKey></hotKey>
+		<iconPath>LRESkill/Common/work_speed</iconPath>
 		<displayGizmoWhileUndrafted>False</displayGizmoWhileUndrafted>
 		<disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
         <casterMustBeCapableOfViolence>False</casterMustBeCapableOfViolence>
+		<targetRequired>False</targetRequired>
+		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
 		<aiCanUse>false</aiCanUse>
 		<statBases>
+			<Ability_Duration>5400</Ability_Duration>
 		</statBases>
 		<verbProperties>
 			<warmupTime>0.5</warmupTime>
 			<range>0</range>
+			<requireLineOfSight>False</requireLineOfSight>
 			<targetParams>
 				<canTargetSelf>True</canTargetSelf>
 			</targetParams>
@@ -30,7 +32,7 @@
 				<onlyApplyToSelf>True</onlyApplyToSelf>
 			</li>
 			<li Class="WhoXiuXian.Abilities.CompProperties__ReduceEnergy">
-				<rEnergy>-120</rEnergy>
+				<rEnergy>-160</rEnergy>
 				<isCommon>true</isCommon>
 			</li>
 		</comps>

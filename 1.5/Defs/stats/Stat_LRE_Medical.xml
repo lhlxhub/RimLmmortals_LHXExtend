@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 机械体承伤乘数 -->
+    <StatDef>
+        <defName>LRE_MedicalIncomingDamageFactor</defName>
+        <label>Medical Incoming Damage Factor</label>
+        <description>Medical Incoming Damage Factor.</description>
+        <category>Mechanitor</category>
+        <defaultBaseValue>1</defaultBaseValue>
+        <minValue>0</minValue>
+        <hideAtValue>1</hideAtValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <scenarioRandomizable>true</scenarioRandomizable>
+        <displayPriorityInCategory>5000</displayPriorityInCategory>
+        <showOnMechanoids>false</showOnMechanoids>
+        <showOnAnimals>false</showOnAnimals>
+    </StatDef>
+    <!-- 机械体近战乘数 -->
+    <StatDef>
+        <defName>LRE_MedicalMeleeDamageFactor</defName>
+        <label>Medical Melee Damage Factor</label>
+        <description>Medical Melee Damage Factor.</description>
+        <category>Mechanitor</category>
+        <defaultBaseValue>1</defaultBaseValue>
+        <minValue>0</minValue>
+        <hideAtValue>1</hideAtValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <scenarioRandomizable>true</scenarioRandomizable>
+        <displayPriorityInCategory>5000</displayPriorityInCategory>
+        <showOnMechanoids>false</showOnMechanoids>
+        <showOnAnimals>false</showOnAnimals>
+    </StatDef>
+    <!-- 移动速度乘数 -->
+    <StatDef>
+        <defName>LRE_MedicalMoveSpeedFactor</defName>
+        <label>Medical Move Speed Factor</label>
+        <description>Medical Move Speed Factor.</description>
+        <category>Mechanitor</category>
+        <defaultBaseValue>1</defaultBaseValue>
+        <minValue>0</minValue>
+        <hideAtValue>1</hideAtValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <scenarioRandomizable>true</scenarioRandomizable>
+        <displayPriorityInCategory>5000</displayPriorityInCategory>
+        <showOnMechanoids>false</showOnMechanoids>
+        <showOnAnimals>false</showOnAnimals>
+    </StatDef>
+    <!-- 瞄准时间乘数 -->
+    <StatDef>
+        <defName>LRE_MedicalAimingDelayFactor</defName>
+        <label>Medical Aiming Delay Factor</label>
+        <description>Medical Aiming Delay Factor.</description>
+        <category>Mechanitor</category>
+        <defaultBaseValue>1</defaultBaseValue>
+        <minValue>0</minValue>
+        <hideAtValue>1</hideAtValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <scenarioRandomizable>true</scenarioRandomizable>
+        <displayPriorityInCategory>5000</displayPriorityInCategory>
+        <showOnMechanoids>false</showOnMechanoids>
+        <showOnAnimals>false</showOnAnimals>
+    </StatDef>
+    <!-- 远程命中率偏移 -->
+    <StatDef>
+        <defName>LRE_MedicalShootingAccuracyPawnOffset</defName>
+        <label>Medical Shooting Accuracy Pawn Offset</label>
+        <description>Medical Shooting Accuracy Pawn Offset.</description>
+        <category>Mechanitor</category>
+        <defaultBaseValue>0</defaultBaseValue>
+        <minValue>0</minValue>
+        <hideAtValue>0</hideAtValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <scenarioRandomizable>true</scenarioRandomizable>
+        <displayPriorityInCategory>5000</displayPriorityInCategory>
+        <showOnMechanoids>false</showOnMechanoids>
+        <showOnAnimals>false</showOnAnimals>
+    </StatDef>
+    <!-- 远程命中率乘积 -->
+    <StatDef>
+        <defName>LRE_MedicalShootingAccuracyPawnFactor</defName>
+        <label>Medical Shooting Accuracy Pawn Factor</label>
+        <description>Medical Shooting Accuracy Pawn Factor.</description>
+        <category>Mechanitor</category>
+        <defaultBaseValue>1</defaultBaseValue>
+        <minValue>0</minValue>
+        <hideAtValue>1</hideAtValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <scenarioRandomizable>true</scenarioRandomizable>
+        <displayPriorityInCategory>5000</displayPriorityInCategory>
+        <showOnMechanoids>false</showOnMechanoids>
+        <showOnAnimals>false</showOnAnimals>
+    </StatDef>
+</Defs>

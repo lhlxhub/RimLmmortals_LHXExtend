@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!--神机天枢-->
+	<ResearchProjectDef ParentName="RI_Research_Base">
+		<defName>LRE_CelestialPivotofDivineMachines</defName>
+		<label>Celestial Pivot of Divine Machines</label>
+		<description>Through our continuous exploration, we have finally managed to briefly communicate with the Rust Celestial. It has granted us the manufacturing method for the Celestial Mechanism and additional ways to acquire abilities. We can now craft the Celestial Mechanism!</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<requiredResearchBuilding>RI_Building_HiTechResearchDesk</requiredResearchBuilding>
+		<prerequisites>
+			<li>HighMechtech</li>
+			<li>RI_BlackSteelSyntheticTechnology</li>
+		</prerequisites>
+		<researchViewX>9</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+</Defs>

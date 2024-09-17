@@ -7,4 +7,9 @@
   <LRE_JadeLiquidPillHediff.description>青玉仙露丹辅助修炼中。</LRE_JadeLiquidPillHediff.description>
   <LRE_JadeLiquidPillHediff.descriptionCached>青玉仙露丹辅助修炼中。</LRE_JadeLiquidPillHediff.descriptionCached>
   
+  <!-- EN: Worry Free Pill Hediff -->
+  <LRE_WorryFreePillHediff.label>忘情丹</LRE_WorryFreePillHediff.label>
+  <!-- EN: Worry Free Pill Hediff. -->
+  <LRE_WorryFreePillHediff.description>服用【二品】忘情丹后，这个人将遗忘掉最近死去的亲人，从而保持良好心情，但是如果服用者走神的话，可能还会忘记其他人。</LRE_WorryFreePillHediff.description>
+  
 </LanguageData>

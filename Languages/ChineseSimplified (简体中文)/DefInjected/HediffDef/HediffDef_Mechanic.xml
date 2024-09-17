@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Celestial Pivot of Divine Machines Hediff -->
+  <LRE_CelestialPivotofDivineMachinesHediff.label>神机天枢</LRE_CelestialPivotofDivineMachinesHediff.label>
+  <!-- EN: Celestial Pivot of Divine Machines. -->
+  <LRE_CelestialPivotofDivineMachinesHediff.description>这个修行者受到了锈仙的赐福，获得了强大的机械操控能力。</LRE_CelestialPivotofDivineMachinesHediff.description>
+  <LRE_CelestialPivotofDivineMachinesHediff.descriptionCached>这个修行者受到了锈仙的赐福，获得了强大的机械操控能力。</LRE_CelestialPivotofDivineMachinesHediff.descriptionCached>
+  <!-- EN: (Ⅰ Ⅰ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.0.label>甲子</LRE_CelestialPivotofDivineMachinesHediff.stages.0.label>
+  <!-- EN: (Ⅰ Ⅱ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.1.label>甲丑</LRE_CelestialPivotofDivineMachinesHediff.stages.1.label>
+  <!-- EN: (Ⅰ Ⅲ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.2.label>甲寅</LRE_CelestialPivotofDivineMachinesHediff.stages.2.label>
+  <!-- EN: (Ⅱ Ⅰ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.3.label>乙子</LRE_CelestialPivotofDivineMachinesHediff.stages.3.label>
+  <!-- EN: (Ⅱ Ⅱ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.4.label>乙丑</LRE_CelestialPivotofDivineMachinesHediff.stages.4.label>
+  <!-- EN: (Ⅱ Ⅲ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.5.label>乙寅</LRE_CelestialPivotofDivineMachinesHediff.stages.5.label>
+  <!-- EN: (Ⅱ Ⅳ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.6.label>已卯</LRE_CelestialPivotofDivineMachinesHediff.stages.6.label>
+  <!-- EN: (Ⅱ Ⅳ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.7.label>已辰</LRE_CelestialPivotofDivineMachinesHediff.stages.7.label>
+  <!-- EN: (Ⅲ Ⅰ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.8.label>丙子</LRE_CelestialPivotofDivineMachinesHediff.stages.8.label>
+  <!-- EN: (Ⅲ Ⅱ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.9.label>丙丑</LRE_CelestialPivotofDivineMachinesHediff.stages.9.label>
+  <!-- EN: (Ⅲ Ⅲ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.10.label>丙寅</LRE_CelestialPivotofDivineMachinesHediff.stages.10.label>
+  <!-- EN: (Ⅲ Ⅳ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.11.label>丙卯</LRE_CelestialPivotofDivineMachinesHediff.stages.11.label>
+  <!-- EN: (Ⅲ Ⅴ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.12.label>丙辰</LRE_CelestialPivotofDivineMachinesHediff.stages.12.label>
+  <!-- EN: (Ⅲ Ⅵ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.13.label>丙巳</LRE_CelestialPivotofDivineMachinesHediff.stages.13.label>
+  <!-- EN: (Ⅲ Ⅶ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.14.label>丙午</LRE_CelestialPivotofDivineMachinesHediff.stages.14.label>
+  <!-- EN: (Ⅳ Ⅰ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.15.label>丁子</LRE_CelestialPivotofDivineMachinesHediff.stages.15.label>
+  <!-- EN: (Ⅳ Ⅱ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.16.label>丁丑</LRE_CelestialPivotofDivineMachinesHediff.stages.16.label>
+  <!-- EN: (Ⅳ Ⅲ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.17.label>丁寅</LRE_CelestialPivotofDivineMachinesHediff.stages.17.label>
+  <!-- EN: (Ⅳ Ⅳ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.18.label>丁卯</LRE_CelestialPivotofDivineMachinesHediff.stages.18.label>
+  <!-- EN: (Ⅳ Ⅴ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.19.label>丁辰</LRE_CelestialPivotofDivineMachinesHediff.stages.19.label>
+  <!-- EN: (Ⅳ Ⅵ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.20.label>丁巳</LRE_CelestialPivotofDivineMachinesHediff.stages.20.label>
+  <!-- EN: (Ⅳ Ⅶ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.21.label>丁午</LRE_CelestialPivotofDivineMachinesHediff.stages.21.label>
+  <!-- EN: (Ⅳ Ⅷ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.22.label>丁未</LRE_CelestialPivotofDivineMachinesHediff.stages.22.label>
+  <!-- EN: (Ⅳ Ⅸ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.23.label>丁申</LRE_CelestialPivotofDivineMachinesHediff.stages.23.label>
+  <!-- EN: (Ⅳ Ⅹ) -->
+  <LRE_CelestialPivotofDivineMachinesHediff.stages.24.label>丁酉</LRE_CelestialPivotofDivineMachinesHediff.stages.24.label>
+  
+</LanguageData>
