@@ -20,208 +20,7 @@
 		<workAmount>20000</workAmount>
         <descriptionHyperlinks>
 			<ThingDef>LRE_Things_CelestialPivotofDivineMachinesOne</ThingDef>
-            <ThingDef>道火</ThingDef>
-		</descriptionHyperlinks>
-		<ingredients>
-            <li>
-				<filter>
-					<thingDefs>
-						<li>RI_Resource_SpiritualCrystal</li>
-					</thingDefs>
-				</filter>
-				<count>100</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>RI_Resource_BlackSteel</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-            <li>
-                <filter>
-					<thingDefs>
-						<li>SignalChip</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-            </li>
-            <li>
-                <filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-            </li>
-            <li>
-                <filter>
-					<thingDefs>
-						<li>道火</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-            </li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>RI_Resource_SpiritualCrystal</li>
-                <li>RI_Resource_BlackSteel</li>
-                <li>SignalChip</li>
-                <li>ComponentIndustrial</li>
-                <li>道火</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<LRE_Things_CelestialPivotofDivineMachinesOne>1</LRE_Things_CelestialPivotofDivineMachinesOne>
-		</products>
-		<displayPriority>301</displayPriority>
-	</RecipeDef>
-    <!-- 制作神机天枢-已 -->
-    <RecipeDef ParentName="LRE_MakeCelestialMachines">
-		<defName>Make_LRE_CelestialPivotofDivineMachinesTwo</defName>
-		<label>make Celestial Pivot of Divine Machines Two</label>
-		<description>make Celestial Pivot of Divine Machines Two.</description>
-		<jobString>Making Celestial Pivot of Divine Machines Two</jobString>
-		<workAmount>20000</workAmount>
-        <descriptionHyperlinks>
-			<ThingDef>LRE_Things_CelestialPivotofDivineMachinesTwo</ThingDef>
-            <ThingDef>道火</ThingDef>
-		</descriptionHyperlinks>
-		<ingredients>
-            <li>
-				<filter>
-					<thingDefs>
-						<li>RI_Resource_SpiritualCrystal</li>
-					</thingDefs>
-				</filter>
-				<count>100</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>RI_Resource_BlackSteel</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-            <li>
-                <filter>
-					<thingDefs>
-						<li>PowerfocusChip</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-            </li>
-            <li>
-                <filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-            </li>
-            <li>
-                <filter>
-					<thingDefs>
-						<li>道火</li>
-					</thingDefs>
-				</filter>
-				<count>2</count>
-            </li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>RI_Resource_SpiritualCrystal</li>
-                <li>RI_Resource_BlackSteel</li>
-                <li>PowerfocusChip</li>
-                <li>ComponentIndustrial</li>
-                <li>道火</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<LRE_Things_CelestialPivotofDivineMachinesTwo>1</LRE_Things_CelestialPivotofDivineMachinesTwo>
-		</products>
-		<displayPriority>302</displayPriority>
-	</RecipeDef>
-    <!-- 制作神机天枢-丙 -->
-    <RecipeDef ParentName="LRE_MakeCelestialMachines">
-		<defName>Make_LRE_CelestialPivotofDivineMachinesThree</defName>
-		<label>make Celestial Pivot of Divine Machines Three</label>
-		<description>make Celestial Pivot of Divine Machines Three.</description>
-		<jobString>Making Celestial Pivot of Divine Machines Three</jobString>
-		<workAmount>20000</workAmount>
-        <descriptionHyperlinks>
-			<ThingDef>LRE_Things_CelestialPivotofDivineMachinesThree</ThingDef>
-            <ThingDef>道火</ThingDef>
-		</descriptionHyperlinks>
-		<ingredients>
-            <li>
-				<filter>
-					<thingDefs>
-						<li>RI_Resource_SpiritualCrystal</li>
-					</thingDefs>
-				</filter>
-				<count>100</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>RI_Resource_BlackSteel</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-            <li>
-                <filter>
-					<thingDefs>
-						<li>NanostructuringChip</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-            </li>
-            <li>
-                <filter>
-					<thingDefs>
-						<li>ComponentSpacer</li>
-					</thingDefs>
-				</filter>
-				<count>3</count>
-            </li>
-            <li>
-                <filter>
-					<thingDefs>
-						<li>道火</li>
-					</thingDefs>
-				</filter>
-				<count>3</count>
-            </li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>RI_Resource_SpiritualCrystal</li>
-                <li>RI_Resource_BlackSteel</li>
-                <li>NanostructuringChip</li>
-                <li>ComponentSpacer</li>
-                <li>道火</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<LRE_Things_CelestialPivotofDivineMachinesThree>1</LRE_Things_CelestialPivotofDivineMachinesThree>
-		</products>
-		<displayPriority>303</displayPriority>
-	</RecipeDef>
-    <!-- 制作神机天枢-丁 -->
-    <RecipeDef ParentName="LRE_MakeCelestialMachines">
-		<defName>Make_LRE_CelestialPivotofDivineMachinesFour</defName>
-		<label>make Celestial Pivot of Divine Machines Four</label>
-		<description>make Celestial Pivot of Divine Machines Four.</description>
-		<jobString>Making Celestial Pivot of Divine Machines Four</jobString>
-		<workAmount>20000</workAmount>
-        <descriptionHyperlinks>
-			<ThingDef>LRE_Things_CelestialPivotofDivineMachinesFour</ThingDef>
-            <ThingDef>道火</ThingDef>
+            <ThingDef>RI_Resource_SpiritCoreComponent</ThingDef>
 		</descriptionHyperlinks>
 		<ingredients>
             <li>
@@ -246,6 +45,207 @@
 						<li>SignalChip</li>
 					</thingDefs>
 				</filter>
+				<count>5</count>
+            </li>
+            <li>
+                <filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+            </li>
+            <li>
+                <filter>
+					<thingDefs>
+						<li>RI_Resource_DeviceCoreComponent</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+            </li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RI_Resource_SpiritualCrystal</li>
+                <li>RI_Resource_BlackSteel</li>
+                <li>SignalChip</li>
+                <li>ComponentIndustrial</li>
+                <li>RI_Resource_DeviceCoreComponent</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LRE_Things_CelestialPivotofDivineMachinesOne>1</LRE_Things_CelestialPivotofDivineMachinesOne>
+		</products>
+		<displayPriority>301</displayPriority>
+	</RecipeDef>
+    <!-- 制作神机天枢-已 -->
+    <RecipeDef ParentName="LRE_MakeCelestialMachines">
+		<defName>Make_LRE_CelestialPivotofDivineMachinesTwo</defName>
+		<label>make Celestial Pivot of Divine Machines Two</label>
+		<description>make Celestial Pivot of Divine Machines Two.</description>
+		<jobString>Making Celestial Pivot of Divine Machines Two</jobString>
+		<workAmount>20000</workAmount>
+        <descriptionHyperlinks>
+			<ThingDef>LRE_Things_CelestialPivotofDivineMachinesTwo</ThingDef>
+            <ThingDef>RI_Resource_SpiritCoreComponent</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>RI_Resource_SpiritualCrystal</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RI_Resource_BlackSteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+            <li>
+                <filter>
+					<thingDefs>
+						<li>PowerfocusChip</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+            </li>
+            <li>
+                <filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+            </li>
+            <li>
+                <filter>
+					<thingDefs>
+						<li>RI_Resource_DeviceCoreComponent</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+            </li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RI_Resource_SpiritualCrystal</li>
+                <li>RI_Resource_BlackSteel</li>
+                <li>PowerfocusChip</li>
+                <li>ComponentIndustrial</li>
+                <li>RI_Resource_DeviceCoreComponent</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LRE_Things_CelestialPivotofDivineMachinesTwo>1</LRE_Things_CelestialPivotofDivineMachinesTwo>
+		</products>
+		<displayPriority>302</displayPriority>
+	</RecipeDef>
+    <!-- 制作神机天枢-丙 -->
+    <RecipeDef ParentName="LRE_MakeCelestialMachines">
+		<defName>Make_LRE_CelestialPivotofDivineMachinesThree</defName>
+		<label>make Celestial Pivot of Divine Machines Three</label>
+		<description>make Celestial Pivot of Divine Machines Three.</description>
+		<jobString>Making Celestial Pivot of Divine Machines Three</jobString>
+		<workAmount>20000</workAmount>
+        <descriptionHyperlinks>
+			<ThingDef>LRE_Things_CelestialPivotofDivineMachinesThree</ThingDef>
+            <ThingDef>RI_Resource_SpiritCoreComponent</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>RI_Resource_SpiritualCrystal</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RI_Resource_BlackSteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+            <li>
+                <filter>
+					<thingDefs>
+						<li>NanostructuringChip</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+            </li>
+            <li>
+                <filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+            </li>
+            <li>
+                <filter>
+					<thingDefs>
+						<li>RI_Resource_SpiritCoreComponent</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+            </li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RI_Resource_SpiritualCrystal</li>
+                <li>RI_Resource_BlackSteel</li>
+                <li>NanostructuringChip</li>
+                <li>ComponentSpacer</li>
+                <li>RI_Resource_SpiritCoreComponent</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LRE_Things_CelestialPivotofDivineMachinesThree>1</LRE_Things_CelestialPivotofDivineMachinesThree>
+		</products>
+		<displayPriority>303</displayPriority>
+	</RecipeDef>
+    <!-- 制作神机天枢-丁 -->
+    <RecipeDef ParentName="LRE_MakeCelestialMachines">
+		<defName>Make_LRE_CelestialPivotofDivineMachinesFour</defName>
+		<label>make Celestial Pivot of Divine Machines Four</label>
+		<description>make Celestial Pivot of Divine Machines Four.</description>
+		<jobString>Making Celestial Pivot of Divine Machines Four</jobString>
+		<workAmount>20000</workAmount>
+        <descriptionHyperlinks>
+			<ThingDef>LRE_Things_CelestialPivotofDivineMachinesFour</ThingDef>
+            <ThingDef>RI_Resource_SpiritCoreComponent</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>RI_Resource_SpiritualCrystal</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RI_Resource_BlackSteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+            <li>
+                <filter>
+					<thingDefs>
+						<li>SignalChip</li>
+					</thingDefs>
+				</filter>
 				<count>3</count>
             </li>
             <li>
@@ -275,10 +275,10 @@
             <li>
                 <filter>
 					<thingDefs>
-						<li>道火</li>
+						<li>RI_Resource_SpiritCoreComponent</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
             </li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -289,7 +289,7 @@
                 <li>PowerfocusChip</li>
                 <li>NanostructuringChip</li>
                 <li>ComponentSpacer</li>
-                <li>道火</li>
+                <li>RI_Resource_SpiritCoreComponent</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -307,7 +307,6 @@
         <descriptionHyperlinks>
 			<ThingDef>LRE_Things_CelestialPivotofDivineMachinesOne</ThingDef>
             <ThingDef>LRE_Things_CelestialPivotofDivineMachinesTwo</ThingDef>
-            <ThingDef>Make_LRE_CelestialCondensingMachinesLiquidLite</ThingDef>
 		</descriptionHyperlinks>
 		<ingredients>
             <li>
@@ -316,7 +315,7 @@
 						<li>RI_Resource_SpiritualCrystal</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -366,7 +365,6 @@
         <descriptionHyperlinks>
 			<ThingDef>LRE_Things_CelestialPivotofDivineMachinesThree</ThingDef>
             <ThingDef>LRE_Things_CelestialPivotofDivineMachinesFour</ThingDef>
-            <ThingDef>Make_LRE_CelestialCondensingMachinesLiquidHigh</ThingDef>
             <ThingDef>Save_Energy_Grass_Seed</ThingDef>
 		</descriptionHyperlinks>
 		<ingredients>
@@ -376,7 +374,7 @@
 						<li>RI_Resource_SpiritualCrystal</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
@@ -384,7 +382,7 @@
 						<li>RI_Resource_BlackSteel</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>10</count>
 			</li>
             <li>
                 <filter>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Defs>
+<Patch>
     <!-- 打造补丁 -->
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName = "RI_Building_CharmWorkbench"]/recipes</xpath>
@@ -18,4 +18,4 @@
             <li>Make_LRE_CelestialCondensingMachinesLiquidHigh</li>
         </value>
     </Operation>
-</Defs>
+</Patch>

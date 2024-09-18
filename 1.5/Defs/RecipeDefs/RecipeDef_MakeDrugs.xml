@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+<!-- 炼制青玉仙露丹 -->
 <RecipeDef ParentName="RI_RecipeBase_withDanStove">
     <defName>LRE_MakeJadeLiquidPill</defName>
     <label>Make Jade Liquid-pill</label>
@@ -25,7 +26,15 @@
                     <li>RI_Resource_SpiritualCrystal</li>
                 </thingDefs>
             </filter>
-            <count>10</count>
+            <count>5</count>
+        </li>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>RI_Resource_QingMingMarrow</li>
+                </thingDefs>
+            </filter>
+            <count>1</count>
         </li>
     </ingredients>
     <products>

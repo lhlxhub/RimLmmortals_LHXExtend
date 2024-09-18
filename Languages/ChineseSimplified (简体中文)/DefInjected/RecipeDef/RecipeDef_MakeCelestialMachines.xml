@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: make Celestial Condensing Machines Liquid High -->
+  <Make_LRE_CelestialCondensingMachinesLiquidHigh.label>制作天枢凝神机械液(中)</Make_LRE_CelestialCondensingMachinesLiquidHigh.label>
+  <!-- EN: make Celestial Condensing Machines Liquid High. -->
+  <Make_LRE_CelestialCondensingMachinesLiquidHigh.description>制作天枢凝神机械液(中)</Make_LRE_CelestialCondensingMachinesLiquidHigh.description>
+  <!-- EN: Making Celestial Condensing Machines Liquid High -->
+  <Make_LRE_CelestialCondensingMachinesLiquidHigh.jobString>制作天枢凝神机械液(中)</Make_LRE_CelestialCondensingMachinesLiquidHigh.jobString>
+  
+  <!-- EN: make Celestial Condensing Machines Liquid Lite -->
+  <Make_LRE_CelestialCondensingMachinesLiquidLite.label>制作天枢凝神机械液(初)</Make_LRE_CelestialCondensingMachinesLiquidLite.label>
+  <!-- EN: make Celestial Condensing Machines Liquid Lite. -->
+  <Make_LRE_CelestialCondensingMachinesLiquidLite.description>制作天枢凝神机械液(初)</Make_LRE_CelestialCondensingMachinesLiquidLite.description>
+  <!-- EN: Making Celestial Condensing Machines Liquid Lite -->
+  <Make_LRE_CelestialCondensingMachinesLiquidLite.jobString>制作天枢凝神机械液(初)</Make_LRE_CelestialCondensingMachinesLiquidLite.jobString>
+  
+  <!-- EN: make Celestial Pivot of Divine Machines Four -->
+  <Make_LRE_CelestialPivotofDivineMachinesFour.label>制作神机天枢-丁</Make_LRE_CelestialPivotofDivineMachinesFour.label>
+  <!-- EN: make Celestial Pivot of Divine Machines Four. -->
+  <Make_LRE_CelestialPivotofDivineMachinesFour.description>制作神机天枢-丁</Make_LRE_CelestialPivotofDivineMachinesFour.description>
+  <!-- EN: Making Celestial Pivot of Divine Machines Four -->
+  <Make_LRE_CelestialPivotofDivineMachinesFour.jobString>制作神机天枢-丁</Make_LRE_CelestialPivotofDivineMachinesFour.jobString>
+  
+  <!-- EN: make Celestial Pivot of Divine Machines One -->
+  <Make_LRE_CelestialPivotofDivineMachinesOne.label>制作神机天枢-甲</Make_LRE_CelestialPivotofDivineMachinesOne.label>
+  <!-- EN: make Celestial Pivot of Divine Machines One. -->
+  <Make_LRE_CelestialPivotofDivineMachinesOne.description>制作神机天枢-甲</Make_LRE_CelestialPivotofDivineMachinesOne.description>
+  <!-- EN: Making Celestial Pivot of Divine Machines One -->
+  <Make_LRE_CelestialPivotofDivineMachinesOne.jobString>制作神机天枢-甲</Make_LRE_CelestialPivotofDivineMachinesOne.jobString>
+  
+  <!-- EN: make Celestial Pivot of Divine Machines Three -->
+  <Make_LRE_CelestialPivotofDivineMachinesThree.label>制作神机天枢-丙</Make_LRE_CelestialPivotofDivineMachinesThree.label>
+  <!-- EN: make Celestial Pivot of Divine Machines Three. -->
+  <Make_LRE_CelestialPivotofDivineMachinesThree.description>制作神机天枢-丙</Make_LRE_CelestialPivotofDivineMachinesThree.description>
+  <!-- EN: Making Celestial Pivot of Divine Machines Three -->
+  <Make_LRE_CelestialPivotofDivineMachinesThree.jobString>制作神机天枢-丙</Make_LRE_CelestialPivotofDivineMachinesThree.jobString>
+  
+  <!-- EN: make Celestial Pivot of Divine Machines Two -->
+  <Make_LRE_CelestialPivotofDivineMachinesTwo.label>制作神机天枢-乙</Make_LRE_CelestialPivotofDivineMachinesTwo.label>
+  <!-- EN: make Celestial Pivot of Divine Machines Two. -->
+  <Make_LRE_CelestialPivotofDivineMachinesTwo.description>制作神机天枢-乙</Make_LRE_CelestialPivotofDivineMachinesTwo.description>
+  <!-- EN: Making Celestial Pivot of Divine Machines Two -->
+  <Make_LRE_CelestialPivotofDivineMachinesTwo.jobString>制作神机天枢-乙</Make_LRE_CelestialPivotofDivineMachinesTwo.jobString>
+  
+</LanguageData>
