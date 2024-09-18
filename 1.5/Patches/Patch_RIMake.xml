@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- 打造补丁 -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "RI_Building_CharmWorkbench"]/recipes</xpath>
+        <value>
+            <li>Make_LRE_LSExtractDevice</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "RI_Building_SpiritForge"]/recipes</xpath>
+        <value>
+            <li>Make_LRE_CelestialPivotofDivineMachinesOne</li>
+            <li>Make_LRE_CelestialPivotofDivineMachinesTwo</li>
+            <li>Make_LRE_CelestialPivotofDivineMachinesThree</li>
+            <li>Make_LRE_CelestialPivotofDivineMachinesFour</li>
+            <li>Make_LRE_CelestialCondensingMachinesLiquidLite</li>
+            <li>Make_LRE_CelestialCondensingMachinesLiquidHigh</li>
+        </value>
+    </Operation>
+</Defs>

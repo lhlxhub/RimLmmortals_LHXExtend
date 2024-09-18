@@ -14,5 +14,5 @@
     <LRE_LSExtractDestoryDeviceEneryRoot>{0}的灵矿被移除！由于灵芽已经被灵矿完全控制，导致了灵芽损坏。</LRE_LSExtractDestoryDeviceEneryRoot>
     <LRE_LSExtractDeviceEfficiency>当前效率：{0}%</LRE_LSExtractDeviceEfficiency>
     <LRE_WorryFreeMood>{0}已经不会因为{1}的死亡而伤心了</LRE_WorryFreeMood>
-    <LRE_WorryFreeMember>,但是{Pawn_gender}似乎遗忘了某个重要的人</LRE_WorryFreeMember>
+    <LRE_WorryFreeMember>,但是{Pawn_gender}似乎遗忘了某个重要的人。</LRE_WorryFreeMember>
 </LanguageData>

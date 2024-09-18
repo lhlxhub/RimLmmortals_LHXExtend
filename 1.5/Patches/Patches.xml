@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName = "RI_Building_CharmWorkbench"]/recipes</xpath>
-        <value>
-            <li>Make_LRE_LSExtractDevice</li>
-        </value>
-    </Operation>
     <!-- 死丹袭击补丁 -->
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/FactionDef[defName = "RI_Faction_WickedCultivators"]/pawnGroupMakers</xpath>
