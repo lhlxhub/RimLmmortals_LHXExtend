@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    <NonEnergyRoot>没有灵芽</NonEnergyRoot>
-    <EnergyLevelNoEnough>境界不足</EnergyLevelNoEnough>
-    <needInstallCelestialPivotofDivineMachinesOne>需要同调神机天枢-甲</needInstallCelestialPivotofDivineMachinesOne>
-    <needInstallCelestialPivotofDivineMachinesTwo>需要同调神机天枢-已</needInstallCelestialPivotofDivineMachinesTwo>
-    <needInstallCelestialPivotofDivineMachinesThree>需要同调神机天枢-丙</needInstallCelestialPivotofDivineMachinesThree>
-    <needInstallCelestialPivotofDivineMachinesFour>需要同调神机天枢-丁</needInstallCelestialPivotofDivineMachinesFour>
-    <AlreadyInstallCelestialPivotofDivineMachines>已经同调{0}</AlreadyInstallCelestialPivotofDivineMachines>
-    <InstallCelestialPivotofDivineMachinesMinLevel>同调{0}的最小等级为：{1}</InstallCelestialPivotofDivineMachinesMinLevel>
-    <InstallCelestialPivotofDivineMachinesAlreadyMaxLevel>已经达到{0}所能支持的最大等级:{1}</InstallCelestialPivotofDivineMachinesAlreadyMaxLevel>
-    <InstallCelestialCondensingMachinesLiquidMinLevel></InstallCelestialCondensingMachinesLiquidMinLevel>
+    <LRE_NonEnergyRoot>没有灵芽</LRE_NonEnergyRoot>
+    <LRE_EnergyLevelNoEnough>境界不足</LRE_EnergyLevelNoEnough>
+    <LRE_needInstallCelestialPivotofDivineMachinesOne>需要同调神机天枢-甲</LRE_needInstallCelestialPivotofDivineMachinesOne>
+    <LRE_needInstallCelestialPivotofDivineMachinesTwo>需要同调神机天枢-已</LRE_needInstallCelestialPivotofDivineMachinesTwo>
+    <LRE_needInstallCelestialPivotofDivineMachinesThree>需要同调神机天枢-丙</LRE_needInstallCelestialPivotofDivineMachinesThree>
+    <LRE_needInstallCelestialPivotofDivineMachinesFour>需要同调神机天枢-丁</LRE_needInstallCelestialPivotofDivineMachinesFour>
+    <LRE_AlreadyInstallCelestialPivotofDivineMachines>已经同调{0}</LRE_AlreadyInstallCelestialPivotofDivineMachines>
+    <LRE_InstallCelestialPivotofDivineMachinesMinLevel>同调{0}的最小等级为：{1}</LRE_InstallCelestialPivotofDivineMachinesMinLevel>
+    <LRE_InstallCelestialPivotofDivineMachinesAlreadyMaxLevel>已经达到{0}所能支持的最大等级:{1}</LRE_InstallCelestialPivotofDivineMachinesAlreadyMaxLevel>
+    <LRE_InstallCelestialCondensingMachinesLiquidMinLevel>{0}至少需要神机天枢达到{1}才能使用</LRE_InstallCelestialCondensingMachinesLiquidMinLevel>
+    <LRE_EneryRootDestoryLSExtractDevice>{0}由于没有灵芽,灵矿损坏了！</LRE_EneryRootDestoryLSExtractDevice>
+    <LRE_LSExtractDestoryDeviceEneryRoot>{0}的灵矿被移除！由于灵芽已经被灵矿完全控制，导致了灵芽损坏。</LRE_LSExtractDestoryDeviceEneryRoot>
+    <LRE_LSExtractDeviceEfficiency>当前效率：{0}%</LRE_LSExtractDeviceEfficiency>
+    <LRE_WorryFreeMood>{0}已经不会因为{1}的死亡而伤心了</LRE_WorryFreeMood>
+    <LRE_WorryFreeMember>,但是{Pawn_gender}似乎遗忘了某个重要的人</LRE_WorryFreeMember>
 </LanguageData>
