@@ -46,7 +46,7 @@
 		<label>Celestial Pivot of Divine Machines One</label>
 		<description>Celestial Pivot of Divine Machines One.</description>
 		<graphicData>
-			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<texPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesOne</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -71,13 +71,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<!-- 神机天枢-已 -->
+	<!-- 神机天枢-乙 -->
 	<ThingDef ParentName="LRE_CelestialPivotofDivineMachinesBase">
 		<defName>LRE_Things_CelestialPivotofDivineMachinesTwo</defName>
 		<label>Celestial Pivot of Divine Machines Two</label>
 		<description>Celestial Pivot of Divine Machines Two.</description>
 		<graphicData>
-			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<texPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesTwo</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -108,7 +108,7 @@
 		<label>Celestial Pivot of Divine Machines Three</label>
 		<description>Celestial Pivot of Divine Machines Three.</description>
 		<graphicData>
-			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<texPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesThree</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -139,7 +139,7 @@
 		<label>Celestial Pivot of Divine Machines Four</label>
 		<description>Celestial Pivot of Divine Machines Four.</description>
 		<graphicData>
-			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<texPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesFour</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
