@@ -115,6 +115,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.45</PsychicSensitivity>
+                    <MechRepairSpeed>0.05</MechRepairSpeed>
                 </statOffsets>
                 <capMods>
                     <li>
@@ -131,6 +132,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.5</PsychicSensitivity>
+                    <MechRepairSpeed>0.1</MechRepairSpeed>
                 </statOffsets>
                 <capMods>
                     <li>
@@ -147,6 +149,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.55</PsychicSensitivity>
+                    <MechRepairSpeed>0.15</MechRepairSpeed>
                 </statOffsets>
                 <capMods>
                     <li>
@@ -163,6 +166,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.6</PsychicSensitivity>
+                    <MechRepairSpeed>0.2</MechRepairSpeed>
                 </statOffsets>
                 <capMods>
                     <li>
@@ -179,6 +183,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.65</PsychicSensitivity>
+                    <MechRepairSpeed>0.25</MechRepairSpeed>
                 </statOffsets>
                 <capMods>
                     <li>
@@ -195,6 +200,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.7</PsychicSensitivity>
+                    <MechRepairSpeed>0.3</MechRepairSpeed>
                 </statOffsets>
                 <capMods>
                     <li>
@@ -211,6 +217,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.75</PsychicSensitivity>
+                    <MechRepairSpeed>0.35</MechRepairSpeed>
                 </statOffsets>
                 <capMods>
                     <li>
