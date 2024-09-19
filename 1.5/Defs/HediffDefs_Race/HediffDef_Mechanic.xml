@@ -22,6 +22,9 @@
                     <MechRepairSpeed>0.33</MechRepairSpeed>
                     <PsychicSensitivity>0.05</PsychicSensitivity>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.1</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
             </li>
             <li>
                 <label>(Ⅰ Ⅱ)</label>
@@ -31,6 +34,9 @@
                     <MechRepairSpeed>0.66</MechRepairSpeed>
                     <PsychicSensitivity>0.1</PsychicSensitivity>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.2</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
             </li>
             <li>
                 <label>(Ⅰ Ⅲ)</label>
@@ -40,6 +46,9 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <PsychicSensitivity>0.15</PsychicSensitivity>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
             </li>
             <!-- 已 -->
             <li>
@@ -50,6 +59,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>0.33</MechFormingSpeed>
                     <PsychicSensitivity>0.20</PsychicSensitivity>
+                    <WorkSpeedGlobalOffsetMech>0.05</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
             </li>
             <li>
@@ -60,6 +70,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>0.66</MechFormingSpeed>
                     <PsychicSensitivity>0.25</PsychicSensitivity>
+                    <WorkSpeedGlobalOffsetMech>0.1</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
             </li>
             <li>
@@ -70,6 +81,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1</MechFormingSpeed>
                     <PsychicSensitivity>0.3</PsychicSensitivity>
+                    <WorkSpeedGlobalOffsetMech>0.15</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
             </li>
             <li>
@@ -80,6 +92,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.33</MechFormingSpeed>
                     <PsychicSensitivity>0.35</PsychicSensitivity>
+                    <WorkSpeedGlobalOffsetMech>0.2</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
             </li>
             <li>
@@ -90,6 +103,7 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.4</PsychicSensitivity>
+                    <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
             </li>
             <!-- 丙 -->
@@ -216,14 +230,14 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
-                    <WorkSpeedGlobalOffsetMech>0.05</WorkSpeedGlobalOffsetMech>
+                    <WorkSpeedGlobalOffsetMech>0.3</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>0.8</PsychicSensitivity>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.95</IncomingDamageFactor>
                     <LRE_MedicalIncomingDamageFactor>0.95</LRE_MedicalIncomingDamageFactor>
                     <LRE_MedicalMeleeDamageFactor>1.1</LRE_MedicalMeleeDamageFactor>
-                    <LRE_MedicalMoveSpeedFactor>1.05</LRE_MedicalMoveSpeedFactor>
+                    <LRE_MedicalMoveSpeedFactor>1.55</LRE_MedicalMoveSpeedFactor>
                     <LRE_MedicalAimingDelayFactor>0.95</LRE_MedicalAimingDelayFactor>
                     <LRE_MedicalShootingAccuracyPawnFactor>1.2</LRE_MedicalShootingAccuracyPawnFactor>
 				</statFactors>
@@ -242,14 +256,14 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
-                    <WorkSpeedGlobalOffsetMech>0.1</WorkSpeedGlobalOffsetMech>
+                    <WorkSpeedGlobalOffsetMech>0.35</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>0.85</PsychicSensitivity>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.9</IncomingDamageFactor>
                     <LRE_MedicalIncomingDamageFactor>0.9</LRE_MedicalIncomingDamageFactor>
                     <LRE_MedicalMeleeDamageFactor>1.2</LRE_MedicalMeleeDamageFactor>
-                    <LRE_MedicalMoveSpeedFactor>1.1</LRE_MedicalMoveSpeedFactor>
+                    <LRE_MedicalMoveSpeedFactor>1.6</LRE_MedicalMoveSpeedFactor>
                     <LRE_MedicalAimingDelayFactor>0.9</LRE_MedicalAimingDelayFactor>
                     <LRE_MedicalShootingAccuracyPawnFactor>1.4</LRE_MedicalShootingAccuracyPawnFactor>
 				</statFactors>
@@ -268,14 +282,14 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
-                    <WorkSpeedGlobalOffsetMech>0.15</WorkSpeedGlobalOffsetMech>
+                    <WorkSpeedGlobalOffsetMech>0.4</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>0.9</PsychicSensitivity>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.85</IncomingDamageFactor>
                     <LRE_MedicalIncomingDamageFactor>0.85</LRE_MedicalIncomingDamageFactor>
                     <LRE_MedicalMeleeDamageFactor>1.3</LRE_MedicalMeleeDamageFactor>
-                    <LRE_MedicalMoveSpeedFactor>1.15</LRE_MedicalMoveSpeedFactor>
+                    <LRE_MedicalMoveSpeedFactor>1.65</LRE_MedicalMoveSpeedFactor>
                     <LRE_MedicalAimingDelayFactor>0.85</LRE_MedicalAimingDelayFactor>
                     <LRE_MedicalShootingAccuracyPawnFactor>1.6</LRE_MedicalShootingAccuracyPawnFactor>
 				</statFactors>
@@ -294,14 +308,14 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
-                    <WorkSpeedGlobalOffsetMech>0.2</WorkSpeedGlobalOffsetMech>
+                    <WorkSpeedGlobalOffsetMech>0.45</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>0.95</PsychicSensitivity>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.8</IncomingDamageFactor>
                     <LRE_MedicalIncomingDamageFactor>0.8</LRE_MedicalIncomingDamageFactor>
                     <LRE_MedicalMeleeDamageFactor>1.4</LRE_MedicalMeleeDamageFactor>
-                    <LRE_MedicalMoveSpeedFactor>1.2</LRE_MedicalMoveSpeedFactor>
+                    <LRE_MedicalMoveSpeedFactor>1.7</LRE_MedicalMoveSpeedFactor>
                     <LRE_MedicalAimingDelayFactor>0.8</LRE_MedicalAimingDelayFactor>
                     <LRE_MedicalShootingAccuracyPawnFactor>1.8</LRE_MedicalShootingAccuracyPawnFactor>
 				</statFactors>
@@ -320,14 +334,14 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
-                    <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
+                    <WorkSpeedGlobalOffsetMech>0.5</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1</PsychicSensitivity>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.75</IncomingDamageFactor>
                     <LRE_MedicalIncomingDamageFactor>0.75</LRE_MedicalIncomingDamageFactor>
                     <LRE_MedicalMeleeDamageFactor>1.5</LRE_MedicalMeleeDamageFactor>
-                    <LRE_MedicalMoveSpeedFactor>1.25</LRE_MedicalMoveSpeedFactor>
+                    <LRE_MedicalMoveSpeedFactor>1.75</LRE_MedicalMoveSpeedFactor>
                     <LRE_MedicalAimingDelayFactor>0.75</LRE_MedicalAimingDelayFactor>
                     <LRE_MedicalShootingAccuracyPawnFactor>2</LRE_MedicalShootingAccuracyPawnFactor>
 				</statFactors>
@@ -346,14 +360,14 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <WorkSpeedGlobal>0.3</WorkSpeedGlobal>
-                    <WorkSpeedGlobalOffsetMech>0.3</WorkSpeedGlobalOffsetMech>
+                    <WorkSpeedGlobalOffsetMech>0.55</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1.05</PsychicSensitivity>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.7</IncomingDamageFactor>
                     <LRE_MedicalIncomingDamageFactor>0.7</LRE_MedicalIncomingDamageFactor>
                     <LRE_MedicalMeleeDamageFactor>1.6</LRE_MedicalMeleeDamageFactor>
-                    <LRE_MedicalMoveSpeedFactor>1.3</LRE_MedicalMoveSpeedFactor>
+                    <LRE_MedicalMoveSpeedFactor>1.8</LRE_MedicalMoveSpeedFactor>
                     <LRE_MedicalAimingDelayFactor>0.7</LRE_MedicalAimingDelayFactor>
                     <LRE_MedicalShootingAccuracyPawnFactor>2.2</LRE_MedicalShootingAccuracyPawnFactor>
 				</statFactors>
@@ -372,14 +386,14 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <WorkSpeedGlobal>0.35</WorkSpeedGlobal>
-                    <WorkSpeedGlobalOffsetMech>0.35</WorkSpeedGlobalOffsetMech>
+                    <WorkSpeedGlobalOffsetMech>0.6</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1.1</PsychicSensitivity>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.65</IncomingDamageFactor>
                     <LRE_MedicalIncomingDamageFactor>0.65</LRE_MedicalIncomingDamageFactor>
                     <LRE_MedicalMeleeDamageFactor>1.7</LRE_MedicalMeleeDamageFactor>
-                    <LRE_MedicalMoveSpeedFactor>1.35</LRE_MedicalMoveSpeedFactor>
+                    <LRE_MedicalMoveSpeedFactor>1.85</LRE_MedicalMoveSpeedFactor>
                     <LRE_MedicalAimingDelayFactor>0.65</LRE_MedicalAimingDelayFactor>
                     <LRE_MedicalShootingAccuracyPawnFactor>2.4</LRE_MedicalShootingAccuracyPawnFactor>
 				</statFactors>
@@ -398,14 +412,14 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <WorkSpeedGlobal>0.4</WorkSpeedGlobal>
-                    <WorkSpeedGlobalOffsetMech>0.4</WorkSpeedGlobalOffsetMech>
+                    <WorkSpeedGlobalOffsetMech>0.65</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1.15</PsychicSensitivity>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.6</IncomingDamageFactor>
                     <LRE_MedicalIncomingDamageFactor>0.6</LRE_MedicalIncomingDamageFactor>
                     <LRE_MedicalMeleeDamageFactor>1.8</LRE_MedicalMeleeDamageFactor>
-                    <LRE_MedicalMoveSpeedFactor>1.4</LRE_MedicalMoveSpeedFactor>
+                    <LRE_MedicalMoveSpeedFactor>1.9</LRE_MedicalMoveSpeedFactor>
                     <LRE_MedicalAimingDelayFactor>0.6</LRE_MedicalAimingDelayFactor>
                     <LRE_MedicalShootingAccuracyPawnFactor>2.6</LRE_MedicalShootingAccuracyPawnFactor>
 				</statFactors>
@@ -424,14 +438,14 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <WorkSpeedGlobal>0.45</WorkSpeedGlobal>
-                    <WorkSpeedGlobalOffsetMech>0.45</WorkSpeedGlobalOffsetMech>
+                    <WorkSpeedGlobalOffsetMech>0.7</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1.2</PsychicSensitivity>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.55</IncomingDamageFactor>
                     <LRE_MedicalIncomingDamageFactor>0.55</LRE_MedicalIncomingDamageFactor>
                     <LRE_MedicalMeleeDamageFactor>1.9</LRE_MedicalMeleeDamageFactor>
-                    <LRE_MedicalMoveSpeedFactor>1.45</LRE_MedicalMoveSpeedFactor>
+                    <LRE_MedicalMoveSpeedFactor>1.95</LRE_MedicalMoveSpeedFactor>
                     <LRE_MedicalAimingDelayFactor>0.55</LRE_MedicalAimingDelayFactor>
                     <LRE_MedicalShootingAccuracyPawnFactor>2.8</LRE_MedicalShootingAccuracyPawnFactor>
 				</statFactors>
@@ -450,14 +464,14 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
-                    <WorkSpeedGlobalOffsetMech>0.5</WorkSpeedGlobalOffsetMech>
+                    <WorkSpeedGlobalOffsetMech>0.75</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1.25</PsychicSensitivity>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.5</IncomingDamageFactor>
                     <LRE_MedicalIncomingDamageFactor>0.5</LRE_MedicalIncomingDamageFactor>
                     <LRE_MedicalMeleeDamageFactor>2</LRE_MedicalMeleeDamageFactor>
-                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+                    <LRE_MedicalMoveSpeedFactor>2</LRE_MedicalMoveSpeedFactor>
                     <LRE_MedicalAimingDelayFactor>0.5</LRE_MedicalAimingDelayFactor>
                     <LRE_MedicalShootingAccuracyPawnFactor>3</LRE_MedicalShootingAccuracyPawnFactor>
 				</statFactors>

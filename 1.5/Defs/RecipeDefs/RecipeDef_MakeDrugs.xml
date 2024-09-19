@@ -26,12 +26,20 @@
                     <li>RI_Resource_SpiritualCrystal</li>
                 </thingDefs>
             </filter>
-            <count>5</count>
+            <count>20</count>
         </li>
         <li>
             <filter>
                 <thingDefs>
                     <li>RI_Resource_QingMingMarrow</li>
+                </thingDefs>
+            </filter>
+            <count>1</count>
+        </li>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>RI_Resource_SpiritFire</li>
                 </thingDefs>
             </filter>
             <count>1</count>

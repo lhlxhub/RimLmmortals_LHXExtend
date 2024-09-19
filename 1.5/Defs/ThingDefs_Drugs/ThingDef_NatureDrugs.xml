@@ -54,7 +54,7 @@
 	<!-- 这个组件是定义腐化的，比如食物多少天后腐化消失 -->
       <li Class="CompProperties_Rottable">
 		<!-- 10天腐化 -->
-        <daysToRotStart>10</daysToRotStart>
+        <daysToRotStart>30</daysToRotStart>
 		<!-- 腐化后消失 -->
         <rotDestroys>true</rotDestroys>
       </li>
@@ -62,11 +62,11 @@
 	  <!-- 这个是定义的一些药物浓度和成瘾性相关的 -->
       <li Class="CompProperties_Drug">
 		<!-- 这个是成分：比如目前是仙馐果 -->
-        <chemical>Ambrosia</chemical>
+        <!-- <chemical>Ambrosia</chemical> -->
 		<!-- 成瘾度:0 -->
-        <addictiveness>0</addictiveness>
+        <!-- <addictiveness>0</addictiveness> -->
 		<!-- 最小耐受度 -->
-        <minToleranceToAddict>0.1</minToleranceToAddict>
+        <!-- <minToleranceToAddict>0.1</minToleranceToAddict> -->
         <!-- <needLevelOffset>0.9</needLevelOffset> -->
         <listOrder>99</listOrder>
       </li>
@@ -94,7 +94,7 @@
 			<preferability>DesperateOnly</preferability>
 			<foodType>VegetableOrFruit</foodType>
 			<nurseable>false</nurseable>
-			<drugCategory>Hard</drugCategory>
+			<drugCategory>Medical</drugCategory>
 			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
@@ -104,7 +104,7 @@
         </ingestible>
 		<comps>
 		  <li Class="CompProperties_Rottable">
-			<daysToRotStart>10</daysToRotStart>
+			<daysToRotStart>60</daysToRotStart>
 			<rotDestroys>true</rotDestroys>
 		  </li>
 		</comps>

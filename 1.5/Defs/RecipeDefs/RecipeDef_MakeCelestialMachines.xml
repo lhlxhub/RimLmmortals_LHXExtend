@@ -315,7 +315,7 @@
 						<li>RI_Resource_SpiritualCrystal</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
@@ -323,7 +323,7 @@
 						<li>RI_Resource_BlackSteel</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>10</count>
 			</li>
             <li>
                 <filter>
@@ -374,7 +374,7 @@
 						<li>RI_Resource_SpiritualCrystal</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>40</count>
 			</li>
 			<li>
 				<filter>
@@ -398,7 +398,7 @@
 						<li>Save_Energy_Grass_Seed</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
             </li>
 		</ingredients>
 		<fixedIngredientFilter>
