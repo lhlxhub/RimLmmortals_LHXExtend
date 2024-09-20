@@ -131,6 +131,7 @@
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.45</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
+                    <GI_EnergyGainEff>0.05</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
                     <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
@@ -151,6 +152,7 @@
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.5</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
+                    <GI_EnergyGainEff>0.1</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
                     <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
@@ -171,6 +173,7 @@
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.55</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
+                    <GI_EnergyGainEff>0.15</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
                     <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
@@ -191,6 +194,7 @@
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.6</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
+                    <GI_EnergyGainEff>0.2</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
                     <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
@@ -211,6 +215,7 @@
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.65</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
+                    <GI_EnergyGainEff>0.25</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
                     <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
@@ -231,6 +236,7 @@
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.7</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
+                    <GI_EnergyGainEff>0.3</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
                     <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
@@ -251,6 +257,7 @@
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.75</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
                     <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
@@ -275,6 +282,7 @@
                     <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
                     <WorkSpeedGlobalOffsetMech>0.3</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>0.8</PsychicSensitivity>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.95</IncomingDamageFactor>
@@ -301,6 +309,7 @@
                     <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
                     <WorkSpeedGlobalOffsetMech>0.35</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>0.85</PsychicSensitivity>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.9</IncomingDamageFactor>
@@ -327,6 +336,7 @@
                     <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
                     <WorkSpeedGlobalOffsetMech>0.4</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>0.9</PsychicSensitivity>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.85</IncomingDamageFactor>
@@ -353,6 +363,7 @@
                     <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
                     <WorkSpeedGlobalOffsetMech>0.45</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>0.95</PsychicSensitivity>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.8</IncomingDamageFactor>
@@ -379,6 +390,7 @@
                     <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
                     <WorkSpeedGlobalOffsetMech>0.5</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1</PsychicSensitivity>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.75</IncomingDamageFactor>
@@ -405,6 +417,7 @@
                     <WorkSpeedGlobal>0.3</WorkSpeedGlobal>
                     <WorkSpeedGlobalOffsetMech>0.55</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1.05</PsychicSensitivity>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.7</IncomingDamageFactor>
@@ -431,6 +444,7 @@
                     <WorkSpeedGlobal>0.35</WorkSpeedGlobal>
                     <WorkSpeedGlobalOffsetMech>0.6</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1.1</PsychicSensitivity>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.65</IncomingDamageFactor>
@@ -457,6 +471,7 @@
                     <WorkSpeedGlobal>0.4</WorkSpeedGlobal>
                     <WorkSpeedGlobalOffsetMech>0.65</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1.15</PsychicSensitivity>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.6</IncomingDamageFactor>
@@ -483,6 +498,7 @@
                     <WorkSpeedGlobal>0.45</WorkSpeedGlobal>
                     <WorkSpeedGlobalOffsetMech>0.7</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1.2</PsychicSensitivity>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.55</IncomingDamageFactor>
@@ -509,6 +525,7 @@
                     <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
                     <WorkSpeedGlobalOffsetMech>0.75</WorkSpeedGlobalOffsetMech>
                     <PsychicSensitivity>1.25</PsychicSensitivity>
+                    <GI_EnergyGainEff>0.35</GI_EnergyGainEff>
                 </statOffsets>
                 <statFactors>
 					<IncomingDamageFactor>0.5</IncomingDamageFactor>
