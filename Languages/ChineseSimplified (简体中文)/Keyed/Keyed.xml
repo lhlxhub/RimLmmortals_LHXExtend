@@ -6,10 +6,10 @@
     <LRE_needInstallCelestialPivotofDivineMachinesTwo>需要同调神机天枢【已】</LRE_needInstallCelestialPivotofDivineMachinesTwo>
     <LRE_needInstallCelestialPivotofDivineMachinesThree>需要同调神机天枢【丙】</LRE_needInstallCelestialPivotofDivineMachinesThree>
     <LRE_needInstallCelestialPivotofDivineMachinesFour>需要同调神机天枢【丁】</LRE_needInstallCelestialPivotofDivineMachinesFour>
-    <LRE_AlreadyInstallCelestialPivotofDivineMachines>已经同调{defName}</LRE_AlreadyInstallCelestialPivotofDivineMachines>
-    <LRE_InstallCelestialPivotofDivineMachinesMinLevel>同调{defName}的最小等级为：{1}</LRE_InstallCelestialPivotofDivineMachinesMinLevel>
-    <LRE_InstallCelestialPivotofDivineMachinesAlreadyMaxLevel>已经达到{defName}所能支持的最大等级:{1}</LRE_InstallCelestialPivotofDivineMachinesAlreadyMaxLevel>
-    <LRE_InstallCelestialCondensingMachinesLiquidMinLevel>{defName}至少需要神机天枢达到{1}才能使用</LRE_InstallCelestialCondensingMachinesLiquidMinLevel>
+    <LRE_AlreadyInstallCelestialPivotofDivineMachines>已经同调{label}</LRE_AlreadyInstallCelestialPivotofDivineMachines>
+    <LRE_InstallCelestialPivotofDivineMachinesMinLevel>同调{label}的最小等级为：{1}</LRE_InstallCelestialPivotofDivineMachinesMinLevel>
+    <LRE_InstallCelestialPivotofDivineMachinesAlreadyMaxLevel>已经达到{label}所能支持的最大等级:{1}</LRE_InstallCelestialPivotofDivineMachinesAlreadyMaxLevel>
+    <LRE_InstallCelestialCondensingMachinesLiquidMinLevel>{label}至少需要神机天枢达到{1}才能使用</LRE_InstallCelestialCondensingMachinesLiquidMinLevel>
     <LRE_EneryRootDestoryLSExtractDevice>{0}由于没有灵芽,灵矿损坏了！</LRE_EneryRootDestoryLSExtractDevice>
     <LRE_LSExtractDestoryDeviceEneryRoot>{0}的灵矿被移除！由于灵芽已经被灵矿完全控制，导致了灵芽损坏。</LRE_LSExtractDestoryDeviceEneryRoot>
     <LRE_LSExtractDeviceEfficiency>当前效率：{0}%</LRE_LSExtractDeviceEfficiency>
