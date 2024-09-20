@@ -61,6 +61,9 @@
                     <PsychicSensitivity>0.20</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.05</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
             </li>
             <li>
                 <label>(Ⅱ Ⅱ)</label>
@@ -72,6 +75,9 @@
                     <PsychicSensitivity>0.25</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.1</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
             </li>
             <li>
                 <label>(Ⅱ Ⅲ)</label>
@@ -83,6 +89,9 @@
                     <PsychicSensitivity>0.3</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.15</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
             </li>
             <li>
                 <label>(Ⅱ Ⅳ)</label>
@@ -94,6 +103,9 @@
                     <PsychicSensitivity>0.35</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.2</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
             </li>
             <li>
                 <label>(Ⅱ Ⅳ)</label>
@@ -105,6 +117,9 @@
                     <PsychicSensitivity>0.4</PsychicSensitivity>
                     <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
             </li>
             <!-- 丙 -->
             <li>
@@ -115,8 +130,11 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.45</PsychicSensitivity>
-                    <MechRepairSpeed>0.05</MechRepairSpeed>
+                    <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
@@ -132,8 +150,11 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.5</PsychicSensitivity>
-                    <MechRepairSpeed>0.1</MechRepairSpeed>
+                    <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
@@ -149,8 +170,11 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.55</PsychicSensitivity>
-                    <MechRepairSpeed>0.15</MechRepairSpeed>
+                    <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
@@ -166,8 +190,11 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.6</PsychicSensitivity>
-                    <MechRepairSpeed>0.2</MechRepairSpeed>
+                    <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
@@ -183,8 +210,11 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.65</PsychicSensitivity>
-                    <MechRepairSpeed>0.25</MechRepairSpeed>
+                    <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
@@ -200,8 +230,11 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.7</PsychicSensitivity>
-                    <MechRepairSpeed>0.3</MechRepairSpeed>
+                    <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
@@ -217,8 +250,11 @@
                     <MechRepairSpeed>1</MechRepairSpeed>
                     <MechFormingSpeed>1.5</MechFormingSpeed>
                     <PsychicSensitivity>0.75</PsychicSensitivity>
-                    <MechRepairSpeed>0.35</MechRepairSpeed>
+                    <WorkSpeedGlobalOffsetMech>0.25</WorkSpeedGlobalOffsetMech>
                 </statOffsets>
+                <statFactors>
+                    <LRE_MedicalMoveSpeedFactor>1.5</LRE_MedicalMoveSpeedFactor>
+				</statFactors>
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
