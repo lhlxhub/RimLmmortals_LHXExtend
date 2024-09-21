@@ -27,4 +27,20 @@
 			</li>
         </value>
     </Operation>
+
+	<!-- 功法书补丁 -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "RI_BlindBox_SkillBook"]/comps/li[@Class="RI_Talisman.CompProperties_BlindBoxUsing"]/thingDefList</xpath>
+		<value>
+			<li>RI_BookAbility_WorkSpeed</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "RI_BlindBox_SkillBook"]/comps/li[@Class="RI_Talisman.CompProperties_BlindBoxUsing"]/thingDefListNum</xpath>
+		<value>
+			<li>1</li>
+		</value>
+	</Operation>
+
+
 </Patch>

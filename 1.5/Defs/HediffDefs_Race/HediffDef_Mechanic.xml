@@ -8,7 +8,10 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<description>Celestial Pivot of Divine Machines.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
 		<isBad>false</isBad>
+        <defaultLabelColor>(255,147,0)</defaultLabelColor>
         <initialSeverity>1</initialSeverity>
         <minSeverity>0</minSeverity>
         <maxSeverity>25</maxSeverity>
@@ -160,7 +163,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>0.3</offset>
+                      <offset>0.2</offset>
                     </li>
                 </capMods>
             </li>
@@ -181,7 +184,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>0.5</offset>
+                      <offset>0.3</offset>
                     </li>
                 </capMods>
             </li>
@@ -202,7 +205,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>0.7</offset>
+                      <offset>0.4</offset>
                     </li>
                 </capMods>
             </li>
@@ -223,7 +226,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>0.9</offset>
+                      <offset>0.5</offset>
                     </li>
                 </capMods>
             </li>
@@ -244,7 +247,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.1</offset>
+                      <offset>0.6</offset>
                     </li>
                 </capMods>
             </li>
@@ -265,7 +268,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>0.7</offset>
                     </li>
                 </capMods>
             </li>
@@ -295,7 +298,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>0.8</offset>
                     </li>
                 </capMods>
             </li>
@@ -322,7 +325,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>0.9</offset>
                     </li>
                 </capMods>
             </li>
@@ -349,7 +352,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>1</offset>
                     </li>
                 </capMods>
             </li>
@@ -376,7 +379,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>1</offset>
                     </li>
                 </capMods>
             </li>
@@ -403,7 +406,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>1</offset>
                     </li>
                 </capMods>
             </li>
@@ -430,7 +433,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>1</offset>
                     </li>
                 </capMods>
             </li>
@@ -457,7 +460,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>1</offset>
                     </li>
                 </capMods>
             </li>
@@ -484,7 +487,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>1</offset>
                     </li>
                 </capMods>
             </li>
@@ -511,7 +514,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>1</offset>
                     </li>
                 </capMods>
             </li>
@@ -538,7 +541,7 @@
                 <capMods>
                     <li>
                       <capacity>Manipulation</capacity>
-                      <offset>1.5</offset>
+                      <offset>1</offset>
                     </li>
                 </capMods>
             </li>
