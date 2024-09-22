@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: Skill book-Luminous WorkSpeed -->
-  <RI_BookAbility_WorkSpeed.label>《打灰仙人》</RI_BookAbility_WorkSpeed.label>
+  <RI_BookAbility_WorkSpeed.label>通用功法书《打灰仙人》</RI_BookAbility_WorkSpeed.label>
   <!-- EN: The speed of work has been accelerated, but the resistance to hitting has deteriorated. -->
   <RI_BookAbility_WorkSpeed.description>在太古时期，一名散修为一个古老的修炼世家的长子的第2351位妻子修建大房子的时候，被从屋顶掉下来的翡翠瓦片砸中了脑袋而昏迷过去，三天后他从倒下去的地板上爬了起来，在布满灰尘的地板上写下了这本功法书的详细运功过程，后来因为他使用这个功法后的效果比别人更好，吃得比别人更少被这个修仙世家种下仙奴印记，永远为这个修炼世家服务。不过后世的人们通过学习和传承这种功法，生产力和生活质量均得到了极大提升。</RI_BookAbility_WorkSpeed.description>
   <!-- EN: After reading {PARENT_label}, the cultivator {STUDIER_labelShort} learns the "Luminous bomb"! -->

@@ -7,6 +7,7 @@
 		<label>Celestial Mechanism</label>
 		<parent>RI_Category_Prostheses</parent>
 		<resourceReadoutRoot>true</resourceReadoutRoot>
+		<iconPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesOne</iconPath>
 	</ThingCategoryDef>
 
 	<JobDef>
@@ -170,7 +171,7 @@
 		<label>Celestial Condensing Machines Liquid Lite</label>
 		<description>Celestial Condensing Machines Liquid Lite.</description>
 		<graphicData>
-			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<texPath>LREMachines/LRE_Things_CelestialCondensingMachinesLiquidLite</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -201,7 +202,7 @@
 		<label>Celestial Condensing Machines Liquid High</label>
 		<description>Celestial Condensing Machines Liquid High.</description>
 		<graphicData>
-			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
+			<texPath>LREMachines/LRE_Things_CelestialCondensingMachinesLiquidHigh</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
