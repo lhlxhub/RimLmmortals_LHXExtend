@@ -10,22 +10,16 @@
 		<isBad>false</isBad>
 		<comps>
             <!-- 修炼进度-->
-			<li Class = "RimLmmortals_LHXExtend.Properties.ComProperties_ChangeValueByComps">
-				<compClass>Rimlmmortals_LHXExtend.HediffComps.HediffComp_LRE_AddExpHediff</compClass>
+			<li Class = "RimLmmortals_LHXExtend.HediffComps.HediffCompProperties_AddInExpStored">
 				<fValue>100</fValue>
 			</li>
-			<li Class="HediffCompProperties_Disappears">
-				<showRemainingTime>true</showRemainingTime>
-				<disappearsAfterTicks>36000</disappearsAfterTicks>
-			</li>
+            <li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddHediff">
+                <hediffDef>LRE_EnergyGainEffHediff</hediffDef>
+                <severity>1</severity>
+                <getMax>true</getMax>
+            </li>
+            <li Class="HediffCompProperties_Disappears"/>
 		</comps>
-		<stages>
-			<li>
-				<statFactors>
-					<GI_EnergyGainEff>1.1</GI_EnergyGainEff>
-				</statFactors>
-			</li>
-		</stages>
 	</HediffDef>
 
 </Defs>

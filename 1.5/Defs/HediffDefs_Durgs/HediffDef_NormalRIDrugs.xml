@@ -10,28 +10,23 @@
 		<isBad>false</isBad>
 		<comps>
             <!-- 修炼进度-->
-			<li Class = "RimLmmortals_LHXExtend.Properties.ComProperties_ChangeValueByComps">
-				<compClass>Rimlmmortals_LHXExtend.HediffComps.HediffComp_LRE_AddExpHediff</compClass>
-				<fValue>150</fValue>
+			<li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddInExpStored">
+				<fValue>200</fValue>
 			</li>
             <li Class="RimLmmortals_LHXExtend.Properties.HediffComProperties_InstallRoot">
-                <onceAddSeverity>0.3</onceAddSeverity>
+                <onceAddSeverity>0.4</onceAddSeverity>
                 <canMaxSeverity>0.99</canMaxSeverity>
                 <bodyPart>Brain</bodyPart>
                 <canUpgrade>true</canUpgrade>
             </li>
-            <li Class="HediffCompProperties_Disappears">
-				<showRemainingTime>true</showRemainingTime>
-				<disappearsAfterTicks>42000</disappearsAfterTicks>
-			</li>
+            <li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddHediff">
+                <hediffDef>LRE_EnergyGainEffHediff</hediffDef>
+                <severity>3</severity>
+                <getMax>true</getMax>
+            </li>
+			<li Class="HediffCompProperties_Disappears"/>
 		</comps>
-		<stages>
-			<li>
-				<statFactors>
-					<GI_EnergyGainEff>1.5</GI_EnergyGainEff>
-				</statFactors>
-			</li>
-		</stages>
+
 	</HediffDef>
     <!-- 忘忧丹的hediff -->
     <HediffDef>
@@ -68,6 +63,48 @@
                 </thoughts>
 			</li>
 			<li Class="HediffCompProperties_Disappears"/>
+		</comps>
+	</HediffDef>
+    <!-- 翠玉灵丹hediff -->
+    <HediffDef>
+		<defName>LRE_Drug_JadeQiPillHediff</defName>
+		<label>Jade Qi Pill Hediff</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>Jade Qi Pill Hediff.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+            <!-- 修炼进度值-->
+			<li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddInExpStored">
+				<expValue>300</expValue>
+			</li>
+            <li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddHediff">
+                <hediffDef>LRE_EnergyGainEffHediff</hediffDef>
+                <severity>2</severity>
+                <getMax>true</getMax>
+            </li>
+            <li Class="HediffCompProperties_Disappears"/>
+		</comps>
+	</HediffDef>
+    <!-- 霹雳灵丹hediff -->
+    <HediffDef>
+		<defName>LRE_Drug_QiPillHediff</defName>
+		<label>Thunder Qi Pill Hediff</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>Thunder Qi Pill Hediff.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+            <!-- 修炼进度值-->
+			<li Class = "RimLmmortals_LHXExtend.HediffComps.HediffCompProperties_AddInExpStored">
+				<expValue>500</expValue>
+			</li>
+            <li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddHediff">
+                <hediffDef>LRE_EnergyGainEffHediff</hediffDef>
+                <severity>2</severity>
+                <getMax>true</getMax>
+            </li>
+            <li Class="HediffCompProperties_Disappears"/>
 		</comps>
 	</HediffDef>
 </Defs>

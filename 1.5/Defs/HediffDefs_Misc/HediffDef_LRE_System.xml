@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <HediffDef>
+		<defName>LRE_AbsorbQiHediff</defName>
+		<label>Absorb Qi Hediff</label>
+		<hediffClass>RimLmmortals_LHXExtend.LRE_HediffWithComps.LRE_AbsorbQiHediffWithComps</hediffClass>
+		<description>Absorb Qi Hediff.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+	</HediffDef>
+</Defs>
