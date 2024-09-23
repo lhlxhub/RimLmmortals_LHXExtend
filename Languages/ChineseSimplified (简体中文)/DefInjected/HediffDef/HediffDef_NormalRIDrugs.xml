@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: Jade Qi Pill Hediff -->
+  <LRE_Drug_JadeQiPillHediff.label>翠玉灵丹</LRE_Drug_JadeQiPillHediff.label>
+  <!-- EN: Jade Qi Pill Hediff. -->
+  <LRE_Drug_JadeQiPillHediff.description>翠玉灵丹</LRE_Drug_JadeQiPillHediff.description>
+  
+  <!-- EN: Thunder Qi Pill Hediff -->
+  <LRE_Drug_QiPillHediff.label>霹雳灵丹</LRE_Drug_QiPillHediff.label>
+  <!-- EN: Thunder Qi Pill Hediff. -->
+  <LRE_Drug_QiPillHediff.description>霹雳灵丹</LRE_Drug_QiPillHediff.description>
+  
   <!-- EN: Jade Liquid Pill Hediff -->
   <LRE_JadeLiquidPillHediff.label>青玉仙露丹</LRE_JadeLiquidPillHediff.label>
   <!-- EN: Jade Liquid Pill Hediff. -->

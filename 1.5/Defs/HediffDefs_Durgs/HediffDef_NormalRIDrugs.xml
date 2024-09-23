@@ -10,8 +10,8 @@
 		<isBad>false</isBad>
 		<comps>
             <!-- 修炼进度-->
-			<li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddInExpStored">
-				<fValue>200</fValue>
+			<li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddInExpStored">
+				<expValue>200</expValue>
 			</li>
             <li Class="RimLmmortals_LHXExtend.Properties.HediffComProperties_InstallRoot">
                 <onceAddSeverity>0.4</onceAddSeverity>
@@ -19,7 +19,7 @@
                 <bodyPart>Brain</bodyPart>
                 <canUpgrade>true</canUpgrade>
             </li>
-            <li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddHediff">
+            <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddHediff">
                 <hediffDef>LRE_EnergyGainEffHediff</hediffDef>
                 <severity>3</severity>
                 <getMax>true</getMax>
@@ -75,10 +75,10 @@
 		<isBad>false</isBad>
 		<comps>
             <!-- 修炼进度值-->
-			<li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddInExpStored">
+			<li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddInExpStored">
 				<expValue>300</expValue>
 			</li>
-            <li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddHediff">
+            <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddHediff">
                 <hediffDef>LRE_EnergyGainEffHediff</hediffDef>
                 <severity>2</severity>
                 <getMax>true</getMax>
@@ -96,10 +96,10 @@
 		<isBad>false</isBad>
 		<comps>
             <!-- 修炼进度值-->
-			<li Class = "RimLmmortals_LHXExtend.HediffComps.HediffCompProperties_AddInExpStored">
+			<li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddInExpStored">
 				<expValue>500</expValue>
 			</li>
-            <li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddHediff">
+            <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddHediff">
                 <hediffDef>LRE_EnergyGainEffHediff</hediffDef>
                 <severity>2</severity>
                 <getMax>true</getMax>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <!-- 天生储灵丹的buff-->
+    <!-- 霹雳灵果的buff-->
     <HediffDef>
 		<defName>LRE_SaveEnergyGrassSeedHediff</defName>
 		<label>Save Energy Grass Seed Hediff</label>
@@ -10,10 +10,10 @@
 		<isBad>false</isBad>
 		<comps>
             <!-- 修炼进度-->
-			<li Class = "RimLmmortals_LHXExtend.HediffComps.HediffCompProperties_AddInExpStored">
-				<fValue>100</fValue>
+			<li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddInExpStored">
+				<expValue>100</expValue>
 			</li>
-            <li Class = "RimLmmortals_LHXExtend.HediffComps.HediffComp_AddHediff">
+            <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddHediff">
                 <hediffDef>LRE_EnergyGainEffHediff</hediffDef>
                 <severity>1</severity>
                 <getMax>true</getMax>

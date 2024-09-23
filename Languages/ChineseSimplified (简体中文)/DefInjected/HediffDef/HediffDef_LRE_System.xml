@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Absorb Qi Hediff -->
+  <LRE_AbsorbQiHediff.label>丹药炼化</LRE_AbsorbQiHediff.label>
+  <!-- EN: Absorb Qi Hediff. -->
+  <LRE_AbsorbQiHediff.description>修仙者正在炼化丹药，每小时炼化一次，如果修仙者境界已满，炼化值会1:10转化为灵气，修炼者当前存储的炼化值越多，承受的负面效果越大。</LRE_AbsorbQiHediff.description>
+  <!-- EN: 1 -->
+  <LRE_AbsorbQiHediff.stages._1.label>轻盈</LRE_AbsorbQiHediff.stages._1.label>
+  <!-- EN: 2 -->
+  <LRE_AbsorbQiHediff.stages._2.label>紧张</LRE_AbsorbQiHediff.stages._2.label>
+  <!-- EN: 3 -->
+  <LRE_AbsorbQiHediff.stages._3.label>急促</LRE_AbsorbQiHediff.stages._3.label>
+  <!-- EN: 4 -->
+  <LRE_AbsorbQiHediff.stages._4.label>恰满</LRE_AbsorbQiHediff.stages._4.label>
+  <!-- EN: 5 -->
+  <LRE_AbsorbQiHediff.stages._5.label>溢满</LRE_AbsorbQiHediff.stages._5.label>
+  <!-- EN: 6 -->
+  <LRE_AbsorbQiHediff.stages._6.label>盆满</LRE_AbsorbQiHediff.stages._6.label>
+  <!-- EN: 7 -->
+  <LRE_AbsorbQiHediff.stages._7.label>欲裂</LRE_AbsorbQiHediff.stages._7.label>
+  
+</LanguageData>

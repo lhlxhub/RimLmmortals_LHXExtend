@@ -6,6 +6,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<description>Energy Gain Eff Hediff.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
+        <defaultLabelColor>(232,141,255)</defaultLabelColor>
 		<isBad>false</isBad>
         <initialSeverity>1</initialSeverity>
 		<minSeverity>1</minSeverity>

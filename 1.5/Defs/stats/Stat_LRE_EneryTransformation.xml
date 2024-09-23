@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <!-- 容量偏移 -->
+    <!-- 能炼化量容量 -->
     <StatDef>
         <defName>LRE_ExpStoredValueOffset</defName>
         <label>Exp Stored Value Offset</label>
         <description>Exp Stored Value Offset.</description>
         <category>PawnMisc</category>
-        <defaultBaseValue>300</defaultBaseValue>
+        <defaultBaseValue>100</defaultBaseValue>
         <minValue>0</minValue>
-        <hideAtValue>300</hideAtValue>
-        <toStringStyle>FloatTwo</toStringStyle>
+        <hideAtValue>100</hideAtValue>
+        <toStringStyle>FloatOne</toStringStyle>
         <scenarioRandomizable>true</scenarioRandomizable>
         <displayPriorityInCategory>3000</displayPriorityInCategory>
         <showOnMechanoids>false</showOnMechanoids>
@@ -18,7 +18,7 @@
             <li>LRE_ExpStoredValueFactor</li>
         </statFactors>
     </StatDef>
-    <!-- 容量倍率 -->
+    <!-- 能炼化量容量倍率 -->
     <StatDef>
         <defName>LRE_ExpStoredValueFactor</defName>
         <label>Exp Stored Value Factor</label>
@@ -33,7 +33,7 @@
         <showOnMechanoids>false</showOnMechanoids>
         <showOnAnimals>false</showOnAnimals>
     </StatDef>
-    <!-- 吸收效率偏移 -->
+    <!-- 炼化效率偏移 -->
     <StatDef>
         <defName>LRE_ExpAbsorptionValueOffset</defName>
         <label>Exp Absorption Value Offset</label>
@@ -42,7 +42,7 @@
         <defaultBaseValue>10</defaultBaseValue>
         <minValue>0</minValue>
         <hideAtValue>10</hideAtValue>
-        <toStringStyle>FloatTwo</toStringStyle>
+        <toStringStyle>FloatOne</toStringStyle>
         <scenarioRandomizable>true</scenarioRandomizable>
         <displayPriorityInCategory>3000</displayPriorityInCategory>
         <showOnMechanoids>false</showOnMechanoids>
@@ -51,17 +51,17 @@
             <li>LRE_ExpAbsorptionValueFactor</li>
         </statFactors>
         <parts>
-            <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_ExpAbsorptionValueStatFactor"></li> />
+            <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_ExpAbsorptionValueStatFactor"/>
         </parts>
         <capacityFactors>
             <li>
-                <capacity>Manipulation</capacity>
+                <capacity>Consciousness</capacity>
                 <weight>1</weight>
                 <max>2</max>
             </li>
         </capacityFactors>
     </StatDef>
-    <!-- 吸收效率乘数 -->
+    <!-- 炼化效率乘数 -->
     <StatDef>
         <defName>LRE_ExpAbsorptionValueFactor</defName>
         <label>Exp Absorption Value Factor</label>
