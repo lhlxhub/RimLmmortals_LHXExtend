@@ -80,5 +80,8 @@
 				<painOffset>0.3</painOffset>
             </li>
         </stages>
+        <comps>
+            <li Class = "HediffCompProperties_DisappearsOnDeath"></li>
+		</comps>
 	</HediffDef>
 </Defs>

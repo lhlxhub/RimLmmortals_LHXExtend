@@ -36,7 +36,11 @@
             <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AgePasses">
                 <everyDayChangeAge>60</everyDayChangeAge>
             </li>
-
+            <!-- 持续回复灵气，单位是每天 -->
+            <li Class="RimLmmortals_LHXExtend.Properties.HediffComProperties_LREForeverHediff">
+                <compClass>RimLmmortals_LHXExtend.HediffComps.HediffComp_LRE_ForeverAddEnergyHediff</compClass>
+                <fValue>500</fValue>
+            </li>
             <!-- 丹毒 -->
              <!-- 未实装，暂不写 -->
             <!-- <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffComp_GiveHediffOnDisppears">

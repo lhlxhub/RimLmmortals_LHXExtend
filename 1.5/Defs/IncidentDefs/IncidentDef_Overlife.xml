@@ -15,7 +15,7 @@
 		<workerClass>RimLmmortals_LHXExtend.Incidents.LRE_IncidentWorker_OverLifeSwordMan</workerClass>
 		<letterDef>ThreatBig</letterDef>
 		<earliestDay>40</earliestDay><!--最早天数-->
-		<baseChance>0.2</baseChance><!-- 发生概率-->
+		<baseChance>0.25</baseChance><!-- 发生概率-->
 		<minRefireDays>8</minRefireDays><!-- 最小间隔天数-->
 		<requireColonistsPresent>true</requireColonistsPresent><!--是否需要有殖民者-->
 		<pointsScaleable>true</pointsScaleable>
@@ -37,7 +37,7 @@
 		<workerClass>RimLmmortals_LHXExtend.Incidents.LRE_IncidentWorker_OverLifeNormal</workerClass>
 		<letterDef>ThreatBig</letterDef>
 		<earliestDay>30</earliestDay><!--最早天数-->
-		<baseChance>0.3</baseChance><!-- 发生概率-->
+		<baseChance>0.35</baseChance><!-- 发生概率-->
 		<minRefireDays>8</minRefireDays><!-- 最小间隔天数-->
 		<requireColonistsPresent>true</requireColonistsPresent><!--是否需要有殖民者-->
 		<pointsScaleable>true</pointsScaleable>
@@ -59,7 +59,7 @@
 		<workerClass>RimLmmortals_LHXExtend.Incidents.LRE_IncidentWorker_OverLifeBerserker</workerClass>
 		<letterDef>ThreatBig</letterDef>
 		<earliestDay>30</earliestDay><!--最早天数-->
-		<baseChance>0.1</baseChance><!-- 发生概率-->
+		<baseChance>0.15</baseChance><!-- 发生概率-->
 		<minRefireDays>8</minRefireDays><!-- 最小间隔天数-->
 		<requireColonistsPresent>true</requireColonistsPresent><!--是否需要有殖民者-->
 		<pointsScaleable>false</pointsScaleable>

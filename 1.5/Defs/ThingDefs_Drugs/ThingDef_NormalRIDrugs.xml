@@ -47,7 +47,7 @@
 <ThingDef ParentName="RI_BasicDrug_Base">
     <defName>LRE_Drug_JadeQiPill</defName>
     <label>【Second-rate】Jade Qi Pill</label>
-    <description>【Second-rate】Pill，The potion made with a small amount of 【Nature】Save Energy Grass Seed and a large amount of Spiritual crystal has a moderate effect, but it can save a significant amount of 【Nature】Save Energy Grass Seed.\nThe progress of cultivation that can be enhanced is moderate.</description>
+    <description>Qi:300\n.【Second-rate】Pill，The potion made with a small amount of 【Nature】Save Energy Grass Seed and a large amount of Spiritual crystal has a moderate effect, but it can save a significant amount of 【Nature】Save Energy Grass Seed.\nThe progress of cultivation that can be enhanced is moderate.</description>
     <graphicData>
         <texPath>LREDrugs/WorryFreePill</texPath>
     </graphicData>
@@ -67,7 +67,7 @@
 <ThingDef ParentName="RI_BasicDrug_Base">
     <defName>LRE_Drug_ThunderQiPill</defName>
     <label>【Second-rate】Thunder Qi Pill</label>
-    <description>【Second-rate】Pill，The Pill refined with a large amount of 【Nature】Save Energy Grass Seed, due to its heavy use of 【Second-rate】Thunder Qi Pill, results in a purer Qi and can offer a more substantial progress in cultivation..\nThe progress of cultivation that can be enhanced is moderate.</description>
+    <description>Qi:500\n.【Second-rate】Pill，The Pill refined with a large amount of 【Nature】Save Energy Grass Seed, due to its heavy use of 【Second-rate】Thunder Qi Pill, results in a purer Qi and can offer a more substantial progress in cultivation..\nThe progress of cultivation that can be enhanced is moderate.</description>
     <graphicData>
         <texPath>LREDrugs/WorryFreePill</texPath>
     </graphicData>

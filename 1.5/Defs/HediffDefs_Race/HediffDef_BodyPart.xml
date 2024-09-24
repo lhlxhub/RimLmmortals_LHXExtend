@@ -11,6 +11,7 @@
 		<defaultLabelColor>(107,45,38)</defaultLabelColor>
 		<priceImpact>true</priceImpact>
 		<countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
+        <allowMothballIfLowPriorityWorldPawn>false</allowMothballIfLowPriorityWorldPawn>
 		<spawnThingOnRemoved>LRE_LSExtractDevice</spawnThingOnRemoved>
 		<descriptionHyperlinks>
 			<ThingDef>LRE_LSExtractDevice</ThingDef>
@@ -19,12 +20,12 @@
 			<partEfficiency>1</partEfficiency>
 			<solid>false</solid>
 		</addedPartProps>
-        <!-- <comps>
-            <li Class = "HediffCompProperties_DisappearsAndKills"/>
-        </comps> -->
 		<initialSeverity>1</initialSeverity>
 		<minSeverity>1</minSeverity>
 		<maxSeverity>10</maxSeverity>
+        <removeOnRedressIfNotOfKind>
+            <li>Colonist</li>
+        </removeOnRedressIfNotOfKind>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
@@ -58,7 +59,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<setMax>0.75</setMax>
+						<setMax>0.8</setMax>
 					</li>
 				</capMods>
 			</li>
@@ -76,7 +77,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<setMax>0.65</setMax>
+						<setMax>0.6</setMax>
 					</li>
 				</capMods>
 			</li>
@@ -85,7 +86,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<setMax>0.6</setMax>
+						<setMax>0.5</setMax>
 					</li>
 				</capMods>
 			</li>
@@ -94,7 +95,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<setMax>0.5</setMax>
+						<setMax>0.4</setMax>
 					</li>
 				</capMods>
 			</li>
@@ -103,7 +104,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<setMax>0.4</setMax>
+						<setMax>0.3</setMax>
 					</li>
 					<li>
 						<capacity>Moving</capacity>
@@ -116,7 +117,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<setMax>0.3</setMax>
+						<setMax>0.1</setMax>
 					</li>
 					<li>
 						<capacity>Moving</capacity>

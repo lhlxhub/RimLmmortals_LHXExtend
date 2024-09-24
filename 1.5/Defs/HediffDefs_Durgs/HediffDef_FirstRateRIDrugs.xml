@@ -26,4 +26,58 @@
 			</li>
 		</comps>
     </hediffDef>
+    <!-- 聚气真灵丹hediff -->
+    <hediffDef>
+        <defName>LRE_Drug_GatheringQiAndTrueSpiritPillHediff</defName>
+        <label>Gathering Qi and True Spirit Pill</label>
+        <hediffClass>HediffWithComps</hediffClass>
+		<description>Qi:5000，\nGathering Qi and True Spirit Pill.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+        <defaultLabelColor>(162,207,1)</defaultLabelColor>
+		<isBad>false</isBad>
+        <comps>
+            <!-- 修炼进度值-->
+			<li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddInExpStored">
+				<expValue>5000</expValue>
+			</li>
+            <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddHediff">
+                <hediffDef>LRE_EnergyGainEffHediff</hediffDef>
+                <severity>7</severity>
+                <getMax>true</getMax>
+            </li>
+		</comps>
+    </hediffDef>
+    <!-- 运气化龙丹hediff -->
+    <hediffDef>
+        <defName>LRE_Drug_FortuneTransformingDragonPillHediff</defName>
+        <label>Fortune-Transforming Dragon Pill</label>
+        <hediffClass>HediffWithComps</hediffClass>
+		<description>Qi:40%，\nFortune-Transforming Dragon Pill.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+        <defaultLabelColor>(162,207,1)</defaultLabelColor>
+		<isBad>false</isBad>
+        <comps>
+            <!-- 修炼进度值-->
+			<li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddInExpStored">
+				<expValue>0.4</expValue>
+                <isPercent>true</isPercent>
+			</li>
+            <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddHediff">
+                <hediffDef>LRE_EnergyGainEffHediff</hediffDef>
+                <severity>10</severity>
+                <getMax>true</getMax>
+            </li>
+            <li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>15000</disappearsAfterTicks>
+			</li>
+		</comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <GI_EnergyRate>0.3</GI_EnergyRate>
+                </statOffsets>
+            </li>
+        </stages>
+    </hediffDef>
 </Defs>
