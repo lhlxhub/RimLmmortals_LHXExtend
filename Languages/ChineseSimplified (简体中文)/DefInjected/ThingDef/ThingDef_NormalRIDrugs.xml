@@ -12,7 +12,7 @@
   
   <!-- EN: 【Second-rate】Jade Qi Pill -->
   <LRE_Drug_JadeQiPill.label>【二品】翠玉灵丹 </LRE_Drug_JadeQiPill.label>
-  <!-- EN: 【Second-rate】Pill，The potion made with a small amount of 【Nature】Save Energy Grass Seed and a large amount of Spiritual crystal has a moderate effect, but it can save a significant amount of 【Nature】Save Energy Grass Seed.\nThe progress of cultivation that can be enhanced is moderate. -->
+  <!-- EN: Qi:300\n.【Second-rate】Pill，The potion made with a small amount of 【Nature】Save Energy Grass Seed and a large amount of Spiritual crystal has a moderate effect, but it can save a significant amount of 【Nature】Save Energy Grass Seed.\nThe progress of cultivation that can be enhanced is moderate. -->
   <LRE_Drug_JadeQiPill.description>【二品】翠玉灵丹，使用了大量的灵石和少量霹雳灵果炼制的辅助提升修为的丹药，不过这种丹药含有的灵气值一般，适合低级修仙者炼化。\n炼化值:300</LRE_Drug_JadeQiPill.description>
   <!-- EN: 服用 {0} -->
   <LRE_Drug_JadeQiPill.ingestible.ingestCommandString>服用{0}</LRE_Drug_JadeQiPill.ingestible.ingestCommandString>
@@ -21,7 +21,7 @@
   
   <!-- EN: 【Second-rate】Thunder Qi Pill -->
   <LRE_Drug_ThunderQiPill.label>【二品】霹雳灵丹</LRE_Drug_ThunderQiPill.label>
-  <!-- EN: 【Second-rate】Pill，The Pill refined with a large amount of 【Nature】Save Energy Grass Seed, due to its heavy use of 【Second-rate】Thunder Qi Pill, results in a purer Qi and can offer a more substantial progress in cultivation..\nThe progress of cultivation that can be enhanced is moderate. -->
+  <!-- EN: Qi:500\n.【Second-rate】Pill，The Pill refined with a large amount of 【Nature】Save Energy Grass Seed, due to its heavy use of 【Second-rate】Thunder Qi Pill, results in a purer Qi and can offer a more substantial progress in cultivation..\nThe progress of cultivation that can be enhanced is moderate. -->
   <LRE_Drug_ThunderQiPill.description>【二品】霹雳灵丹，使用了较多霹雳灵果炼制的辅助提升修为的丹药，这种丹药灵气值尚可，不过由于使用了不少的霹雳灵果，一般的家族和宗门都没法大量提供。\n炼化值：500</LRE_Drug_ThunderQiPill.description>
   <!-- EN: 服用 {0} -->
   <LRE_Drug_ThunderQiPill.ingestible.ingestCommandString>服用{0}</LRE_Drug_ThunderQiPill.ingestible.ingestCommandString>

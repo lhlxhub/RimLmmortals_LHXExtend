@@ -10,4 +10,22 @@
   <!-- EN: 服用 {0} 中 -->
   <LRE_Drug_CondensingEnergyUniversePill.ingestible.ingestReportString>服用【一品】凝气乾坤丹中</LRE_Drug_CondensingEnergyUniversePill.ingestible.ingestReportString>
   
+  <!-- EN: 【First-rate】Fortune Transforming Dragon Pill -->
+  <LRE_Drug_FortuneTransformingDragonPill.label>TODO</LRE_Drug_FortuneTransformingDragonPill.label>
+  <!-- EN: Qi:40%\n.Fortune-Transforming Dragon, akin to a fish leaping over the dragon gate, increases refining value, greatly enhances spiritual energy growth efficiency, and significantly raises breakthrough rates. -->
+  <LRE_Drug_FortuneTransformingDragonPill.description>TODO</LRE_Drug_FortuneTransformingDragonPill.description>
+  <!-- EN: 服用 {0} -->
+  <LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestCommandString>TODO</LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestCommandString>
+  <!-- EN: 服用 {0} 中 -->
+  <LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestReportString>TODO</LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestReportString>
+  
+  <!-- EN: 【First-rate】Gathering Qi And True Spirit Pill -->
+  <LRE_Drug_GatheringQiAndTrueSpiritPill.label>TODO</LRE_Drug_GatheringQiAndTrueSpiritPill.label>
+  <!-- EN: Qi:5000\n.First-rate Pill, Enhancing Spirit and Supplementing Essence, providing a large amount of refining value, but requiring a significant amount of resources. Only top-tier sects and families can make use of this kind of elixir. -->
+  <LRE_Drug_GatheringQiAndTrueSpiritPill.description>TODO</LRE_Drug_GatheringQiAndTrueSpiritPill.description>
+  <!-- EN: 服用 {0} -->
+  <LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestCommandString>TODO</LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestCommandString>
+  <!-- EN: 服用 {0} 中 -->
+  <LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestReportString>TODO</LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestReportString>
+  
 </LanguageData>

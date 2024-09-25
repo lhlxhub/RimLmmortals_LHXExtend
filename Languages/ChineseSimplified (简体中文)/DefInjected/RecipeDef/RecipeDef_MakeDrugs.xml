@@ -8,6 +8,20 @@
   <!-- EN: Making Jade-Liquid pill -->
   <LRE_MakeJadeLiquidPill.jobString>炼制青玉仙露丹</LRE_MakeJadeLiquidPill.jobString>
   
+  <!-- EN: Make Jade-Qi Pill -->
+  <LRE_MakeJadeQiPill.label>TODO</LRE_MakeJadeQiPill.label>
+  <!-- EN: Making Jade-Qi Pill -->
+  <LRE_MakeJadeQiPill.description>TODO</LRE_MakeJadeQiPill.description>
+  <!-- EN: Making Jade-Qi Pill -->
+  <LRE_MakeJadeQiPill.jobString>TODO</LRE_MakeJadeQiPill.jobString>
+  
+  <!-- EN: Make Thunder-Qi Pill -->
+  <LRE_MakeThunderQiPill.label>TODO</LRE_MakeThunderQiPill.label>
+  <!-- EN: Making Thunder-Qi Pill -->
+  <LRE_MakeThunderQiPill.description>TODO</LRE_MakeThunderQiPill.description>
+  <!-- EN: Making Thunder-Qi Pill -->
+  <LRE_MakeThunderQiPill.jobString>TODO</LRE_MakeThunderQiPill.jobString>
+  
   <!-- EN: Make Worry-Free Pill -->
   <LRE_MakeWorryFreePill.label>炼制【二品】忘情丹</LRE_MakeWorryFreePill.label>
   <!-- EN: Making Worry-Free Pill -->

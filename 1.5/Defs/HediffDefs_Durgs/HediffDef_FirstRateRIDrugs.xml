@@ -45,6 +45,7 @@
                 <severity>7</severity>
                 <getMax>true</getMax>
             </li>
+            <li Class="HediffCompProperties_Disappears"/>
 		</comps>
     </hediffDef>
     <!-- 运气化龙丹hediff -->

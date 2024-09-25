@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+    <ThingDef Name="LRE_BestDrug_Base" Abstract="True">
+		<researchPrerequisites>
+			<li>RI_Cauldrons</li>
+		</researchPrerequisites>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<useHitPoints>true</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<selectable>true</selectable>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>1</Beauty>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>10</stackLimit>
+		<thingCategories>
+			<li>RI_Category_Drugs</li>
+		</thingCategories>
+		<alwaysHaulable>true</alwaysHaulable>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<pathCost>14</pathCost>
+		<burnableByRecipe>true</burnableByRecipe>
+		<resourceReadoutPriority>Last</resourceReadoutPriority>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<allowedArchonexusCount>-1</allowedArchonexusCount>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
+			<chairSearchRadius>8</chairSearchRadius>
+		</ingestible>
+		<storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
+		<orderedTakeGroup>Drug</orderedTakeGroup>
+	</ThingDef>
+
+
+
     <!-- 凝气乾坤丹 -->
      <!-- 超级大猛药，貌似不需要写太多内容，也就加个dll，搞个资源 -->
-    <ThingDef ParentName="RI_BestDrug_Base">
+    <ThingDef ParentName="LRE_BestDrug_Base">
 		<defName>LRE_Drug_CondensingEnergyUniversePill</defName>
 		<label>【First-rate】Condensing Energy Universe Pill</label>
 		<description>First-rate Pill, After consumption, the spiritual energy stored within the elixir will be released and enter the dantian of the user, replenishing all spiritual energy, and altering the structure of the user's dantian. This allows for automatic storage of spiritual energy without the need for cultivation.</description>
@@ -40,12 +83,9 @@
 				<teetotalerCanConsume>true</teetotalerCanConsume>
 			</li>
 		</comps>
-		<recipeMaker>
-			<soundWorking>Recipe_Drug</soundWorking>
-		</recipeMaker>
 	</ThingDef>
     <!-- 聚气真灵丹 -->
-    <ThingDef ParentName="RI_BestDrug_Base">
+    <ThingDef ParentName="LRE_BestDrug_Base">
 		<defName>LRE_Drug_GatheringQiAndTrueSpiritPill</defName>
 		<label>【First-rate】Gathering Qi And True Spirit Pill</label>
 		<description>Qi:5000\n.First-rate Pill, Enhancing Spirit and Supplementing Essence, providing a large amount of refining value, but requiring a significant amount of resources. Only top-tier sects and families can make use of this kind of elixir.</description>
@@ -83,12 +123,9 @@
 				<teetotalerCanConsume>true</teetotalerCanConsume>
 			</li>
 		</comps>
-		<recipeMaker>
-			<soundWorking>Recipe_Drug</soundWorking>
-		</recipeMaker>
 	</ThingDef>
     <!-- 运气化龙丹 -->
-    <ThingDef ParentName="RI_BestDrug_Base">
+    <ThingDef ParentName="LRE_BestDrug_Base">
 		<defName>LRE_Drug_FortuneTransformingDragonPill</defName>
 		<label>【First-rate】Fortune Transforming Dragon Pill</label>
 		<description>Qi:40%\n.Fortune-Transforming Dragon, akin to a fish leaping over the dragon gate, increases refining value, greatly enhances spiritual energy growth efficiency, and significantly raises breakthrough rates.</description>
@@ -126,8 +163,5 @@
 				<teetotalerCanConsume>true</teetotalerCanConsume>
 			</li>
 		</comps>
-		<recipeMaker>
-			<soundWorking>Recipe_Drug</soundWorking>
-		</recipeMaker>
 	</ThingDef>
 </Defs>
