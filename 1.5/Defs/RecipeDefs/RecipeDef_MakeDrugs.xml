@@ -55,7 +55,7 @@
     <label>Make Worry-Free Pill</label>
     <description>Making Worry-Free Pill</description>
     <jobString>Making Worry-Free Pill</jobString>
-    <workAmount>3000</workAmount>
+    <workAmount>800</workAmount>
     <recipeUsers>
         <li>RI_Building_LittleCauldrons</li>
         <li>RI_Building_Cauldrons</li>
@@ -96,7 +96,7 @@
     <label>Make Jade-Qi Pill</label>
     <description>Making Jade-Qi Pill</description>
     <jobString>Making Jade-Qi Pill</jobString>
-    <workAmount>3600</workAmount>
+    <workAmount>1400</workAmount>
     <recipeUsers>
         <li>RI_Building_LittleCauldrons</li>
         <li>RI_Building_Cauldrons</li>
@@ -137,7 +137,7 @@
     <label>Make Thunder-Qi Pill</label>
     <description>Making Thunder-Qi Pill</description>
     <jobString>Making Thunder-Qi Pill</jobString>
-    <workAmount>2400</workAmount>
+    <workAmount>1000</workAmount>
     <recipeUsers>
         <li>RI_Building_LittleCauldrons</li>
         <li>RI_Building_Cauldrons</li>

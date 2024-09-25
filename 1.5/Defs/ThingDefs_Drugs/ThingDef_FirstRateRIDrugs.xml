@@ -91,7 +91,7 @@
     <ThingDef ParentName="RI_BestDrug_Base">
 		<defName>LRE_Drug_FortuneTransformingDragonPill</defName>
 		<label>【First-rate】Fortune Transforming Dragon Pill</label>
-		<description>Qi:40%\n.First-rate Pill, Enhancing Spirit and Supplementing Essence, providing a large amount of refining value, but requiring a significant amount of resources. Only top-tier sects and families can make use of this kind of elixir.</description>
+		<description>Qi:40%\n.Fortune-Transforming Dragon, akin to a fish leaping over the dragon gate, increases refining value, greatly enhances spiritual energy growth efficiency, and significantly raises breakthrough rates.</description>
 		<graphicData>
 			<texPath>LREDrugs/FirstPill/LRE_Drug_CondensingEnergyUniversePill</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -104,7 +104,7 @@
 		</statBases>
 		<ingestible>
 			<foodType>Processed, Fluid</foodType>
-			<baseIngestTicks>100</baseIngestTicks>
+			<baseIngestTicks>200</baseIngestTicks>
 			<ingestSound>Ingest_Inject</ingestSound>
 			<preferability>NeverForNutrition</preferability>
 			<ingestCommandString>服用 {0}</ingestCommandString>
