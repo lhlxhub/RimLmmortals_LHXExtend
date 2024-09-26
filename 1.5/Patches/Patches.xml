@@ -42,5 +42,21 @@
 		</value>
 	</Operation>
 
-
+	<!-- 突破成功率补丁 -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RitualOutcomeEffectDef[defName = "Upgrade"]/comps</xpath>
+		<value>
+			<li Class="Core.RitualOutcomeComp_Hediff">
+				<label>运气化龙丹</label>
+				<hediff>LRE_Drug_FortuneTransformingDragonPillHediff</hediff>
+				<HasHediff>true</HasHediff>
+				<curve>
+					<points>
+						<li>0,  0</li>
+						<li>1,1</li>
+					</points>
+				</curve>
+			</li>
+		</value>
+	</Operation>
 </Patch>

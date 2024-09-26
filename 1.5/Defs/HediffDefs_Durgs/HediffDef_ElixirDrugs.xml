@@ -61,13 +61,13 @@
                 <statOffsets>
                     <MoveSpeed>5</MoveSpeed><!-- 移动速度-->
                     <CrawlSpeed>2</CrawlSpeed><!-- 爬行速度-->
-                    <ComfyTemperatureMin>-30</ComfyTemperatureMin><!-- 最小温度适应-->
-                    <ComfyTemperatureMax>30</ComfyTemperatureMax><!-- 最大舒适温度-->
+                    <ComfyTemperatureMin>-50</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMax>50</ComfyTemperatureMax><!-- 最大舒适温度-->
                     <FilthRate>100</FilthRate><!-- 污染率-->
-                    <Flammability>-0.9</Flammability><!--易燃性系数-->
+                    <Flammability>-1.1</Flammability><!--易燃性系数-->
                     <MentalBreakThreshold>0.4</MentalBreakThreshold><!--崩溃临界值系数-->
                     <ImmunityGainSpeed>1.0</ImmunityGainSpeed><!--免疫性获得速度系数-->
-                    <InjuryHealingFactor>2.0</InjuryHealingFactor><!--愈合速度系数-->
+                    <InjuryHealingFactor>3.0</InjuryHealingFactor><!--愈合速度系数-->
                     <ToxicResistance>0.5</ToxicResistance><!--毒性抵抗系数-->
                     <MeleeHitChance>80</MeleeHitChance><!--近战命中-->
                     <MeleeDodgeChance>80</MeleeDodgeChance><!--近战闪避，最大值50-->
@@ -79,7 +79,7 @@
                 <statFactors>
                     <JoyFallRateFactor>2</JoyFallRateFactor><!-- 娱乐率-->
                     <RestFallRateFactor>0.1</RestFallRateFactor><!-- 疲劳率-->
-                    <MeleeDamageFactor>2.0</MeleeDamageFactor><!--近战伤害系数-->
+                    <MeleeDamageFactor>2.5</MeleeDamageFactor><!--近战伤害系数-->
                     <AimingDelayFactor>0.5</AimingDelayFactor><!--瞄准延迟系数-->		  
                     <RangedCooldownFactor>0.5</RangedCooldownFactor><!--远程冷却系数-->
                     <StaggerDurationFactor>0.3</StaggerDurationFactor><!--抑止时间系数-->
@@ -100,13 +100,13 @@
                 <statOffsets>
                     <MoveSpeed>10</MoveSpeed><!-- 移动速度-->
                     <CrawlSpeed>5</CrawlSpeed><!-- 爬行速度-->
-                    <ComfyTemperatureMin>-50</ComfyTemperatureMin><!-- 最小温度适应-->
-                    <ComfyTemperatureMax>50</ComfyTemperatureMax><!-- 最大舒适温度-->
+                    <ComfyTemperatureMin>-80</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMax>80</ComfyTemperatureMax><!-- 最大舒适温度-->
                     <FilthRate>100</FilthRate><!-- 污染率-->
-                    <Flammability>-1.0</Flammability><!--易燃性系数-->
+                    <Flammability>-1.5</Flammability><!--易燃性系数-->
                     <MentalBreakThreshold>0.2</MentalBreakThreshold><!--崩溃临界值系数-->
                     <ImmunityGainSpeed>3.0</ImmunityGainSpeed><!--免疫性获得速度系数-->
-                    <InjuryHealingFactor>3.0</InjuryHealingFactor><!--愈合速度系数-->
+                    <InjuryHealingFactor>5.0</InjuryHealingFactor><!--愈合速度系数-->
                     <ToxicResistance>0.8</ToxicResistance><!--毒性抵抗系数-->
                     <MeleeHitChance>130</MeleeHitChance><!--近战命中-->
                     <MeleeDodgeChance>130</MeleeDodgeChance><!--近战闪避，最大值50-->
@@ -117,7 +117,7 @@
                 <statFactors>
                     <JoyFallRateFactor>2</JoyFallRateFactor><!-- 娱乐率-->
                     <RestFallRateFactor>0.05</RestFallRateFactor><!-- 疲劳率-->
-                    <MeleeDamageFactor>3</MeleeDamageFactor><!--近战伤害系数-->
+                    <MeleeDamageFactor>3.5</MeleeDamageFactor><!--近战伤害系数-->
                     <AimingDelayFactor>0.2</AimingDelayFactor><!--瞄准延迟系数-->		  
                     <RangedCooldownFactor>0.15</RangedCooldownFactor><!--远程冷却系数-->
                     <StaggerDurationFactor>0.1</StaggerDurationFactor><!--抑止时间系数-->
@@ -138,13 +138,13 @@
                 <statOffsets>
                     <MoveSpeed>20</MoveSpeed><!-- 移动速度-->
                     <CrawlSpeed>10</CrawlSpeed><!-- 爬行速度-->
-                    <ComfyTemperatureMin>-100</ComfyTemperatureMin><!-- 最小温度适应-->
-                    <ComfyTemperatureMax>100</ComfyTemperatureMax><!-- 最大舒适温度-->
+                    <ComfyTemperatureMin>-120</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMax>120</ComfyTemperatureMax><!-- 最大舒适温度-->
                     <FilthRate>200</FilthRate><!-- 污染率-->
-                    <Flammability>-1.0</Flammability><!--易燃性系数-->
+                    <Flammability>-2.0</Flammability><!--易燃性系数-->
                     <MentalBreakThreshold>-0.9</MentalBreakThreshold><!--崩溃临界值系数-->
                     <ImmunityGainSpeed>5.0</ImmunityGainSpeed><!--免疫性获得速度系数-->
-                    <InjuryHealingFactor>6.0</InjuryHealingFactor><!--愈合速度系数-->
+                    <InjuryHealingFactor>8.0</InjuryHealingFactor><!--愈合速度系数-->
                     <ToxicResistance>1</ToxicResistance><!--毒性抵抗系数-->
                     <MeleeHitChance>150</MeleeHitChance><!--近战命中-->
                     <MeleeDodgeChance>150</MeleeDodgeChance><!--近战闪避，最大值50-->
@@ -155,7 +155,7 @@
                 <statFactors>
                     <JoyFallRateFactor>0.6</JoyFallRateFactor><!-- 娱乐率-->
                     <RestFallRateFactor>0.1</RestFallRateFactor><!-- 疲劳率-->
-                    <MeleeDamageFactor>4.0</MeleeDamageFactor><!--近战伤害系数-->
+                    <MeleeDamageFactor>5.0</MeleeDamageFactor><!--近战伤害系数-->
                     <AimingDelayFactor>0.1</AimingDelayFactor><!--瞄准延迟系数-->		  
                     <RangedCooldownFactor>0.2</RangedCooldownFactor><!--远程冷却系数-->
                     <StaggerDurationFactor>0.1</StaggerDurationFactor><!--抑止时间系数-->
@@ -198,8 +198,8 @@
                     <ComfyTemperatureMin>10</ComfyTemperatureMin><!-- 最小温度适应-->
                     <FilthRate>500</FilthRate><!-- 污染率-->
                     <MentalBreakThreshold>2</MentalBreakThreshold><!--崩溃临界值系数-->
-                    <ImmunityGainSpeed>-0.2</ImmunityGainSpeed><!--免疫性获得速度系数-->
-                    <InjuryHealingFactor>-0.3</InjuryHealingFactor><!--愈合速度系数-->
+                    <ImmunityGainSpeed>-0.3</ImmunityGainSpeed><!--免疫性获得速度系数-->
+                    <InjuryHealingFactor>-0.4</InjuryHealingFactor><!--愈合速度系数-->
                 </statOffsets>
                 <hungerRateFactor>3</hungerRateFactor><!-- 饥饿率-->
                 <statFactors>

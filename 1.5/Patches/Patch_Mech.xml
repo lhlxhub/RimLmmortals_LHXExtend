@@ -5,13 +5,9 @@
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/StatDef[defName = "IncomingDamageFactor"]</xpath>
         <value>
-            <!-- <statFactors>
-                <li>LRE_MedicalIncomingDamageFactor</li>
-            </statFactors> -->
             <parts>
                 <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_OverseerStatFactor" MayRequire="Ludeon.RimWorld.Biotech">
                     <stat>LRE_MedicalIncomingDamageFactor</stat>
-                    <label>Offset from mechanitor</label>
                   </li>
             </parts>
         </value>
@@ -22,7 +18,6 @@
         <value>
             <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_OverseerStatFactor" MayRequire="Ludeon.RimWorld.Biotech">
                 <stat>LRE_MedicalMeleeDamageFactor</stat>
-                <label>Offset from mechanitor</label>
             </li>
         </value>
     </Operation>
@@ -32,7 +27,6 @@
         <value>
             <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_OverseerStatFactor" MayRequire="Ludeon.RimWorld.Biotech">
                 <stat>LRE_MedicalMoveSpeedFactor</stat>
-                <label>Offset from mechanitor</label>
             </li>
         </value>
     </Operation>
@@ -42,7 +36,6 @@
         <value>
             <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_OverseerStatFactor" MayRequire="Ludeon.RimWorld.Biotech">
                 <stat>LRE_MedicalAimingDelayFactor</stat>
-                <label>Offset from mechanitor</label>
             </li>
         </value>
     </Operation>
@@ -57,7 +50,6 @@
                 </li>
                 <li Class="RimLmmortals_LHXExtend.LRE_Stats.StatPart_OverseerStatFactor" MayRequire="Ludeon.RimWorld.Biotech">
                     <stat>LRE_MedicalShootingAccuracyPawnFactor</stat>
-                    <label>Offset from mechanitor</label>
                 </li>
             </parts>
         </value>

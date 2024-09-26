@@ -22,4 +22,11 @@
   <!-- EN: Make Gathering Qi And True Spirit Pill -->
   <LRE_Make_GatheringQiAndTrueSpiritPill.jobString>制作【一品】聚气真灵丹</LRE_Make_GatheringQiAndTrueSpiritPill.jobString>
   
+  <!-- EN: Make 【first-rate】Jade Liquid-pill -->
+  <LRE_MakeJadeLiquidPill.label>炼制【一品】青玉仙露丹</LRE_MakeJadeLiquidPill.label>
+  <!-- EN: Make 【first-rate】Jade Liquid-pill -->
+  <LRE_MakeJadeLiquidPill.description>炼制【一品】青玉仙露丹</LRE_MakeJadeLiquidPill.description>
+  <!-- EN: Make 【first-rate】Jade Liquid-pill -->
+  <LRE_MakeJadeLiquidPill.jobString>炼制【一品】青玉仙露丹</LRE_MakeJadeLiquidPill.jobString>
+  
 </LanguageData>

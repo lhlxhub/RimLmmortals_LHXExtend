@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+	<!-- 制作青玉仙露丹 -->
+	<RecipeDef ParentName="RI_RecipeBase_withDanStove">
+		<defName>LRE_MakeJadeLiquidPill</defName>
+		<label>Make 【first-rate】Jade Liquid-pill</label>
+		<description>Make 【first-rate】Jade Liquid-pill</description>
+		<jobString>Make 【first-rate】Jade Liquid-pill</jobString>
+		<workAmount>3600</workAmount>
+		<recipeUsers>
+			<li>RI_Building_Cauldrons</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Save_Energy_Grass_Seed</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RI_Resource_SpiritualCrystal</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RI_Resource_QingMingMarrow</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+			<li>
+                <filter>
+                    <thingDefs>
+                        <li>RI_Resource_SpiritFire</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+		</ingredients>
+		<products>
+			<LRE_Drug_JadeLiquidPill>1</LRE_Drug_JadeLiquidPill>
+		</products>
+	</RecipeDef>
     <!-- 凝气乾坤丹制作 -->
     <RecipeDef ParentName="RI_RecipeBase_withDanStove">
 		<defName>LRE_Make_CondensingEnergyUniversePill</defName>
@@ -34,6 +82,14 @@
                     </thingDefs>
                 </filter>
                 <count>3</count>
+            </li>
+			<li>
+                <filter>
+                    <thingDefs>
+                        <li>RI_Resource_SpiritFire</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
             </li>
 		</ingredients>
 		<products>

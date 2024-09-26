@@ -4,21 +4,21 @@
   <!-- EN: Exp Absorption Value Factor -->
   <LRE_ExpAbsorptionValueFactor.label>炼化速度乘数</LRE_ExpAbsorptionValueFactor.label>
   <!-- EN: Exp Absorption Value Factor. -->
-  <LRE_ExpAbsorptionValueFactor.description>修仙者炼化丹药速度的乘数。</LRE_ExpAbsorptionValueFactor.description>
+  <LRE_ExpAbsorptionValueFactor.description>修仙者炼化速度的乘数。</LRE_ExpAbsorptionValueFactor.description>
   
   <!-- EN: Exp Absorption Value Offset -->
   <LRE_ExpAbsorptionValueOffset.label>炼化速度</LRE_ExpAbsorptionValueOffset.label>
   <!-- EN: Exp Absorption Value Offset. -->
-  <LRE_ExpAbsorptionValueOffset.description>修仙者炼化丹药的速度。</LRE_ExpAbsorptionValueOffset.description>
+  <LRE_ExpAbsorptionValueOffset.description>修仙者炼化速度。</LRE_ExpAbsorptionValueOffset.description>
   
   <!-- EN: Exp Stored Value Factor -->
   <LRE_ExpStoredValueFactor.label>最大炼化量乘数</LRE_ExpStoredValueFactor.label>
   <!-- EN: Exp Stored Value Factor. -->
-  <LRE_ExpStoredValueFactor.description>修仙者最大炼化丹药量的乘数。</LRE_ExpStoredValueFactor.description>
+  <LRE_ExpStoredValueFactor.description>修仙者最大炼化值的乘数。</LRE_ExpStoredValueFactor.description>
   
   <!-- EN: Exp Stored Value Offset -->
   <LRE_ExpStoredValueOffset.label>最大炼化量</LRE_ExpStoredValueOffset.label>
   <!-- EN: Exp Stored Value Offset. -->
-  <LRE_ExpStoredValueOffset.description>修仙者最大炼化丹药量。</LRE_ExpStoredValueOffset.description>
+  <LRE_ExpStoredValueOffset.description>修仙者最大炼化量。</LRE_ExpStoredValueOffset.description>
   
 </LanguageData>

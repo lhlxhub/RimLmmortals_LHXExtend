@@ -60,7 +60,7 @@
         <comps>
             <!-- 修炼进度值-->
 			<li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddInExpStored">
-				<expValue>0.4</expValue>
+				<expValue>0.6</expValue>
                 <isPercent>true</isPercent>
 			</li>
             <li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddHediff">
@@ -70,7 +70,7 @@
             </li>
             <li Class="HediffCompProperties_Disappears">
 				<showRemainingTime>true</showRemainingTime>
-				<disappearsAfterTicks>15000</disappearsAfterTicks>
+				<disappearsAfterTicks>60000</disappearsAfterTicks>
 			</li>
 		</comps>
         <stages>

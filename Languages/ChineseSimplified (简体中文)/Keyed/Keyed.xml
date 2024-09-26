@@ -33,6 +33,9 @@
     <!-- EN: TODO -->
   <LRE_ExpAbsorptionValue_EnergyGainEff>灵气吸收效率影响</LRE_ExpAbsorptionValue_EnergyGainEff>
     <!-- EN: TODO -->
-  <LRE_AbsorbQiHediffWithComps_Tip>\n当前炼化信息：\n炼化容比：{Percent}\n炼化速度：{ExpAbsorptionValue}/小时\n待炼化量：{ExpStoredValue}\n</LRE_AbsorbQiHediffWithComps_Tip>
-  
+  <LRE_AbsorbQiHediffWithComps_Tip>\n当前炼化信息：\n炼化容比：{Percent}\n炼化速度：{ExpAbsorptionValue}/小时\n待炼化量：{ExpStoredValue}\n炼化容量：{TotalCount}\n</LRE_AbsorbQiHediffWithComps_Tip>
+    <!-- EN: TODO -->
+  <LRE_FactorFromMechanitor>机械师乘数</LRE_FactorFromMechanitor>
+    <!-- EN: TODO -->
+
 </LanguageData>

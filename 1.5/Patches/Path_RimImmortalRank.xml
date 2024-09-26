@@ -5,7 +5,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/HediffDef[defName = "RI_Hediff_Beginning"]/stages/li/statOffsets</xpath>
         <value>
-            <LRE_ExpStoredValueOffset>200</LRE_ExpStoredValueOffset>
+            <LRE_ExpStoredValueOffset>100</LRE_ExpStoredValueOffset>
             <LRE_ExpAbsorptionValueOffset>15</LRE_ExpAbsorptionValueOffset>
         </value>
     </Operation>
@@ -14,7 +14,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/HediffDef[defName = "RI_Hediff_Foundation"]/stages/li/statOffsets</xpath>
         <value>
-            <LRE_ExpStoredValueOffset>500</LRE_ExpStoredValueOffset>
+            <LRE_ExpStoredValueOffset>400</LRE_ExpStoredValueOffset>
             <LRE_ExpAbsorptionValueOffset>30</LRE_ExpAbsorptionValueOffset>
         </value>
     </Operation>
@@ -22,7 +22,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/HediffDef[defName = "RI_Hediff_CoreFormation"]/stages/li/statOffsets</xpath>
         <value>
-            <LRE_ExpStoredValueOffset>1000</LRE_ExpStoredValueOffset>
+            <LRE_ExpStoredValueOffset>900</LRE_ExpStoredValueOffset>
             <LRE_ExpAbsorptionValueOffset>45</LRE_ExpAbsorptionValueOffset>
         </value>
     </Operation>
@@ -30,7 +30,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/HediffDef[defName = "RI_Hediff_CoreCoagulation"]/stages/li/statOffsets</xpath>
         <value>
-            <LRE_ExpStoredValueOffset>1500</LRE_ExpStoredValueOffset>
+            <LRE_ExpStoredValueOffset>1400</LRE_ExpStoredValueOffset>
             <LRE_ExpAbsorptionValueOffset>60</LRE_ExpAbsorptionValueOffset>
         </value>
     </Operation>
@@ -38,48 +38,48 @@
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/HediffDef[defName = "RI_Hediff_CoreImmaculacy"]/stages/li/statOffsets</xpath>
         <value>
-            <LRE_ExpStoredValueOffset>2000</LRE_ExpStoredValueOffset>
-            <LRE_ExpAbsorptionValueOffset>75</LRE_ExpAbsorptionValueOffset>
+            <LRE_ExpStoredValueOffset>1900</LRE_ExpStoredValueOffset>
+            <LRE_ExpAbsorptionValueOffset>90</LRE_ExpAbsorptionValueOffset>
         </value>
     </Operation>
     <!-- 6 -->
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/HediffDef[defName = "RI_Hediff_Shackle"]/stages/li/statOffsets</xpath>
         <value>
-            <LRE_ExpStoredValueOffset>2500</LRE_ExpStoredValueOffset>
-            <LRE_ExpAbsorptionValueOffset>90</LRE_ExpAbsorptionValueOffset>
+            <LRE_ExpStoredValueOffset>2400</LRE_ExpStoredValueOffset>
+            <LRE_ExpAbsorptionValueOffset>100</LRE_ExpAbsorptionValueOffset>
         </value>
     </Operation>
     <!-- 7 -->
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/HediffDef[defName = "RI_Hediff_PrimordialSpiritBaby"]/stages/li/statOffsets</xpath>
         <value>
-            <LRE_ExpStoredValueOffset>3000</LRE_ExpStoredValueOffset>
-            <LRE_ExpAbsorptionValueOffset>105</LRE_ExpAbsorptionValueOffset>
+            <LRE_ExpStoredValueOffset>2900</LRE_ExpStoredValueOffset>
+            <LRE_ExpAbsorptionValueOffset>120</LRE_ExpAbsorptionValueOffset>
         </value>
     </Operation>
     <!-- 8 -->
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/HediffDef[defName = "RI_Hediff_PrimordialSpiritMaturation"]/stages/li/statOffsets</xpath>
         <value>
-            <LRE_ExpStoredValueOffset>6000</LRE_ExpStoredValueOffset>
-            <LRE_ExpAbsorptionValueOffset>120</LRE_ExpAbsorptionValueOffset>
+            <LRE_ExpStoredValueOffset>5900</LRE_ExpStoredValueOffset>
+            <LRE_ExpAbsorptionValueOffset>130</LRE_ExpAbsorptionValueOffset>
         </value>
     </Operation>
     <!-- 9 -->
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/HediffDef[defName = "RI_Hediff_PrimordialSpiritCombine"]/stages/li/statOffsets</xpath>
         <value>
-            <LRE_ExpStoredValueOffset>8000</LRE_ExpStoredValueOffset>
-            <LRE_ExpAbsorptionValueOffset>135</LRE_ExpAbsorptionValueOffset>
+            <LRE_ExpStoredValueOffset>7900</LRE_ExpStoredValueOffset>
+            <LRE_ExpAbsorptionValueOffset>150</LRE_ExpAbsorptionValueOffset>
         </value>
     </Operation>
     <!-- 10 -->
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/HediffDef[defName = "RI_Hediff_Immortal"]/stages/li/statOffsets</xpath>
         <value>
-            <LRE_ExpStoredValueOffset>10000</LRE_ExpStoredValueOffset>
-            <LRE_ExpAbsorptionValueOffset>150</LRE_ExpAbsorptionValueOffset>
+            <LRE_ExpStoredValueOffset>9900</LRE_ExpStoredValueOffset>
+            <LRE_ExpAbsorptionValueOffset>200</LRE_ExpAbsorptionValueOffset>
         </value>
     </Operation>
 </Patch>

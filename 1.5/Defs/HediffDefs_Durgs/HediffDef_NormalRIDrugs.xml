@@ -11,10 +11,10 @@
 		<comps>
             <!-- 修炼进度-->
 			<li Class = "RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_AddInExpStored">
-				<expValue>200</expValue>
+				<expValue>100</expValue>
 			</li>
             <li Class="RimLmmortals_LHXExtend.Properties.HediffComProperties_InstallRoot">
-                <onceAddSeverity>0.4</onceAddSeverity>
+                <onceAddSeverity>0.5</onceAddSeverity>
                 <canMaxSeverity>0.99</canMaxSeverity>
                 <bodyPart>Brain</bodyPart>
                 <canUpgrade>true</canUpgrade>

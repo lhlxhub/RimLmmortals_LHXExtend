@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 青玉仙丹 -->
- <!-- 提供修炼进度 -->
- <!-- 提高修炼速度 -->
+
 <Defs>
-<ThingDef ParentName="RI_BasicDrug_Base">
-    <defName>LRE_Drug_JadeLiquidPill</defName>
-    <label>Jade Liquid Pill</label>
-    <description>anananana.</description>
-    <graphicData>
-        <texPath>LREDrugs/JadeLiquidPill</texPath>
-    </graphicData>
-    <statBases>
-        <WorkToMake>2000</WorkToMake>
-        <MarketValue>1200</MarketValue>
-    </statBases>
-    <ingestible>
-        <outcomeDoers>
-            <li Class="IngestionOutcomeDoer_GiveHediff">
-                <hediffDef>LRE_JadeLiquidPillHediff</hediffDef>
-            </li>
-        </outcomeDoers>
-    </ingestible>
-</ThingDef>
 <!-- 忘忧丹 -->
  <!-- 忘记死去的人，但是有概率忘掉其他人 -->
 <ThingDef ParentName="RI_BasicDrug_Base">
@@ -33,7 +12,7 @@
     </graphicData>
     <statBases>
         <WorkToMake>2100</WorkToMake>
-        <MarketValue>400</MarketValue>
+        <MarketValue>100</MarketValue>
     </statBases>
     <ingestible>
         <outcomeDoers>
@@ -49,11 +28,11 @@
     <label>【Second-rate】Jade Qi Pill</label>
     <description>Qi:300\n.【Second-rate】Pill，The potion made with a small amount of 【Nature】Save Energy Grass Seed and a large amount of Spiritual crystal has a moderate effect, but it can save a significant amount of 【Nature】Save Energy Grass Seed.\nThe progress of cultivation that can be enhanced is moderate.</description>
     <graphicData>
-        <texPath>LREDrugs/WorryFreePill</texPath>
+        <texPath>LREDrugs/LRE_Drug_JadeQiPill</texPath>
     </graphicData>
     <statBases>
         <WorkToMake>2500</WorkToMake>
-        <MarketValue>400</MarketValue>
+        <MarketValue>328</MarketValue>
     </statBases>
     <ingestible>
         <outcomeDoers>
@@ -69,11 +48,11 @@
     <label>【Second-rate】Thunder Qi Pill</label>
     <description>Qi:500\n.【Second-rate】Pill，The Pill refined with a large amount of 【Nature】Save Energy Grass Seed, due to its heavy use of 【Second-rate】Thunder Qi Pill, results in a purer Qi and can offer a more substantial progress in cultivation..\nThe progress of cultivation that can be enhanced is moderate.</description>
     <graphicData>
-        <texPath>LREDrugs/WorryFreePill</texPath>
+        <texPath>LREDrugs/LRE_Drug_ThunderQiPill</texPath>
     </graphicData>
     <statBases>
         <WorkToMake>2000</WorkToMake>
-        <MarketValue>400</MarketValue>
+        <MarketValue>520</MarketValue>
     </statBases>
     <ingestible>
         <outcomeDoers>

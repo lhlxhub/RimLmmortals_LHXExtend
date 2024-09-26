@@ -42,6 +42,46 @@
 	</ThingDef>
 
 
+    <!-- 青玉仙丹 -->
+    <!-- 提供修炼进度 -->
+    <!-- 提高修炼速度 -->
+    <ThingDef ParentName="LRE_BestDrug_Base">
+		<defName>LRE_Drug_JadeLiquidPill</defName>
+		<label>【First-rate】Jade Liquid Pill</label>
+		<description>anananana.</description>
+		<graphicData>
+			<texPath>LREDrugs/FirstPill/LRE_Drug_JadeLiquidPill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0</Nutrition>
+			<WorkToMake>2000</WorkToMake>
+			<MarketValue>1200</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+		<ingestible>
+			<foodType>Processed, Fluid</foodType>
+			<baseIngestTicks>80</baseIngestTicks>
+			<ingestSound>Ingest_Inject</ingestSound>
+			<preferability>NeverForNutrition</preferability>
+			<ingestCommandString>服用 {0}</ingestCommandString>
+			<ingestReportString>服用 {0} 中</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<chairSearchRadius>0</chairSearchRadius>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>LRE_JadeLiquidPillHediff</hediffDef>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>210</listOrder>
+				<teetotalerCanConsume>true</teetotalerCanConsume>
+			</li>
+		</comps>
+	</ThingDef>
 
     <!-- 凝气乾坤丹 -->
      <!-- 超级大猛药，貌似不需要写太多内容，也就加个dll，搞个资源 -->
@@ -90,7 +130,7 @@
 		<label>【First-rate】Gathering Qi And True Spirit Pill</label>
 		<description>Qi:5000\n.First-rate Pill, Enhancing Spirit and Supplementing Essence, providing a large amount of refining value, but requiring a significant amount of resources. Only top-tier sects and families can make use of this kind of elixir.</description>
 		<graphicData>
-			<texPath>LREDrugs/FirstPill/LRE_Drug_CondensingEnergyUniversePill</texPath>
+			<texPath>LREDrugs/FirstPill/LRE_Drug_GatheringQiAndTrueSpiritPill</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -130,7 +170,7 @@
 		<label>【First-rate】Fortune Transforming Dragon Pill</label>
 		<description>Qi:40%\n.Fortune-Transforming Dragon, akin to a fish leaping over the dragon gate, increases refining value, greatly enhances spiritual energy growth efficiency, and significantly raises breakthrough rates.</description>
 		<graphicData>
-			<texPath>LREDrugs/FirstPill/LRE_Drug_CondensingEnergyUniversePill</texPath>
+			<texPath>LREDrugs/FirstPill/LRE_Drug_FortuneTransformingDragonPill</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>

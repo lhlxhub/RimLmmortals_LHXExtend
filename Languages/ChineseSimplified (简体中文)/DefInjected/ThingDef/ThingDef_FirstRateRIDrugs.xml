@@ -13,7 +13,7 @@
   <!-- EN: 【First-rate】Fortune Transforming Dragon Pill -->
   <LRE_Drug_FortuneTransformingDragonPill.label>【一品】运气化龙丹</LRE_Drug_FortuneTransformingDragonPill.label>
   <!-- EN: Qi:40%\n.Fortune-Transforming Dragon, akin to a fish leaping over the dragon gate, increases refining value, greatly enhances spiritual energy growth efficiency, and significantly raises breakthrough rates. -->
-  <LRE_Drug_FortuneTransformingDragonPill.description>炼化值:40%\n突破几率:+30%\n【一品】运气化龙丹，修炼路之路上的每次突破都像鱼跃龙门，每次修炼者的突破，都试修炼者更加强大，但是修炼想要突破成功，又不是一件容易的事情。服用此丹后，修炼者能得到大量的炼化值，而且段时间内提高大幅突破几率。由于这种丹药炼制十分昂贵，只有大宗们的护法才有机会得到。</LRE_Drug_FortuneTransformingDragonPill.description>
+  <LRE_Drug_FortuneTransformingDragonPill.description>炼化值:60%\n突破几率:+30%\n【一品】运气化龙丹，服用此丹可以提高修炼者的气运，让修炼者突破成功率更高，。服用此丹后，修炼者能得到大量的炼化值，而且段时间内提高大幅突破几率。由于这种丹药炼制十分昂贵，只有大宗们的护法才有机会得到。</LRE_Drug_FortuneTransformingDragonPill.description>
   <!-- EN: 服用 {0} -->
   <LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestCommandString>服用 {0}</LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestCommandString>
   <!-- EN: 服用 {0} 中 -->
@@ -27,5 +27,14 @@
   <LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestCommandString>服用 {0}</LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestCommandString>
   <!-- EN: 服用 {0} 中 -->
   <LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestReportString>服用 {0} 中</LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestReportString>
+  
+  <!-- EN: 【First-rate】Jade Liquid Pill -->
+  <LRE_Drug_JadeLiquidPill.label>【一品】青玉仙露丹</LRE_Drug_JadeLiquidPill.label>
+  <!-- EN: anananana. -->
+  <LRE_Drug_JadeLiquidPill.description>青玉髓结合霹雳灵果炼制的丹药，不仅可以让普通人成为修行者，能极大程度提高修炼速度，还能提高灵芽的品质。</LRE_Drug_JadeLiquidPill.description>
+  <!-- EN: 服用 {0} -->
+  <LRE_Drug_JadeLiquidPill.ingestible.ingestCommandString>服用 青玉仙露丹</LRE_Drug_JadeLiquidPill.ingestible.ingestCommandString>
+  <!-- EN: 服用 {0} 中 -->
+  <LRE_Drug_JadeLiquidPill.ingestible.ingestReportString>服用 青玉仙露丹</LRE_Drug_JadeLiquidPill.ingestible.ingestReportString>
   
 </LanguageData>

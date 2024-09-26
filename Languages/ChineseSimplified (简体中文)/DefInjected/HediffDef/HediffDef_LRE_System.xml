@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: Absorb Qi Hediff -->
-  <LRE_AbsorbQiHediff.label>丹药炼化</LRE_AbsorbQiHediff.label>
+  <LRE_AbsorbQiHediff.label>炼化</LRE_AbsorbQiHediff.label>
   <!-- EN: Absorb Qi Hediff. -->
-  <LRE_AbsorbQiHediff.description>修仙者正在炼化丹药，每小时炼化一次，如果修仙者境界已满，炼化值会1:10转化为灵气，修炼者当前存储的炼化值越多，承受的负面效果越大。</LRE_AbsorbQiHediff.description>
+  <LRE_AbsorbQiHediff.description>修仙者正在炼化得到的炼化值，每小时炼化一次，如果修仙者境界已满，炼化值会1:10转化为灵气，修炼者当前存储的炼化值越多，承受的负面效果越大。</LRE_AbsorbQiHediff.description>
   <!-- EN: 1 -->
   <LRE_AbsorbQiHediff.stages._1.label>轻盈</LRE_AbsorbQiHediff.stages._1.label>
   <!-- EN: 2 -->

@@ -8,8 +8,15 @@
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<defaultLabelColor>(59,252,191)</defaultLabelColor>
 		<isBad>false</isBad>
+		<descriptionHyperlinks>
+			<ThingDef>Save_Energy_Grass_Seed</ThingDef>
+			<ThingDef>LRE_Drug_JadeQiPill</ThingDef>
+			<ThingDef>LRE_Drug_ThunderQiPill</ThingDef>
+			<ThingDef>LRE_Drug_GatheringQiAndTrueSpiritPill</ThingDef>
+			<ThingDef>LRE_Drug_FortuneTransformingDragonPill</ThingDef>
+		</descriptionHyperlinks>
 		<initialSeverity>0.1</initialSeverity>
-		<minSeverity>0.1</minSeverity>
+		<minSeverity>0</minSeverity>
 		<maxSeverity>2</maxSeverity>
 		<stages>
 			<li>

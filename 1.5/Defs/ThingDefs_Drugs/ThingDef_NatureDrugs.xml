@@ -52,12 +52,12 @@
 
     <comps>
 	<!-- 这个组件是定义腐化的，比如食物多少天后腐化消失 -->
-      <li Class="CompProperties_Rottable">
+      <!-- <li Class="CompProperties_Rottable"> -->
 		<!-- 10天腐化 -->
-        <daysToRotStart>30</daysToRotStart>
+        <!-- <daysToRotStart>30</daysToRotStart> -->
 		<!-- 腐化后消失 -->
-        <rotDestroys>true</rotDestroys>
-      </li>
+        <!-- <rotDestroys>true</rotDestroys> -->
+      <!-- </li> -->
 	  
 	  <!-- 这个是定义的一些药物浓度和成瘾性相关的 -->
       <li Class="CompProperties_Drug">

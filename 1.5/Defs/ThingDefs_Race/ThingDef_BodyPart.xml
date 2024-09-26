@@ -11,8 +11,8 @@
 			<texPath>LREBodyPart/LRE_LSExtractDevice</texPath>
 		</graphicData>
 		<statBases>
-			<MarketValue>100</MarketValue>
-			<Mass>1</Mass>
+			<MarketValue>300</MarketValue>
+			<Mass>5</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>Advanced</li>
