@@ -11,21 +11,21 @@
   <LRE_Drug_CondensingEnergyUniversePill.ingestible.ingestReportString>服用【一品】凝气乾坤丹中</LRE_Drug_CondensingEnergyUniversePill.ingestible.ingestReportString>
   
   <!-- EN: 【First-rate】Fortune Transforming Dragon Pill -->
-  <LRE_Drug_FortuneTransformingDragonPill.label>TODO</LRE_Drug_FortuneTransformingDragonPill.label>
+  <LRE_Drug_FortuneTransformingDragonPill.label>【一品】运气化龙丹</LRE_Drug_FortuneTransformingDragonPill.label>
   <!-- EN: Qi:40%\n.Fortune-Transforming Dragon, akin to a fish leaping over the dragon gate, increases refining value, greatly enhances spiritual energy growth efficiency, and significantly raises breakthrough rates. -->
-  <LRE_Drug_FortuneTransformingDragonPill.description>TODO</LRE_Drug_FortuneTransformingDragonPill.description>
+  <LRE_Drug_FortuneTransformingDragonPill.description>炼化值:40%\n突破几率:+30%\n【一品】运气化龙丹，修炼路之路上的每次突破都像鱼跃龙门，每次修炼者的突破，都试修炼者更加强大，但是修炼想要突破成功，又不是一件容易的事情。服用此丹后，修炼者能得到大量的炼化值，而且段时间内提高大幅突破几率。由于这种丹药炼制十分昂贵，只有大宗们的护法才有机会得到。</LRE_Drug_FortuneTransformingDragonPill.description>
   <!-- EN: 服用 {0} -->
-  <LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestCommandString>TODO</LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestCommandString>
+  <LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestCommandString>服用 {0}</LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestCommandString>
   <!-- EN: 服用 {0} 中 -->
-  <LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestReportString>TODO</LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestReportString>
+  <LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestReportString>服用 {0} 中 </LRE_Drug_FortuneTransformingDragonPill.ingestible.ingestReportString>
   
   <!-- EN: 【First-rate】Gathering Qi And True Spirit Pill -->
-  <LRE_Drug_GatheringQiAndTrueSpiritPill.label>TODO</LRE_Drug_GatheringQiAndTrueSpiritPill.label>
+  <LRE_Drug_GatheringQiAndTrueSpiritPill.label>【一品】聚气真灵丹</LRE_Drug_GatheringQiAndTrueSpiritPill.label>
   <!-- EN: Qi:5000\n.First-rate Pill, Enhancing Spirit and Supplementing Essence, providing a large amount of refining value, but requiring a significant amount of resources. Only top-tier sects and families can make use of this kind of elixir. -->
-  <LRE_Drug_GatheringQiAndTrueSpiritPill.description>TODO</LRE_Drug_GatheringQiAndTrueSpiritPill.description>
+  <LRE_Drug_GatheringQiAndTrueSpiritPill.description>炼化值：5000\n【一品】聚气真灵丹，这种极品丹药由于是消耗了大量的资源炼制出来的，所以内部的灵气浓缩出了大量的炼化值，修炼者服用后，能提升大量的修炼进度。不过切忌不要随意服用这种丹药，否则会带来极大负面效果。</LRE_Drug_GatheringQiAndTrueSpiritPill.description>
   <!-- EN: 服用 {0} -->
-  <LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestCommandString>TODO</LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestCommandString>
+  <LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestCommandString>服用 {0}</LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestCommandString>
   <!-- EN: 服用 {0} 中 -->
-  <LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestReportString>TODO</LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestReportString>
+  <LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestReportString>服用 {0} 中</LRE_Drug_GatheringQiAndTrueSpiritPill.ingestible.ingestReportString>
   
 </LanguageData>
