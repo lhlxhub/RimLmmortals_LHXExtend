@@ -66,7 +66,7 @@
 				<otherHediffDef>MechlinkImplant</otherHediffDef>
 				<bodyPart>Brain</bodyPart>
 				<requiresExistingHediff>false</requiresExistingHediff>
-				<rootLevel>3</rootLevel>
+				<rootLevel>2</rootLevel>
 				<unlockLevel>1</unlockLevel>
 				<canUpgrade>false</canUpgrade>
 			</li>
@@ -96,7 +96,7 @@
 				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
 				<bodyPart>Brain</bodyPart>
 				<requiresExistingHediff>true</requiresExistingHediff>
-				<rootLevel>5</rootLevel>
+				<rootLevel>4</rootLevel>
 				<unlockLevel>2</unlockLevel>
 				<canUpgrade>false</canUpgrade>
 				<minSeverity>3</minSeverity>
@@ -127,7 +127,7 @@
 				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
 				<bodyPart>Brain</bodyPart>
 				<requiresExistingHediff>true</requiresExistingHediff>
-				<rootLevel>7</rootLevel>
+				<rootLevel>6</rootLevel>
 				<unlockLevel>3</unlockLevel>
 				<canUpgrade>false</canUpgrade>
 				<minSeverity>8</minSeverity>
@@ -158,7 +158,7 @@
 				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
 				<bodyPart>Brain</bodyPart>
 				<requiresExistingHediff>true</requiresExistingHediff>
-				<rootLevel>10</rootLevel>
+				<rootLevel>8</rootLevel>
 				<unlockLevel>4</unlockLevel>
 				<canUpgrade>false</canUpgrade>
 				<minSeverity>15</minSeverity>
@@ -189,7 +189,7 @@
 				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
 				<bodyPart>Brain</bodyPart>
 				<requiresExistingHediff>true</requiresExistingHediff>
-				<rootLevel>5</rootLevel>
+				<rootLevel>1</rootLevel>
 				<canUpgrade>true</canUpgrade>
 				<maxSeverity>8</maxSeverity>
 				<minSeverity>1</minSeverity>
@@ -220,7 +220,7 @@
 				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
 				<bodyPart>Brain</bodyPart>
 				<requiresExistingHediff>true</requiresExistingHediff>
-				<rootLevel>5</rootLevel>
+				<rootLevel>1</rootLevel>
 				<canUpgrade>true</canUpgrade>
 				<maxSeverity>25</maxSeverity>
 				<minSeverity>9</minSeverity>
