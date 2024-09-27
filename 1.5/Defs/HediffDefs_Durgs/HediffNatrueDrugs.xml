@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <!-- 霹雳灵果的buff-->
+    <!-- 储灵草籽的buff-->
     <HediffDef>
 		<defName>LRE_SaveEnergyGrassSeedHediff</defName>
 		<label>Save Energy Grass Seed Hediff</label>
