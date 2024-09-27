@@ -46,6 +46,10 @@
 		<defName>LRE_Things_CelestialPivotofDivineMachinesOne</defName>
 		<label>Celestial Pivot of Divine Machines One</label>
 		<description>Celestial Pivot of Divine Machines One.</description>
+		<descriptionHyperlinks>
+			<Core.RimImmortalDef>RI_Training1</Core.RimImmortalDef>
+			<ThingDef>LRE_Things_CelestialCondensingMachinesLiquidLite</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesOne</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -77,6 +81,10 @@
 		<defName>LRE_Things_CelestialPivotofDivineMachinesTwo</defName>
 		<label>Celestial Pivot of Divine Machines Two</label>
 		<description>Celestial Pivot of Divine Machines Two.</description>
+		<descriptionHyperlinks>
+			<Core.RimImmortalDef>RI_Training3</Core.RimImmortalDef>
+			<ThingDef>LRE_Things_CelestialCondensingMachinesLiquidLite</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesTwo</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -108,6 +116,10 @@
 		<defName>LRE_Things_CelestialPivotofDivineMachinesThree</defName>
 		<label>Celestial Pivot of Divine Machines Three</label>
 		<description>Celestial Pivot of Divine Machines Three.</description>
+		<descriptionHyperlinks>
+			<Core.RimImmortalDef>RI_Training5</Core.RimImmortalDef>
+			<ThingDef>LRE_Things_CelestialCondensingMachinesLiquidHigh</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesThree</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -139,6 +151,10 @@
 		<defName>LRE_Things_CelestialPivotofDivineMachinesFour</defName>
 		<label>Celestial Pivot of Divine Machines Four</label>
 		<description>Celestial Pivot of Divine Machines Four.</description>
+		<descriptionHyperlinks>
+			<Core.RimImmortalDef>RI_Training7</Core.RimImmortalDef>
+			<ThingDef>LRE_Things_CelestialCondensingMachinesLiquidHigh</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesFour</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
