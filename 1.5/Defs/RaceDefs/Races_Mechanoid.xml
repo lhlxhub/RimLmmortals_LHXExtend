@@ -5,73 +5,96 @@
         <defName>CelestialWhitewing</defName>
         <description>Heavy combat mechanoids that glide on dozens of tiny legs. Their thick carapace and firepower makes them very effective against bunched-up static defenders. They are somewhat vulnerable to mobile hit-and-run tactics.</description>
         <statBases>
-        <MoveSpeed>1.9</MoveSpeed>
-        <ArmorRating_Blunt>0.22</ArmorRating_Blunt>
-        <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
-        <PsychicSensitivity>0.75</PsychicSensitivity>
-        <BandwidthCost>4</BandwidthCost>
-        <MechEnergyLossPerHP>0.2</MechEnergyLossPerHP>
+            <!-- 移动速度 -->
+            <MoveSpeed>3</MoveSpeed>
+            <!-- 钝器护甲 -->
+            <ArmorRating_Blunt>1.32</ArmorRating_Blunt>
+            <!-- 利器护甲 -->
+            <ArmorRating_Sharp>1.72</ArmorRating_Sharp>
+            <!-- 心灵敏感度 -->
+            <PsychicSensitivity>0</PsychicSensitivity>
+            <!-- 宽带成本 -->
+            <BandwidthCost>4</BandwidthCost>
+            <!-- 修复损坏需要的能量 -->
+            <MechEnergyLossPerHP>0.2</MechEnergyLossPerHP>
         </statBases>
+        <!-- 工具 -->
         <tools>
-        <li>
-            <label>head</label>
-            <capacities>
-            <li>Blunt</li>
-            </capacities>
-            <power>17</power>
-            <cooldownTime>2.6</cooldownTime>
-            <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-            <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <!-- 攻击力 -->
+                <power>50</power>
+                <!-- 攻击冷却 -->
+                <cooldownTime>1.2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+            </li>
         </tools>
         <race>
-        <intelligence>ToolUser</intelligence>
-        <thinkTreeMain>Mechanoid</thinkTreeMain>
-        <body>MechanicalCentipede</body>
-        <baseBodySize>3.0</baseBodySize>
-        <baseHealthScale>4.32</baseHealthScale>
-        <lifeStageAges>
-            <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>0</minAge>
-            <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
-            <soundCall>Pawn_Mech_Centipede_Call</soundCall>
-            </li>
-            <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>100</minAge>
-            <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
-            <soundCall>Pawn_Mech_Centipede_Call</soundCall>
-            </li>
-        </lifeStageAges>
-        <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
-        <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
-        <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
-        <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
-        <mechWeightClass>Heavy</mechWeightClass>
-        <detritusLeavings>
-            <li>
-            <def>ChunkMechanoidSlag</def>
-            <texOverrideIndex>10</texOverrideIndex>
-            <spawnChance>0.5</spawnChance>
-            </li>
-            <li>
-            <def>ChunkMechanoidSlag</def>
-            <texOverrideIndex>19</texOverrideIndex>
-            <spawnChance>0.5</spawnChance>
-            </li>
-            <li>
-            <def>ChunkMechanoidSlag</def>
-            <texOverrideIndex>14</texOverrideIndex>
-            <spawnChance>0.5</spawnChance>
-            </li>
-        </detritusLeavings>
+            <!-- 智力 -->
+            <intelligence>ToolUser</intelligence>
+            <!-- 思维树 -->
+            <thinkTreeMain>Mechanoid</thinkTreeMain>
+            <!-- 身体类型 -->
+            <body>MechanicalCentipede</body>
+            <!-- 体积 -->
+            <baseBodySize>3.0</baseBodySize>
+            <!-- 健康比例 -->
+            <baseHealthScale>4.32</baseHealthScale>
+            <!-- 生命阶段列表 -->
+            <lifeStageAges>
+                <li>
+                    <def>MechanoidFullyFormed</def>
+                    <minAge>0</minAge>
+                    <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+                    <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+                    <soundCall>Pawn_Mech_Centipede_Call</soundCall>
+                </li>
+                <li>
+                    <def>MechanoidFullyFormed</def>
+                    <minAge>100</minAge>
+                    <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+                    <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+                    <soundCall>Pawn_Mech_Centipede_Call</soundCall>
+                </li>
+            </lifeStageAges>
+            <!-- 声音范围 -->
+            <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
+            <!-- 攻击中pawn的音效 -->
+            <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+            <!-- 攻击中建筑的音效 -->
+            <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+            <!-- 攻击丢失的音效 -->
+            <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+            <!-- 体重类型：重型 -->
+            <mechWeightClass>Heavy</mechWeightClass>
+            <!-- 被摧毁掉落的物块 -->
+            <detritusLeavings>
+                <li>
+                    <def>ChunkMechanoidSlag</def>
+                    <texOverrideIndex>10</texOverrideIndex>
+                    <spawnChance>0.5</spawnChance>
+                </li>
+                <li>
+                    <def>ChunkMechanoidSlag</def>
+                    <texOverrideIndex>19</texOverrideIndex>
+                    <spawnChance>0.5</spawnChance>
+                </li>
+                <li>
+                    <def>ChunkMechanoidSlag</def>
+                    <texOverrideIndex>14</texOverrideIndex>
+                    <spawnChance>0.5</spawnChance>
+                </li>
+            </detritusLeavings>
         </race>
+        <!-- 被拆解后的产出 -->
         <butcherProducts>
-        <Steel>30</Steel>
-        <Plasteel>10</Plasteel>
+            <RI_Resource_SpiritualCrystal>10</RI_Resource_SpiritualCrystal>
+            <Steel>20</Steel>
+            <Plasteel>5</Plasteel>
         </butcherProducts>
     </ThingDef>
 </Defs>
