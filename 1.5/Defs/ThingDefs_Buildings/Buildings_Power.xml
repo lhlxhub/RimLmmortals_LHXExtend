@@ -1,0 +1,115 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- 灵石发电机 -->
+    <!-- 科技：电力,高等灵气学,特点: 无燃料发少量电(100),有燃料发大量电(2100),建造需要灵石,修仙的特殊钢材,零部件 -->
+    <ThingDef ParentName="BuildingBase">
+        <defName>SpiritualCrystalGenerator</defName>
+        <label>Spiritual Crystal Generator</label>
+        <description>Produces power by consuming wood. Must be periodically loaded with wood fuel by hand.</description>
+        <thingClass>Building</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <!-- 美术绘制 -->
+        <graphicData>
+            <texPath>Things/Building/Power/WoodFiredGenerator</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <shadowData>
+                <volume>(1.93,1,1.69)</volume>
+                <offset>(-0.03,0,-0.1)</offset>
+            </shadowData>
+        </graphicData>
+        <!-- 高度层级 -->
+        <altitudeLayer>Building</altitudeLayer>
+        <!-- 通过规则 -->
+        <passability>PassThroughOnly</passability>
+        <!-- 填充百分比 -->
+        <fillPercent>0.9</fillPercent>
+        <!-- ai穿过成本 -->
+        <pathCost>50</pathCost>
+        <!-- 可旋转性 -->
+        <rotatable>false</rotatable>
+        <!-- 挡风 -->
+        <blockWind>true</blockWind>
+        <!-- 边缘阴影 -->
+        <castEdgeShadows>false</castEdgeShadows>
+        <!-- 一些属性 -->
+        <statBases>
+            <!-- 生命值 -->
+            <MaxHitPoints>300</MaxHitPoints>
+            <!-- 建造工作量 -->
+            <WorkToBuild>2500</WorkToBuild>
+            <!-- 易燃性 -->
+            <Flammability>1.0</Flammability>
+            <!-- 美观度 -->
+            <Beauty>-20</Beauty>
+        </statBases>
+        <!-- 时钟类型 -->
+        <tickerType>Normal</tickerType>
+        <!-- 可否和储存区堆叠 -->
+        <canOverlapZones>false</canOverlapZones>
+        <!-- 长宽 -->
+        <size>(2,2)</size>
+        <building>
+            <!-- 损坏音效 -->
+            <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        </building>
+        <!-- 建造成本 -->
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <comps>
+            <!-- 发电脚本 -->
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerPlant</compClass>
+                <basePowerConsumption>-1000</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+                <soundAmbientProducingPower>WoodFiredGenerator_Ambience</soundAmbientProducingPower>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+            <!-- 消耗燃料脚本 -->
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>22.0</fuelConsumptionRate>
+                <fuelCapacity>75.0</fuelCapacity>
+                <fuelFilter>
+                <thingDefs>
+                    <li>WoodLog</li>
+                </thingDefs>
+                </fuelFilter>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+            <li Class="CompProperties_Glower">
+                <glowRadius>6</glowRadius>
+                <glowColor>(217,112,33,0)</glowColor>
+            </li>
+            <li Class="CompProperties_HeatPusher">
+                <compClass>CompHeatPusherPowered</compClass>
+                <heatPerSecond>6</heatPerSecond>
+            </li>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Stunnable">
+                <useLargeEMPEffecter>true</useLargeEMPEffecter>
+                <affectedDamageDefs>
+                    <li>EMP</li>
+                </affectedDamageDefs>
+            </li>
+        </comps>
+        <!-- 需要的地形 -->
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <!-- 建筑分类 -->
+        <designationCategory>Power</designationCategory>
+        <!-- UI排序 -->
+        <uiOrder>2100</uiOrder>
+        <!-- 热键 -->
+        <designationHotKey>Misc3</designationHotKey>
+        <!-- 结构效果 -->
+        <constructEffect>ConstructMetal</constructEffect>
+        <!-- 研究要求 -->
+        <researchPrerequisites>
+            <li>Electricity</li>
+        </researchPrerequisites>
+        <!-- 建造需要的技能要求 -->
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    </ThingDef>
+<Defs>
