@@ -1,12 +1,13 @@
-
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <!-- 灵石发电机 -->
     <!-- 科技：电力,高等灵气学,特点: 无燃料发少量电(100),有燃料发大量电(2100),不被EMP影响,建造需要灵石,修仙的特殊钢材,零部件 -->
     <ThingDef ParentName="BuildingBase">
         <defName>SpiritualCrystalGenerator</defName>
+        <!-- 名称：灵石发电机 -->
         <label>Spiritual Crystal Generator</label>
-        <description>Produces power by consuming wood. Must be periodically loaded with wood fuel by hand.</description>
+        <!-- 描述： 一台仙道与现代科技结合的发电机，就算没有燃料，也能通过燃烧空气中的灵气产生少量电力。 -->
+        <description>A generator that combines immortal dao and modern technology can generate a small amount of electricity by burning the aura in the air, even if there is no fuel.</description>
         <thingClass>Building</thingClass>
         <drawerType>MapMeshAndRealTime</drawerType>
         <!-- 美术绘制 -->
@@ -36,7 +37,7 @@
         <!-- 一些属性 -->
         <statBases>
             <!-- 生命值 -->
-            <MaxHitPoints>300</MaxHitPoints>
+            <MaxHitPoints>600</MaxHitPoints>
             <!-- 建造工作量 -->
             <WorkToBuild>2500</WorkToBuild>
             <!-- 易燃性 -->
@@ -56,14 +57,16 @@
         </building>
         <!-- 建造成本 -->
         <costList>
-            <Steel>100</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <RI_Resource_BlackSteel>10</RI_Resource_BlackSteel>
+            <RI_Resource_SpiritualCrystal>20</RI_Resource_SpiritualCrystal>
+            <Steel>80</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <comps>
             <!-- 发电脚本 -->
             <li Class="CompProperties_Power">
                 <compClass>RimLmmortals_LHXExtend.LRE_CompPowerTrader.CompPowerPlantSpiritualCrystal</compClass>
-                <basePowerConsumption>-2100</basePowerConsumption>
+                <basePowerConsumption>-2500</basePowerConsumption>
                 <transmitsPower>true</transmitsPower>
                 <!-- 发电机有音效？ -->
                 <soundAmbientProducingPower>WoodFiredGenerator_Ambience</soundAmbientProducingPower>
@@ -71,7 +74,7 @@
             <li Class="CompProperties_Flickable"/>
             <!-- 消耗燃料脚本 -->
             <li Class="CompProperties_Refuelable">
-                <fuelConsumptionRate>5.0</fuelConsumptionRate>
+                <fuelConsumptionRate>8.0</fuelConsumptionRate>
                 <fuelCapacity>100.0</fuelCapacity>
                 <fuelFilter>
                     <thingDefs>
@@ -103,10 +106,10 @@
         <constructEffect>ConstructMetal</constructEffect>
         <!-- 研究要求 -->
         <researchPrerequisites>
-            <li>RI_SpiritMechineTech</li>
+            <li>RI_SpiritualRevolution</li>
             <li>Electricity</li>
         </researchPrerequisites>
         <!-- 建造需要的技能要求 -->
         <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     </ThingDef>
-<Defs>
+</Defs>
