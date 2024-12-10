@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 机械体的健康状态 -->
+<Defs>
+    <!-- 机械体增强：神机核心 -->
+    <HediffDef>
+		<defName>LRE_MechPowerUp</defName>
+		<label>Mech Power Up</label>
+		<hediffClass>HediffWithComps</hediffClass>
+        <!-- 神机核心正在疯狂运转，巨幅增强当前机械体 -->
+		<description>Mech Power Up.</description>
+		<defaultLabelColor>(255,0,0)</defaultLabelColor>
+        <stages>
+			<li>
+                <statOffsets>
+                    <MoveSpeed>3</MoveSpeed><!-- 移动速度-->
+                    <ComfyTemperatureMin>-100</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMax>100</ComfyTemperatureMax><!-- 最大舒适温度-->
+                    <MeleeHitChance>50</MeleeHitChance><!--近战命中-->
+                    <MeleeDodgeChance>50</MeleeDodgeChance><!--近战闪避，最大值50-->
+                    <ShootingAccuracyPawn>50</ShootingAccuracyPawn><!--射击精度-->
+                </statOffsets>
+				<statFactors>
+                    <MeleeDamageFactor>4</MeleeDamageFactor><!--近战伤害系数-->
+                    <AimingDelayFactor>0.2</AimingDelayFactor><!--瞄准延迟系数-->		  
+                    <RangedCooldownFactor>0.2</RangedCooldownFactor><!--远程冷却系数-->
+                    <StaggerDurationFactor>0.1</StaggerDurationFactor><!--抑止时间系数-->
+                    <IncomingDamageFactor>0.1</IncomingDamageFactor><!--受到伤害乘数-->	
+                    <MeleeCooldownFactor>0.3</MeleeCooldownFactor><!-- 近战冷却-->
+				</statFactors>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
+</Defs>

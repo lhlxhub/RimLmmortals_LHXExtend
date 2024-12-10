@@ -1,9 +1,9 @@
 <Defs>
     <!-- 单机械体战斗加强 -->
     <AbilityDef ParentName="RI_PsycastBase">
-		<defName>RI_Ability_MechFighting</defName>
-		<label>Mech Fighting</label>
-		<description>Qi cost: 120.\n\nIncrease the working speed and reduce the resistance to hitting.</description>
+		<defName>RI_Ability_MechFightingPowerUp</defName>
+		<label>Mech Fighting Power Up</label>
+		<description>Qi cost: 200.\n\nIncrease the working speed and reduce the resistance to hitting.</description>
 		<iconPath>LRESkill/Common/work_speed</iconPath>
 		<displayGizmoWhileUndrafted>False</displayGizmoWhileUndrafted>
 		<disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
@@ -31,7 +31,7 @@
 				<onlyApplyToSelf>True</onlyApplyToSelf>
 			</li>
 			<li Class="WhoXiuXian.Abilities.CompProperties__ReduceEnergy">
-				<rEnergy>-160</rEnergy>
+				<rEnergy>-200</rEnergy>
 				<isCommon>true</isCommon>
 			</li>
 		</comps>
