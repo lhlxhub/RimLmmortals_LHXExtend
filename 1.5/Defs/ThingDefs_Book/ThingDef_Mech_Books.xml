@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 神机天枢功法，其实根本不是书，就是个使用物品 -->
+<Defs>
+    <!-- 单机械体增强： -->
+    <ThingDef ParentName="LRE_CelestialPivotofDivineMachinesBase">
+		<defName>LRE_Things_CelestialPivotofDivineMachinesOne</defName>
+		<label>Celestial Pivot of Divine Machines One</label>
+		<description>Celestial Pivot of Divine Machines One.</description>
+		<descriptionHyperlinks>
+			<Core.RimImmortalDef>RI_Training1</Core.RimImmortalDef>
+			<ThingDef>LRE_Things_CelestialCondensingMachinesLiquidLite</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesOne</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Usable">
+				<compClass>RimLmmortals_LHXExtend.LRE_CompUseEffects.CompUsableCPODM</compClass>
+				<useJob>InstallCelestialPivotofDivineMachines</useJob>
+				<useLabel>Install {0_label}</useLabel>
+			</li>
+			<li Class="RimLmmortals_LHXExtend.LRE_CompUseEffects.CompProperties_UseEffectInstallCPODM">
+				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
+				<otherHediffDef>MechlinkImplant</otherHediffDef>
+				<bodyPart>Brain</bodyPart>
+				<requiresExistingHediff>false</requiresExistingHediff>
+				<rootLevel>2</rootLevel>
+				<unlockLevel>1</unlockLevel>
+				<canUpgrade>false</canUpgrade>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

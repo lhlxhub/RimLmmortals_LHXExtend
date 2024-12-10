@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 通用功法书籍 -->
 <Defs>
     <!-- 打灰仙人 -->
     <ThingDef ParentName="RI_BookBase_Common">
