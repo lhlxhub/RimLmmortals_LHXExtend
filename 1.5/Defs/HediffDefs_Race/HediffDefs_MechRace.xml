@@ -3,7 +3,7 @@
 <Defs>
     <!-- 机械体增强：神机核心 -->
     <HediffDef>
-		<defName>LRE_MechPowerUp</defName>
+		<defName>LRE_MechPowerUpHediff</defName>
 		<label>Mech Power Up</label>
 		<hediffClass>HediffWithComps</hediffClass>
         <!-- 神机核心正在疯狂运转，巨幅增强当前机械体 -->

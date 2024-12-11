@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 神机天枢功法，其实根本不是书，就是个使用物品 -->
 <Defs>
-    <!-- 单机械体增强： -->
+    <!-- 单机械体增强：神机核心战斗模块功法书 -->
     <ThingDef ParentName="LRE_CelestialPivotofDivineMachinesBase">
-		<defName>LRE_Things_CelestialPivotofDivineMachinesOne</defName>
-		<label>Celestial Pivot of Divine Machines One</label>
-		<description>Celestial Pivot of Divine Machines One.</description>
+		<defName>LRE_Things_CelestialPivotofDivineMachinesCoreFightModule</defName>
+		<label>Celestial Pivot of Divine Machines Core Fight Module</label>
+		<!-- 神机核心战斗模块功法书, 用以学习神机核心战斗模块 -->
+		<description>Celestial Pivot of Divine Machines Core Module, Use to learn the Celestial Pivot of Divine Machines Core Fight Module.</description>
 		<descriptionHyperlinks>
-			<Core.RimImmortalDef>RI_Training1</Core.RimImmortalDef>
-			<ThingDef>LRE_Things_CelestialCondensingMachinesLiquidLite</ThingDef>
+			<HediffDef>LRE_MechPowerUpHediff</HediffDef>
+			<ThingDef>LRE_Things_CelestialPivotofDivineMachinesFour</ThingDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>LREMachines/LRE_Things_CelestialPivotofDivineMachinesOne</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>2000</MarketValue>
-			<Mass>3</Mass>
+			<MarketValue>1000</MarketValue>
+			<Mass>0.5</Mass>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
