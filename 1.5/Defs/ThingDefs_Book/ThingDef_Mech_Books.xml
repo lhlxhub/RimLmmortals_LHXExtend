@@ -26,14 +26,9 @@
 				<useJob>InstallCelestialPivotofDivineMachines</useJob>
 				<useLabel>Install {0_label}</useLabel>
 			</li>
-			<li Class="RimLmmortals_LHXExtend.LRE_CompUseEffects.CompProperties_UseEffectInstallCPODM">
-				<hediffDef>LRE_CelestialPivotofDivineMachinesHediff</hediffDef>
-				<otherHediffDef>MechlinkImplant</otherHediffDef>
-				<bodyPart>Brain</bodyPart>
-				<requiresExistingHediff>false</requiresExistingHediff>
-				<rootLevel>2</rootLevel>
-				<unlockLevel>1</unlockLevel>
-				<canUpgrade>false</canUpgrade>
+			
+			<li Class="CompProperties_UseEffect_GainAbility">
+				<ability>RI_Ability_MechFightingCore</ability>
 			</li>
 		</comps>
 	</ThingDef>
