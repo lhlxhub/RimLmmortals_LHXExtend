@@ -11,7 +11,7 @@
   <!-- EN: Celestial Condensing Machines Liquid Lite -->
   <LRE_Things_CelestialCondensingMachinesLiquidLite.label>天枢凝神机械液(初)</LRE_Things_CelestialCondensingMachinesLiquidLite.label>
   <!-- EN: Celestial Condensing Machines Liquid Lite. -->
-  <LRE_Things_CelestialCondensingMachinesLiquidLite.description>天枢凝神机械液可以提高修仙者的心灵敏感度与灵气吸收效率，进而获取更多锈仙的权限控制机械族。\n不同的阶段需要的初级机械液数量不同：\n神机天枢【甲】需要使用2次;\n神机天枢【乙】需要使用3次。</LRE_Things_CelestialCondensingMachinesLiquidLite.description>
+  <LRE_Things_CelestialCondensingMachinesLiquidLite.description>天枢凝神机械液可以提高修仙者的心灵敏感度与灵气吸收效率，进而获取更多锈仙的权限控制机械族。\n不同的阶段需要的初级机械液数量不同：\n神机天枢【甲】需要使用2次;\n神机天枢【乙】需要使用4次。</LRE_Things_CelestialCondensingMachinesLiquidLite.description>
   <!-- EN: update CelestialPivotofDivineMachines level by {0_label} -->
   <LRE_Things_CelestialCondensingMachinesLiquidLite.comps.CompUsableCPODM.useLabel>饮用{0_label}提升权限等级</LRE_Things_CelestialCondensingMachinesLiquidLite.comps.CompUsableCPODM.useLabel>
   
