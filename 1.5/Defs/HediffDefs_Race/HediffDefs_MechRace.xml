@@ -1,34 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 机械体的健康状态 -->
 <Defs>
-    <!-- 机械体增强：神机核心 -->
+    <!-- 机械体增强：锈仙分身 -->
     <HediffDef>
 		<defName>LRE_MechPowerUpHediff</defName>
 		<label>Mech Power Up</label>
-		<hediffClass>HediffWithComps</hediffClass>
-        <!-- 神机核心正在疯狂运转，巨幅增强当前机械体 -->
+		<hediffClass>RimLmmortals_LHXExtend.LRE_HediffWithComps.LRE_CPDMPowerUpHediffWithComps</hediffClass>
+        <!-- 锈仙将一丝力量借给了这个机械体，这个机械体获得了强大的战斗力。 -->
 		<description>Mech Power Up.</description>
 		<defaultLabelColor>(255,0,0)</defaultLabelColor>
         <stages>
 			<li>
                 <statOffsets>
-                    <MoveSpeed>3</MoveSpeed><!-- 移动速度-->
-                    <ComfyTemperatureMin>-100</ComfyTemperatureMin><!-- 最小温度适应-->
-                    <ComfyTemperatureMax>100</ComfyTemperatureMax><!-- 最大舒适温度-->
+                    <MoveSpeed>4</MoveSpeed><!-- 移动速度-->
+                    <ComfyTemperatureMin>-120</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMax>120</ComfyTemperatureMax><!-- 最大舒适温度-->
                     <MeleeHitChance>50</MeleeHitChance><!--近战命中-->
                     <MeleeDodgeChance>50</MeleeDodgeChance><!--近战闪避，最大值50-->
                     <ShootingAccuracyPawn>50</ShootingAccuracyPawn><!--射击精度-->
                 </statOffsets>
 				<statFactors>
-                    <MeleeDamageFactor>4</MeleeDamageFactor><!--近战伤害系数-->
+                    <MeleeDamageFactor>3</MeleeDamageFactor><!--近战伤害系数-->
                     <AimingDelayFactor>0.2</AimingDelayFactor><!--瞄准延迟系数-->		  
                     <RangedCooldownFactor>0.2</RangedCooldownFactor><!--远程冷却系数-->
                     <StaggerDurationFactor>0.1</StaggerDurationFactor><!--抑止时间系数-->
-                    <IncomingDamageFactor>0.1</IncomingDamageFactor><!--受到伤害乘数-->	
+                    <IncomingDamageFactor>0.5</IncomingDamageFactor><!--受到伤害乘数-->	
                     <MeleeCooldownFactor>0.3</MeleeCooldownFactor><!-- 近战冷却-->
+                    <MechEnergyUsageFactor>1.2</MechEnergyUsageFactor><!-- 机械体耗能率-->
 				</statFactors>
+                <regeneration>150</regeneration><!-- 耐久（生命值）恢复-->
 			</li>
 		</stages>
 		<isBad>false</isBad>
+	</HediffDef>
+    <!-- 机械体增强副作用：锈仙弃械 -->
+    <HediffDef>
+		<defName>LRE_MechPowerUpLoseHediff</defName>
+		<label>Mech Power Up Lose</label>
+        <hediffClass>HediffWithComps</hediffClass>
+        <!-- 锈仙分身已经离开了这个机械体，但是其残响对这个机械体的影响仍在继续，直到消散。 -->
+		<description>Mech Power Up Lose.</description>
+		<defaultLabelColor>(255,0,0)</defaultLabelColor>
+        <stages>
+			<li>
+                <statOffsets>
+                    <MoveSpeed>0.5</MoveSpeed><!-- 移动速度-->
+                    <MeleeHitChance>5</MeleeHitChance><!--近战命中-->
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn><!--射击精度-->
+                </statOffsets>
+				<statFactors>
+                    <MeleeDamageFactor>1.3</MeleeDamageFactor><!--近战伤害系数-->
+                    <AimingDelayFactor>0.8</AimingDelayFactor><!--瞄准延迟系数-->		  
+                    <RangedCooldownFactor>0.8</RangedCooldownFactor><!--远程冷却系数-->
+                    <MeleeCooldownFactor>0.8</MeleeCooldownFactor><!-- 近战冷却-->
+                    <IncomingDamageFactor>0.8</IncomingDamageFactor><!--受到伤害乘数-->	
+                    <MechEnergyUsageFactor>5</MechEnergyUsageFactor><!-- 机械体耗能率-->
+				</statFactors>
+			</li>
+		</stages>
+        <comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>300000</disappearsAfterTicks>
+			</li>
+		</comps>
+		<isBad>true</isBad>
 	</HediffDef>
 </Defs>
