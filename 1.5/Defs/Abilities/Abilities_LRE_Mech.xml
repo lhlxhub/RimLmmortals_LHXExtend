@@ -1,7 +1,7 @@
 <Defs>
     <!-- 单机械体战斗加强 -->
     <AbilityDef ParentName="RI_PsycastBase">
-		<defName>RI_Ability_MechFightingCore</defName>
+		<defName>LRE_Ability_MechFightingCore</defName>
 		<label>Mech Fighting Core</label>
 		<description>Qi cost: 200.\n\nIncrease the working speed and reduce the resistance to hitting.</description>
 		<!-- 借助锈仙之力，让修仙者可以赋予一个机械族强大的战斗力，但是锈仙只允许这个能力被赋予这个修仙者的一个机械族身上，如果
@@ -13,12 +13,8 @@
 		<targetRequired>True</targetRequired>
 		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
 		<cooldownTicksRange>300</cooldownTicksRange>
-		<waitForJobEnd>true</waitForJobEnd>
-		<statBases>
-			<Ability_Duration>1000</Ability_Duration>
-		</statBases>
 		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
+			<verbClass>WhoXiuXian.Abilities.RI_Verb_Cast</verbClass>
 			<range>20</range>
 			<drawAimPie>true</drawAimPie>
 			<requireLineOfSight>true</requireLineOfSight>

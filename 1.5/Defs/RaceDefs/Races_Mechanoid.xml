@@ -3,6 +3,7 @@
     <!-- 神机清道夫 -->
     <ThingDef ParentName="BaseMechanoid">
         <defName>CelestialWhitewing</defName>
+        <label>CelestialWhitewing</label>
         <description>Heavy combat mechanoids that glide on dozens of tiny legs. Their thick carapace and firepower makes them very effective against bunched-up static defenders. They are somewhat vulnerable to mobile hit-and-run tactics.</description>
         <statBases>
             <!-- 移动速度 -->
