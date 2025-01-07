@@ -7,14 +7,13 @@
 		<!-- 借助锈仙之力，让修仙者可以赋予一个机械族强大的战斗力，但是锈仙只允许这个能力被赋予这个修仙者的一个机械族身上，如果
 		修仙者赋予给了另一个机械体，那么这个能力会从上一个机械体身上剥离。 -->
 		<iconPath>LRESkill/Common/work_speed</iconPath>
-		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
-		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
-        <casterMustBeCapableOfViolence>False</casterMustBeCapableOfViolence>
+		<displayGizmoWhileUndrafted>False</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
+        <casterMustBeCapableOfViolence>True</casterMustBeCapableOfViolence>
 		<targetRequired>True</targetRequired>
 		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
 		<cooldownTicksRange>300</cooldownTicksRange>
 		<verbProperties>
-			<verbClass>WhoXiuXian.Abilities.RI_Verb_Cast</verbClass>
 			<range>20</range>
 			<drawAimPie>true</drawAimPie>
 			<requireLineOfSight>true</requireLineOfSight>

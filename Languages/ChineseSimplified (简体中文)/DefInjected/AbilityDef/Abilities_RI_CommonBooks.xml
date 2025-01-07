@@ -3,7 +3,7 @@
   
   <!-- EN: Luminous WorkSpeed -->
   <RI_Ability_WorkSpeed.label>打灰仙人</RI_Ability_WorkSpeed.label>
-  <!-- EN: Qi cost: 120.\n\nIncrease the working speed and reduce the resistance to hitting. -->
+  <!-- EN: Qi cost: 160.\n\nIncrease the working speed and reduce the resistance to hitting. -->
   <RI_Ability_WorkSpeed.description>灵气消耗：120\n 修仙通过运作这个功法，极大增强自己的打灰能力，但是注意力和灵力都集中在工作上，抗打能力下降了。</RI_Ability_WorkSpeed.description>
   
 </LanguageData>
