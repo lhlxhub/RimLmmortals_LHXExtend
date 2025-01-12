@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: Mech Power Up -->
-  <LRE_MechPowerUpHediff.label>锈仙分身</LRE_MechPowerUpHediff.label>
+  <LRE_MechPowerUpHediff.label>锈金虎卫</LRE_MechPowerUpHediff.label>
   <!-- EN: Mech Power Up. -->
-  <LRE_MechPowerUpHediff.description>锈仙的一个分身（算力）借给了这个机械体，这个机械体获得了强大战斗能力！</LRE_MechPowerUpHediff.description>
+  <LRE_MechPowerUpHediff.description>这个机械体被敕封为锈金虎卫，它将获得锈仙给与的力量以保护其主人的安全！</LRE_MechPowerUpHediff.description>
   
   <!-- EN: Mech Power Up Lose -->
-  <LRE_MechPowerUpLoseHediff.label>锈仙弃械</LRE_MechPowerUpLoseHediff.label>
+  <LRE_MechPowerUpLoseHediff.label>锈金残卫</LRE_MechPowerUpLoseHediff.label>
   <!-- EN: Mech Power Up Lose. -->
-  <LRE_MechPowerUpLoseHediff.description>锈仙分身已经离开了这个机械体，但是其对这个机械体的影响仍在继续，直到完全消散。</LRE_MechPowerUpLoseHediff.description>
+  <LRE_MechPowerUpLoseHediff.description>这个机械体本来是锈金虎卫，但是目前已经被剥夺了力量，不过锈仙注入的力量不会快速被完全消散。</LRE_MechPowerUpLoseHediff.description>
   
 </LanguageData>

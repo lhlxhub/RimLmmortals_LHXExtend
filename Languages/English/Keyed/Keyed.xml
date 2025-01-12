@@ -18,9 +18,6 @@
     <LRE_ExpAbsorptionValue_EnergyGainEff>TODO</LRE_ExpAbsorptionValue_EnergyGainEff>
     <LRE_AbsorbQiHediffWithComps_Tip>TODO</LRE_AbsorbQiHediffWithComps_Tip>
     <LRE_FactorFromMechanitor>TODO</LRE_FactorFromMechanitor>
-    <LRE_MechBookLearned>殖民者{Pawn}学会了{AbilityName}！</LRE_MechBookLearned>
-    <LRE_NonCPODM>需要神机天枢</LRE_NonCPODM>
-    <LRE_cpodmLevelNoEnough>需要神机天枢等级：{0}</LRE_cpodmLevelNoEnough>
-    <LRE_cpodmHavedAbility>已经习得了功法：{0}</LRE_cpodmHavedAbility>
-    <LRE_LearnMechlinkImplantAbility>学习神机功法：{0}</LRE_LearnMechlinkImplantAbility>
+    <LRE_AbilityNeedEnergyRoot>TODO</LRE_AbilityNeedEnergyRoot>
+    <LRE_AbilityNeedMechanitor>TODO</LRE_AbilityNeedMechanitor>
 </LanguageData>

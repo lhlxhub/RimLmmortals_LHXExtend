@@ -5,7 +5,7 @@
     <HediffDef>
 		<defName>LRE_CelestialPivotofDivineMachinesHediff</defName>
 		<label>Celestial Pivot of Divine Machines Hediff</label>
-		<hediffClass>HediffWithComps</hediffClass>
+		<hediffClass>RimLmmortals_LHXExtend.LRE_HediffWithComps.LRE_MechlinkImplantCoreHediffWithComps</hediffClass>
 		<description>Celestial Pivot of Divine Machines.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
         <duplicationAllowed>false</duplicationAllowed>

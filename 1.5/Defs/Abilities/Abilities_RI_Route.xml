@@ -1,0 +1,17 @@
+<Defs>
+	<!-- 功法集合 -->
+    <!-- 神机天枢功法合集 -->
+	<WhoXiuXian.RI_RouteDef>
+		<defName>LRE_MechCoreAbility</defName>
+		<label>...</label>
+		<description>...</description>
+		<routeLevels>
+			<li>
+				<level>1</level>
+				<abilities>
+					<li>LRE_Ability_MechFightingCore</li>
+				</abilities>
+			</li>
+		</routeLevels>
+	</WhoXiuXian.RI_RouteDef>
+</Defs>

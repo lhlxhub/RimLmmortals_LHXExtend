@@ -36,18 +36,13 @@
   <LRE_AbsorbQiHediffWithComps_Tip>\n当前炼化信息：\n炼化容比：{Percent}\n炼化速度：{ExpAbsorptionValue}/小时\n待炼化量：{ExpStoredValue}\n炼化容量：{TotalCount}\n</LRE_AbsorbQiHediffWithComps_Tip>
     <!-- EN: TODO -->
   <LRE_FactorFromMechanitor>机械师乘数</LRE_FactorFromMechanitor>
-    <!-- EN: 殖民者{Pawn}学会了{AbilityName}！ -->
-  <LRE_MechBookLearned>殖民者{Pawn}学会了功法{AbilityName}！</LRE_MechBookLearned>
-    <!-- EN: 需要神机天枢 -->
-  <LRE_NonCPODM>需要神机天枢</LRE_NonCPODM>
-    <!-- EN: 需要神机天枢等级：{0} -->
-  <LRE_cpodmLevelNoEnough>需要神机天枢等级：{0}</LRE_cpodmLevelNoEnough>
-    <!-- EN: 已经习得了功法：{0} -->
-  <LRE_cpodmHavedAbility>已经习得了功法：{0}</LRE_cpodmHavedAbility>
-    <!-- EN: 学习神机功法：{0} -->
-  <LRE_LearnMechlinkImplantAbility>学习神机功法：{0}</LRE_LearnMechlinkImplantAbility>
+    <!-- EN: TODO -->
+  <LRE_AbilityNeedEnergyRoot>释放这个能力需要拥有灵芽！</LRE_AbilityNeedEnergyRoot>
+    <!-- EN: TODO -->
+  <LRE_AbilityNeedMechanitor>释放这个能力需要是机械师！</LRE_AbilityNeedMechanitor>
   <!-- UNUSED -->
   <LRE_NonEnergyRoot>没有灵芽</LRE_NonEnergyRoot>
+  <LRE_EnergyLevelNoEnough>境界不足</LRE_EnergyLevelNoEnough>
   <LRE_needInstallCelestialPivotofDivineMachinesOne>需要同调神机天枢【甲】</LRE_needInstallCelestialPivotofDivineMachinesOne>
   <LRE_needInstallCelestialPivotofDivineMachinesTwo>需要同调神机天枢【已】</LRE_needInstallCelestialPivotofDivineMachinesTwo>
   <LRE_needInstallCelestialPivotofDivineMachinesThree>需要同调神机天枢【丙】</LRE_needInstallCelestialPivotofDivineMachinesThree>

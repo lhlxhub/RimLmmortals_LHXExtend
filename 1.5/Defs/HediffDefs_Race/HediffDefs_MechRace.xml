@@ -1,38 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 机械体的健康状态 -->
 <Defs>
-    <!-- 机械体增强：锈仙分身 -->
+    <!-- 机械体增强：锈金虎卫 -->
     <HediffDef>
 		<defName>LRE_MechPowerUpHediff</defName>
 		<label>Mech Power Up</label>
 		<hediffClass>RimLmmortals_LHXExtend.LRE_HediffWithComps.LRE_CPDMPowerUpHediffWithComps</hediffClass>
-        <!-- 锈仙将一丝力量借给了这个机械体，这个机械体获得了强大的战斗力。 -->
+        <!-- 这个机械体。 -->
 		<description>Mech Power Up.</description>
 		<defaultLabelColor>(255,0,0)</defaultLabelColor>
+        <initialSeverity>1</initialSeverity>
+        <!-- 有五层stage,每次被使用后，都会递增一层，每层减少buff抽取时间1天 -->
         <stages>
-			<li>
+            <li>
+                <label>（lv.1）</label>
+                <minSeverity>1</minSeverity>
                 <statOffsets>
-                    <MoveSpeed>4</MoveSpeed><!-- 移动速度-->
-                    <ComfyTemperatureMin>-120</ComfyTemperatureMin><!-- 最小温度适应-->
-                    <ComfyTemperatureMax>120</ComfyTemperatureMax><!-- 最大舒适温度-->
-                    <MeleeHitChance>50</MeleeHitChance><!--近战命中-->
-                    <MeleeDodgeChance>50</MeleeDodgeChance><!--近战闪避，最大值50-->
-                    <ShootingAccuracyPawn>50</ShootingAccuracyPawn><!--射击精度-->
+                    <MoveSpeed>1.2</MoveSpeed><!-- 移动速度-->
+                    <ComfyTemperatureMin>-10</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMax>10</ComfyTemperatureMax><!-- 最大舒适温度-->
+                    <MeleeHitChance>10</MeleeHitChance><!--近战命中-->
+                    <MeleeDodgeChance>10</MeleeDodgeChance><!--近战闪避，最大值50-->
+                    <ShootingAccuracyPawn>10</ShootingAccuracyPawn><!--射击精度-->
                 </statOffsets>
 				<statFactors>
-                    <MeleeDamageFactor>3</MeleeDamageFactor><!--近战伤害系数-->
-                    <AimingDelayFactor>0.2</AimingDelayFactor><!--瞄准延迟系数-->		  
-                    <RangedCooldownFactor>0.2</RangedCooldownFactor><!--远程冷却系数-->
-                    <StaggerDurationFactor>0.1</StaggerDurationFactor><!--抑止时间系数-->
+                    <MeleeDamageFactor>1.2</MeleeDamageFactor><!--近战伤害系数-->
+                    <AimingDelayFactor>0.9</AimingDelayFactor><!--瞄准延迟系数-->		  
+                    <RangedCooldownFactor>0.9</RangedCooldownFactor><!--远程冷却系数-->
+                    <StaggerDurationFactor>0.9</StaggerDurationFactor><!--抑止时间系数-->
+                    <IncomingDamageFactor>0.9</IncomingDamageFactor><!--受到伤害乘数-->	
+                    <MeleeCooldownFactor>0.9</MeleeCooldownFactor><!-- 近战冷却-->
+                    <MechEnergyUsageFactor>2</MechEnergyUsageFactor><!-- 机械体耗能率-->
+				</statFactors>
+            </li>
+			<li>
+                <label>（lv.2）</label>
+                <minSeverity>2</minSeverity>
+                <statOffsets>
+                    <MoveSpeed>1.4</MoveSpeed><!-- 移动速度-->
+                    <ComfyTemperatureMin>-20</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMax>20</ComfyTemperatureMax><!-- 最大舒适温度-->
+                    <MeleeHitChance>15</MeleeHitChance><!--近战命中-->
+                    <MeleeDodgeChance>15</MeleeDodgeChance><!--近战闪避，最大值50-->
+                    <ShootingAccuracyPawn>14</ShootingAccuracyPawn><!--射击精度-->
+                </statOffsets>
+				<statFactors>
+                    <MeleeDamageFactor>1.4</MeleeDamageFactor><!--近战伤害系数-->
+                    <AimingDelayFactor>0.7</AimingDelayFactor><!--瞄准延迟系数-->		  
+                    <RangedCooldownFactor>0.7</RangedCooldownFactor><!--远程冷却系数-->
+                    <StaggerDurationFactor>0.7</StaggerDurationFactor><!--抑止时间系数-->
+                    <IncomingDamageFactor>0.7</IncomingDamageFactor><!--受到伤害乘数-->	
+                    <MeleeCooldownFactor>0.7</MeleeCooldownFactor><!-- 近战冷却-->
+                    <MechEnergyUsageFactor>1.6</MechEnergyUsageFactor><!-- 机械体耗能率-->
+				</statFactors>
+			</li>
+			<li>
+                <label>（lv.3）</label>
+                <minSeverity>3</minSeverity>
+                <statOffsets>
+                    <MoveSpeed>1.8</MoveSpeed><!-- 移动速度-->
+                    <ComfyTemperatureMin>-40</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMax>40</ComfyTemperatureMax><!-- 最大舒适温度-->
+                    <MeleeHitChance>20</MeleeHitChance><!--近战命中-->
+                    <MeleeDodgeChance>20</MeleeDodgeChance><!--近战闪避，最大值50-->
+                    <ShootingAccuracyPawn>18</ShootingAccuracyPawn><!--射击精度-->
+                </statOffsets>
+				<statFactors>
+                    <MeleeDamageFactor>1.8</MeleeDamageFactor><!--近战伤害系数-->
+                    <AimingDelayFactor>0.5</AimingDelayFactor><!--瞄准延迟系数-->		  
+                    <RangedCooldownFactor>0.5</RangedCooldownFactor><!--远程冷却系数-->
+                    <StaggerDurationFactor>0.5</StaggerDurationFactor><!--抑止时间系数-->
                     <IncomingDamageFactor>0.5</IncomingDamageFactor><!--受到伤害乘数-->	
-                    <MeleeCooldownFactor>0.3</MeleeCooldownFactor><!-- 近战冷却-->
+                    <MeleeCooldownFactor>0.5</MeleeCooldownFactor><!-- 近战冷却-->
                     <MechEnergyUsageFactor>1.2</MechEnergyUsageFactor><!-- 机械体耗能率-->
 				</statFactors>
-                <regeneration>150</regeneration><!-- 耐久（生命值）恢复-->
+			</li>
+        	<li>
+                <label>（lv.4）</label>
+                <minSeverity>4</minSeverity>
+                <statOffsets>
+                    <MoveSpeed>2.6</MoveSpeed><!-- 移动速度-->
+                    <ComfyTemperatureMin>-80</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMax>80</ComfyTemperatureMax><!-- 最大舒适温度-->
+                    <MeleeHitChance>25</MeleeHitChance><!--近战命中-->
+                    <MeleeDodgeChance>25</MeleeDodgeChance><!--近战闪避，最大值50-->
+                    <ShootingAccuracyPawn>26</ShootingAccuracyPawn><!--射击精度-->
+                </statOffsets>
+				<statFactors>
+                    <MeleeDamageFactor>2.6</MeleeDamageFactor><!--近战伤害系数-->
+                    <AimingDelayFactor>0.3</AimingDelayFactor><!--瞄准延迟系数-->		  
+                    <RangedCooldownFactor>0.3</RangedCooldownFactor><!--远程冷却系数-->
+                    <StaggerDurationFactor>0.3</StaggerDurationFactor><!--抑止时间系数-->
+                    <IncomingDamageFactor>0.3</IncomingDamageFactor><!--受到伤害乘数-->	
+                    <MeleeCooldownFactor>0.3</MeleeCooldownFactor><!-- 近战冷却-->
+                    <MechEnergyUsageFactor>0.8</MechEnergyUsageFactor><!-- 机械体耗能率-->
+				</statFactors>
+			</li>
+            <li>
+                <label>（lv.5）</label>
+                <minSeverity>5</minSeverity>
+                <statOffsets>
+                    <MoveSpeed>4.2</MoveSpeed><!-- 移动速度-->
+                    <ComfyTemperatureMin>-160</ComfyTemperatureMin><!-- 最小温度适应-->
+                    <ComfyTemperatureMax>160</ComfyTemperatureMax><!-- 最大舒适温度-->
+                    <MeleeHitChance>25</MeleeHitChance><!--近战命中-->
+                    <MeleeDodgeChance>25</MeleeDodgeChance><!--近战闪避，最大值50-->
+                    <ShootingAccuracyPawn>26</ShootingAccuracyPawn><!--射击精度-->
+                </statOffsets>
+				<statFactors>
+                    <MeleeDamageFactor>4.2</MeleeDamageFactor><!--近战伤害系数-->
+                    <AimingDelayFactor>0.1</AimingDelayFactor><!--瞄准延迟系数-->		  
+                    <RangedCooldownFactor>0.1</RangedCooldownFactor><!--远程冷却系数-->
+                    <StaggerDurationFactor>0.1</StaggerDurationFactor><!--抑止时间系数-->
+                    <IncomingDamageFactor>0.1</IncomingDamageFactor><!--受到伤害乘数-->	
+                    <MeleeCooldownFactor>0.1</MeleeCooldownFactor><!-- 近战冷却-->
+                    <MechEnergyUsageFactor>0.4</MechEnergyUsageFactor><!-- 机械体耗能率-->
+				</statFactors>
 			</li>
 		</stages>
+        <comps>			
+            <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_MechRandBuffList">
+                <hediffDefs>
+                    <li>LRE_MechPowerUpRandPreventsDeath</li>
+                </hediffDefs>
+            </li>
+        </comps>
 		<isBad>false</isBad>
 	</HediffDef>
+    <!-- 抽取的buff->拒死 -->
+    <HediffDef>
+		<defName>LRE_MechPowerUpRandPreventsDeath</defName>
+        <!-- 刑天化形-->
+		<label>Mech Power Up Rand Prevents Death</label>
+		<description>Mech Power Up.</description>
+		<defaultLabelColor>(255,0,0)</defaultLabelColor>
+        <preventsDeath>true</preventsDeath>
+		<isBad>false</isBad>
+	</HediffDef>
+    <!-- 抽取的buff->限制被伤害量 -->
+    <HediffDef>
+		<defName>LRE_MechPowerUpRandBeHurtLimit</defName>
+        <!-- 刑天化形-->
+		<label>Mech Power Up Rand Be Hurt Limit</label>
+		<description>Mech Power Up.</description>
+		<defaultLabelColor>(255,0,0)</defaultLabelColor>
+        <preventsDeath>true</preventsDeath>
+		<isBad>false</isBad>
+	</HediffDef>
+    <!-- 抽取的buff->高速移动-->
+    <!-- 抽取的buff->高速自动修复 -->
+    <!-- 抽取的buff->战力增强（远程易伤，近战虚弱）-->
+    <!-- 抽取的buff->机械体战力增强 -->
+
     <!-- 机械体增强副作用：锈仙弃械 -->
     <HediffDef>
 		<defName>LRE_MechPowerUpLoseHediff</defName>

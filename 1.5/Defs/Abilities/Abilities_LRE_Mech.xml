@@ -1,11 +1,16 @@
 <Defs>
+	<!-- 神机天枢功法父类 -->
+	<AbilityDef Name="LRE_MechAbilityBase" ParentName="RI_PsycastBase" Abstract="True">
+		<abilityClass>RimLmmortals_LHXExtend.LRE_Ability.LRE_MechAbilityBase</abilityClass>
+		<category>Psychic</category>
+	</AbilityDef>
     <!-- 单机械体战斗加强 -->
-    <AbilityDef ParentName="RI_PsycastBase">
+    <AbilityDef ParentName="LRE_MechAbilityBase">
 		<defName>LRE_Ability_MechFightingCore</defName>
 		<label>Mech Fighting Core</label>
+		<!-- 虎印敕封 -->
 		<description>Qi cost: 200.\n\nIncrease the working speed and reduce the resistance to hitting.</description>
-		<!-- 借助锈仙之力，让修仙者可以赋予一个机械族强大的战斗力，但是锈仙只允许这个能力被赋予这个修仙者的一个机械族身上，如果
-		修仙者赋予给了另一个机械体，那么这个能力会从上一个机械体身上剥离。 -->
+		<!-- 修仙者已经离锈仙越来越近，锈仙赐予它最忠诚的信仰者。 -->
 		<iconPath>LRESkill/Common/work_speed</iconPath>
 		<displayGizmoWhileUndrafted>False</displayGizmoWhileUndrafted>
 		<disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
@@ -33,9 +38,9 @@
 				<hediffDef>LRE_MechPowerUpHediff</hediffDef>
 				<psychic>True</psychic>
 				<replaceExisting>True</replaceExisting>
-				<onlyApplyToSelf>False</onlyApplyToSelf>
+				<applyToTarget>False</applyToTarget>
 			</li>
-			<li Class="WhoXiuXian.Abilities.CompProperties__ReduceEnergy">
+			<li Class="RimLmmortals_LHXExtend.LRE_Ability.LRE_MechlinkImplantAbilityReduceEnergy">
 				<rEnergy>-200</rEnergy>
 				<isCommon>true</isCommon>
 			</li>
