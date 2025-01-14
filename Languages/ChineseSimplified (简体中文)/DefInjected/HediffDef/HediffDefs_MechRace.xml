@@ -5,10 +5,30 @@
   <LRE_MechPowerUpHediff.label>锈金虎卫</LRE_MechPowerUpHediff.label>
   <!-- EN: Mech Power Up. -->
   <LRE_MechPowerUpHediff.description>这个机械体被敕封为锈金虎卫，它将获得锈仙给与的力量以保护其主人的安全！</LRE_MechPowerUpHediff.description>
+  <!-- EN: （lv.1） -->
+  <LRE_MechPowerUpHediff.stages.lv1.label>TODO</LRE_MechPowerUpHediff.stages.lv1.label>
+  <!-- EN: （lv.2） -->
+  <LRE_MechPowerUpHediff.stages.lv2.label>TODO</LRE_MechPowerUpHediff.stages.lv2.label>
+  <!-- EN: （lv.3） -->
+  <LRE_MechPowerUpHediff.stages.lv3.label>TODO</LRE_MechPowerUpHediff.stages.lv3.label>
+  <!-- EN: （lv.4） -->
+  <LRE_MechPowerUpHediff.stages.lv4.label>TODO</LRE_MechPowerUpHediff.stages.lv4.label>
+  <!-- EN: （lv.5） -->
+  <LRE_MechPowerUpHediff.stages.lv5.label>TODO</LRE_MechPowerUpHediff.stages.lv5.label>
   
   <!-- EN: Mech Power Up Lose -->
   <LRE_MechPowerUpLoseHediff.label>锈金残卫</LRE_MechPowerUpLoseHediff.label>
   <!-- EN: Mech Power Up Lose. -->
   <LRE_MechPowerUpLoseHediff.description>这个机械体本来是锈金虎卫，但是目前已经被剥夺了力量，不过锈仙注入的力量不会快速被完全消散。</LRE_MechPowerUpLoseHediff.description>
+  
+  <!-- EN: Mech Power Up Rand Be Hurt Limit -->
+  <LRE_MechPowerUpRandBeHurtLimit.label>TODO</LRE_MechPowerUpRandBeHurtLimit.label>
+  <!-- EN: Mech Power Up. -->
+  <LRE_MechPowerUpRandBeHurtLimit.description>TODO</LRE_MechPowerUpRandBeHurtLimit.description>
+  
+  <!-- EN: Mech Power Up Rand Prevents Death -->
+  <LRE_MechPowerUpRandPreventsDeath.label>TODO</LRE_MechPowerUpRandPreventsDeath.label>
+  <!-- EN: Mech Power Up. -->
+  <LRE_MechPowerUpRandPreventsDeath.description>TODO</LRE_MechPowerUpRandPreventsDeath.description>
   
 </LanguageData>

@@ -57,16 +57,16 @@
         </building>
         <!-- 建造成本 -->
         <costList>
-            <RI_Resource_BlackSteel>10</RI_Resource_BlackSteel>
-            <RI_Resource_SpiritualCrystal>20</RI_Resource_SpiritualCrystal>
-            <Steel>80</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
+            <RI_Resource_BlackSteel>20</RI_Resource_BlackSteel>
+            <RI_Resource_SpiritualCrystal>60</RI_Resource_SpiritualCrystal>
+            <Steel>160</Steel>
+            <ComponentIndustrial>10</ComponentIndustrial>
         </costList>
         <comps>
             <!-- 发电脚本 -->
             <li Class="CompProperties_Power">
                 <compClass>RimLmmortals_LHXExtend.LRE_CompPowerTrader.CompPowerPlantSpiritualCrystal</compClass>
-                <basePowerConsumption>-2500</basePowerConsumption>
+                <basePowerConsumption>-4000</basePowerConsumption>
                 <transmitsPower>true</transmitsPower>
                 <!-- 发电机有音效？ -->
                 <soundAmbientProducingPower>WoodFiredGenerator_Ambience</soundAmbientProducingPower>
@@ -74,7 +74,7 @@
             <li Class="CompProperties_Flickable"/>
             <!-- 消耗燃料脚本 -->
             <li Class="CompProperties_Refuelable">
-                <fuelConsumptionRate>8.0</fuelConsumptionRate>
+                <fuelConsumptionRate>12.0</fuelConsumptionRate>
                 <fuelCapacity>100.0</fuelCapacity>
                 <fuelFilter>
                     <thingDefs>

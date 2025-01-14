@@ -12,6 +12,7 @@
         <initialSeverity>1</initialSeverity>
         <!-- 有五层stage,每次被使用后，都会递增一层，每层减少buff抽取时间1天 -->
         <stages>
+            <!-- 这里考虑修改stat的属性和量，承伤削弱，提高钝器护甲和利器护甲 -->
             <li>
                 <label>（lv.1）</label>
                 <minSeverity>1</minSeverity>
@@ -124,6 +125,10 @@
                     <li>LRE_MechPowerUpRandPreventsDeath</li>
                 </hediffDefs>
             </li>
+            <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_MechRepair">
+                <healValuePerHour>5</healValuePerHour>
+                <canSwitch>True</canSwitch>
+            </li>
         </comps>
 		<isBad>false</isBad>
 	</HediffDef>
@@ -137,7 +142,7 @@
         <preventsDeath>true</preventsDeath>
 		<isBad>false</isBad>
 	</HediffDef>
-    <!-- 抽取的buff->限制被伤害量 -->
+    <!-- 抽取的buff->巨额减伤 -->
     <HediffDef>
 		<defName>LRE_MechPowerUpRandBeHurtLimit</defName>
         <!-- 刑天化形-->

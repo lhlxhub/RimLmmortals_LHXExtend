@@ -40,6 +40,8 @@
   <LRE_AbilityNeedEnergyRoot>释放这个能力需要拥有灵芽！</LRE_AbilityNeedEnergyRoot>
     <!-- EN: TODO -->
   <LRE_AbilityNeedMechanitor>释放这个能力需要是机械师！</LRE_AbilityNeedMechanitor>
+    <!-- EN: TODO -->
+  <LRE_MechAutoRepairSwitch>五级锈金虎卫可以通过消耗主人的灵气自动修复自身损坏。（这个能力对玩家的电脑要求很高，没事请关掉开关）</LRE_MechAutoRepairSwitch>
   <!-- UNUSED -->
   <LRE_NonEnergyRoot>没有灵芽</LRE_NonEnergyRoot>
   <LRE_EnergyLevelNoEnough>境界不足</LRE_EnergyLevelNoEnough>
@@ -59,5 +61,7 @@
   <LRE_ExpAbsorptionValue_EnergyGainEff>灵气吸收效率影响</LRE_ExpAbsorptionValue_EnergyGainEff>
   <LRE_AbsorbQiHediffWithComps_Tip>\n当前炼化信息：\n炼化容比：{Percent}\n炼化速度：{ExpAbsorptionValue}/小时\n待炼化量：{ExpStoredValue}\n炼化容量：{TotalCount}\n</LRE_AbsorbQiHediffWithComps_Tip>
   <LRE_FactorFromMechanitor>机械师乘数</LRE_FactorFromMechanitor>
+  <LRE_AbilityNeedEnergyRoot>释放这个能力需要拥有灵芽！</LRE_AbilityNeedEnergyRoot>
+  <LRE_AbilityNeedMechanitor>释放这个能力需要是机械师！</LRE_AbilityNeedMechanitor>
 
 </LanguageData>
