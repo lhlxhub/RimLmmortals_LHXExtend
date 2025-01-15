@@ -92,7 +92,7 @@
                     <AimingDelayFactor>0.3</AimingDelayFactor><!--瞄准延迟系数-->		  
                     <RangedCooldownFactor>0.3</RangedCooldownFactor><!--远程冷却系数-->
                     <StaggerDurationFactor>0.3</StaggerDurationFactor><!--抑止时间系数-->
-                    <IncomingDamageFactor>0.3</IncomingDamageFactor><!--受到伤害乘数-->	
+                    <IncomingDamageFactor>0.4</IncomingDamageFactor><!--受到伤害乘数-->	
                     <MeleeCooldownFactor>0.3</MeleeCooldownFactor><!-- 近战冷却-->
                     <MechEnergyUsageFactor>0.8</MechEnergyUsageFactor><!-- 机械体耗能率-->
 				</statFactors>
@@ -104,8 +104,8 @@
                     <MoveSpeed>4.2</MoveSpeed><!-- 移动速度-->
                     <ComfyTemperatureMin>-160</ComfyTemperatureMin><!-- 最小温度适应-->
                     <ComfyTemperatureMax>160</ComfyTemperatureMax><!-- 最大舒适温度-->
-                    <MeleeHitChance>25</MeleeHitChance><!--近战命中-->
-                    <MeleeDodgeChance>25</MeleeDodgeChance><!--近战闪避，最大值50-->
+                    <MeleeHitChance>30</MeleeHitChance><!--近战命中-->
+                    <MeleeDodgeChance>30</MeleeDodgeChance><!--近战闪避，最大值50-->
                     <ShootingAccuracyPawn>26</ShootingAccuracyPawn><!--射击精度-->
                 </statOffsets>
 				<statFactors>
@@ -113,7 +113,7 @@
                     <AimingDelayFactor>0.1</AimingDelayFactor><!--瞄准延迟系数-->		  
                     <RangedCooldownFactor>0.1</RangedCooldownFactor><!--远程冷却系数-->
                     <StaggerDurationFactor>0.1</StaggerDurationFactor><!--抑止时间系数-->
-                    <IncomingDamageFactor>0.1</IncomingDamageFactor><!--受到伤害乘数-->	
+                    <IncomingDamageFactor>0.3</IncomingDamageFactor><!--受到伤害乘数-->	
                     <MeleeCooldownFactor>0.1</MeleeCooldownFactor><!-- 近战冷却-->
                     <MechEnergyUsageFactor>0.4</MechEnergyUsageFactor><!-- 机械体耗能率-->
 				</statFactors>
@@ -123,6 +123,7 @@
             <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_MechRandBuffList">
                 <hediffDefs>
                     <li>LRE_MechPowerUpRandPreventsDeath</li>
+                    <li>LRE_MechPowerUpRandBeHurtLimit</li>
                 </hediffDefs>
             </li>
             <li Class="RimLmmortals_LHXExtend.LRE_Properties.HediffCompProperties_MechRepair">
@@ -141,16 +142,31 @@
 		<defaultLabelColor>(255,0,0)</defaultLabelColor>
         <preventsDeath>true</preventsDeath>
 		<isBad>false</isBad>
+        <stages>
+            <li>
+				<statFactors>
+                    <MeleeDamageFactor>3</MeleeDamageFactor><!--近战伤害系数-->
+                    <IncomingDamageFactor>0.5</IncomingDamageFactor><!--受到伤害乘数-->	
+				</statFactors>
+			</li>
+		</stages>
 	</HediffDef>
-    <!-- 抽取的buff->巨额减伤 -->
+    <!-- 抽取的buff->巨额减伤，这里需要再加一个最大被伤害的限制，后面加 -->
     <HediffDef>
 		<defName>LRE_MechPowerUpRandBeHurtLimit</defName>
-        <!-- 刑天化形-->
+        <!-- 北冥守御-->
 		<label>Mech Power Up Rand Be Hurt Limit</label>
 		<description>Mech Power Up.</description>
 		<defaultLabelColor>(255,0,0)</defaultLabelColor>
         <preventsDeath>true</preventsDeath>
 		<isBad>false</isBad>
+        <stages>
+            <li>
+				<statFactors>
+                    <IncomingDamageFactor>0.01</IncomingDamageFactor><!--受到伤害乘数-->	
+				</statFactors>
+			</li>
+		</stages>
 	</HediffDef>
     <!-- 抽取的buff->高速移动-->
     <!-- 抽取的buff->高速自动修复 -->

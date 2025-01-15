@@ -63,5 +63,6 @@
   <LRE_FactorFromMechanitor>机械师乘数</LRE_FactorFromMechanitor>
   <LRE_AbilityNeedEnergyRoot>释放这个能力需要拥有灵芽！</LRE_AbilityNeedEnergyRoot>
   <LRE_AbilityNeedMechanitor>释放这个能力需要是机械师！</LRE_AbilityNeedMechanitor>
+  <LRE_MechAutoRepairSwitch>五级锈金虎卫可以通过消耗主人的灵气自动修复自身损坏。（这个能力对玩家的电脑要求很高，没事请关掉开关）</LRE_MechAutoRepairSwitch>
 
 </LanguageData>

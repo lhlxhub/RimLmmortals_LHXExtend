@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <HediffDef>
+		<defName>LRE_LSDynamoBuildingHediff</defName>
+		<label>LS Dynamo Building Hediff</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>LS Dynamo Building Hediff.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<defaultLabelColor>(104,104,104)</defaultLabelColor>
+		<isBad>false</isBad>
+		<descriptionHyperlinks>
+			<ThingDef>LRE_SpiritualCrystalGenerator</ThingDef>
+		</descriptionHyperlinks>
+		<initialSeverity>0.1</initialSeverity>
+		<minSeverity>0</minSeverity>
+		<maxSeverity>2</maxSeverity>
+        <comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>30</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<GI_EnergyGainEff>-2.5</GI_EnergyGainEff>
+				</statFactors>
+            </li>
+        </stages>
+	</HediffDef>
+</Defs>

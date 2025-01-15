@@ -2,8 +2,8 @@
 <LanguageData>
   
   <!-- EN: Spiritual Crystal Generator -->
-  <SpiritualCrystalGenerator.label>灵石发电机（不稳定版）</SpiritualCrystalGenerator.label>
+  <LRE_SpiritualCrystalGenerator.label>灵石发电机</LRE_SpiritualCrystalGenerator.label>
   <!-- EN: A generator that combines immortal dao and modern technology can generate a small amount of electricity by burning the aura in the air, even if there is no fuel. -->
-  <SpiritualCrystalGenerator.description>一台仙道与现代科技结合的发电机，就算没有燃料，也能通过燃烧空气中的灵气产生少量电力。</SpiritualCrystalGenerator.description>
+  <LRE_SpiritualCrystalGenerator.description>一名内丹修士所设计的一台可以通过燃烧灵石而产生电力的发电机，这台修炼之道和现代科技结合的产物，即使没有灵石，也能通过直接燃烧空气中的灵气产生电力，不过它的随意对灵气的燃烧也将导致附近的灵气狂暴。</LRE_SpiritualCrystalGenerator.description>
   
 </LanguageData>

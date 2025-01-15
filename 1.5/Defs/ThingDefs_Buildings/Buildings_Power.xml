@@ -3,7 +3,7 @@
     <!-- 灵石发电机 -->
     <!-- 科技：电力,高等灵气学,特点: 无燃料发少量电(100),有燃料发大量电(2100),不被EMP影响,建造需要灵石,修仙的特殊钢材,零部件 -->
     <ThingDef ParentName="BuildingBase">
-        <defName>SpiritualCrystalGenerator</defName>
+        <defName>LRE_SpiritualCrystalGenerator</defName>
         <!-- 名称：灵石发电机 -->
         <label>Spiritual Crystal Generator</label>
         <!-- 描述： 一台仙道与现代科技结合的发电机，就算没有燃料，也能通过燃烧空气中的灵气产生少量电力。 -->
@@ -93,6 +93,14 @@
                 <heatPerSecond>0</heatPerSecond>
             </li>
             <li Class="CompProperties_Breakdownable"/>
+            
+            <li Class="CompProperties_CauseHediff_AoE">
+				<!--心情部分-->
+				<range>50</range>
+				<ignoreMechs>true</ignoreMechs>
+				<hediff>RI_Hediff_QingMing</hediff>
+				<activeSound>MechBooster_Working</activeSound>
+			</li>
         </comps>
         <!-- 需要的地形 -->
         <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>

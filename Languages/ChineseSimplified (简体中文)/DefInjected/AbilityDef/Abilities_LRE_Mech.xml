@@ -5,7 +5,5 @@
   <LRE_Ability_MechFightingCore.label>虎印敕封</LRE_Ability_MechFightingCore.label>
   <!-- EN: Qi cost: 200.\n\nIncrease the working speed and reduce the resistance to hitting. -->
   <LRE_Ability_MechFightingCore.description>灵气消耗：200\n\n借助锈仙之力，让修仙者可以赋予一个机械族强大的战斗力，但是锈仙只允许这个能力被赋予这个修仙者的一个机械族身上，如果修仙者赋予给了另一个机械体，那么这个能力会从上一个机械体身上剥离。</LRE_Ability_MechFightingCore.description>
-  <!-- EN: <color=#E6E64CFF>虎印敕封</color>\n\n灵气消耗：200\n\n借助锈仙之力，让修仙者可以赋予一个机械族强大的战斗力，但是锈仙只允许这个能力被赋予这个修仙者的一个机械族身上，如果修仙者赋予给了另一个机械体，那么这个能力会从上一个机械体身上剥离。\n\n释放时间: 0.5秒\n冷却时间: 5秒 -->
-  <LRE_Ability_MechFightingCore.cachedTooltip>TODO</LRE_Ability_MechFightingCore.cachedTooltip>
   
 </LanguageData>
